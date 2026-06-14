@@ -20,7 +20,20 @@
 
 ---
 
-## ⚡ The Problem
+## 📑 Table of Contents
+- [The Vision](#-the-vision)
+- [Core Features](#-core-features)
+- [System Architecture](#️-system-architecture)
+- [Quick Start](#-quick-start)
+- [Usage Examples](#-usage-examples)
+- [CLI Reference](#️-cli-reference)
+- [Compatibility](#️-compatibility)
+- [Security & Privacy](#-security--privacy)
+- [Contributing](#-contributing)
+
+---
+
+## ⚡ The Vision
 
 Every AI coding assistant today answers the same question: > *"How should this look?"*
 
@@ -35,34 +48,48 @@ Color palettes. Font pairings. Useful—but fundamentally shallow. Real, industr
 
 <br/>
 
-## 🧠 The Vanguard Architecture (V3)
+## 💎 Core Features
 
 Forma operates at the absolute pinnacle of AI software engineering. It is not just a prompt file—it is a secure, multi-language execution environment powered by Python and Go.
 
-<details>
-<summary><b>1️⃣ 12-Layer Reasoning System</b></summary>
-<br>
-Before any UI is generated, Forma forces your AI through a sequential gauntlet:
-UX Pre-Flight → Industry Intelligence → Psychology Analysis → Component Best Practices → Accessibility Audit → Output.
-</details>
+### 🧠 12-Layer Reasoning System
+Before any UI is generated, Forma forces your AI through a sequential gauntlet. It analyzes the UX Pre-Flight, queries Industry Intelligence, cross-references Cognitive Psychology, applies Component Best Practices, and performs an Accessibility Audit. Only then does it write code.
 
-<details>
-<summary><b>2️⃣ AST-Driven Auto-Healer (Zero-Token Healing)</b></summary>
-<br>
-Instead of forcing the AI to waste thousands of tokens rewriting an entire React component just to fix a missing `aria-label`, the Forma Critic agent triggers the Go-based Auto-Healer (`forma heal <file>`). The CLI physically reads your frontend code and surgically injects missing ARIA labels, alt texts, and SVG properties in <b>milliseconds</b>.
-</details>
+### 🩺 AST-Driven Auto-Healer (Zero-Token Healing)
+Instead of forcing the AI to waste thousands of tokens rewriting an entire React component just to fix a missing `aria-label`, the Forma Critic agent triggers the Go-based Auto-Healer (`forma heal <file>`). The CLI physically parses your frontend AST and surgically injects missing ARIA labels, alt texts, and SVG properties in **milliseconds**.
 
-<details>
-<summary><b>3️⃣ W3C Design Token Engine</b></summary>
-<br>
+### 📐 Mathematical W3C Tokens
 Every generated design system is backed by advanced mathematics (OKLCH Color Spaces, Fluid `clamp()` Typography, and Spring Physics) and exported directly into the global W3C Design Token format.
-</details>
 
-<details>
-<summary><b>4️⃣ Diagnostic Resilience & Graceful Halts</b></summary>
-<br>
-Forma will never catastrophically crash on a developer's machine. The `forma doctor` command instantly diagnoses your environment. If it detects a system failure, it triggers a <b>Graceful Halt</b> rather than hallucinating bad code.
-</details>
+### 🛡️ Graceful Halting
+Forma will never catastrophically crash on a developer's machine. The `forma doctor` command instantly diagnoses your environment. If it detects a system failure, it triggers a **Graceful Halt** rather than hallucinating bad code.
+
+<br/>
+
+## 🏗️ System Architecture
+
+Forma is powered by a dual-engine architecture: a high-speed Go CLI that manages system states, and a Python Intelligence Engine that processes complex reasoning matrices.
+
+```mermaid
+graph TD
+    A[User Prompt in IDE] --> B{Forma Agent}
+    B -->|Calls| C[Python Intelligence Engine]
+    C --> D[12-Layer Reasoning Matrix]
+    D --> E[Industry Rulesets]
+    D --> F[Psychology Triggers]
+    D --> G[Accessibility Audit]
+    G --> B
+    B -->|Generates| H[Frontend Code]
+    H --> I[Forma Critic]
+    I -->|Detects WCAG issues| J[Go CLI: forma heal]
+    J -->|AST Injection| H
+    classDef primary fill:#6366F1,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef secondary fill:#8B5CF6,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef engine fill:#10B981,stroke:#fff,stroke-width:2px,color:#fff;
+    class B primary;
+    class C engine;
+    class D,E,F,G secondary;
+```
 
 <br/>
 
@@ -83,14 +110,24 @@ forma init --ai windsurf     # Windsurf
 forma init --ai all          # Install everywhere
 ```
 
-#### 3. Talk to your AI normally
-Install it once, then just talk to your IDE like you always have.
-> *"Build a fintech SaaS dashboard with a dark theme."*
-> *"Review this checkout UI for conversion and accessibility issues."*
+<br/>
+
+## 💡 Usage Examples
+
+Once installed, Forma operates silently in the background. Just talk to your AI naturally. Forma intercepts the visual requests and applies its reasoning layers.
+
+**Example 1: High-Converting SaaS**
+> *"Build a pricing page for our B2B SaaS. Ensure it uses the 'Scarcity' psychology trigger and passes WCAG AAA contrast."*
+
+**Example 2: Industry-Specific Design**
+> *"Create a checkout flow for a Fintech app. Forma, check your industry rules for traditional banking before generating."*
+
+**Example 3: Mathematical Redesign**
+> *"Refactor this dashboard. Generate a fluid typography scale using `clamp()` and an OKLCH color system."*
 
 <br/>
 
-## 🛠️ CLI Toolkit
+## 🛠️ CLI Reference
 
 The `forma-cli` binary is lightning fast and handles all environment integrations.
 
@@ -104,9 +141,9 @@ The `forma-cli` binary is lightning fast and handles all environment integration
 
 <br/>
 
-## 🛡️ Compatibility
+## ⚙️ Compatibility
 
-### Supported IDEs
+### Supported IDEs / Agents
 
 | Agent Platform | Support | Installation Command |
 | :--- | :---: | :--- |
@@ -156,6 +193,16 @@ Forma is universally adaptable. Just mention your stack in the prompt, or let it
 | <img src="https://skillicons.dev/icons?i=laravel" width="28"/> | **Laravel** | PHP Fullstack Framework |
 | <img src="https://skillicons.dev/icons?i=django" width="28"/> | **Django** | Python Fullstack Framework |
 | <img src="https://skillicons.dev/icons?i=ruby" width="28"/> | **Ruby on Rails** | Ruby Fullstack Framework |
+
+<br/>
+
+## 🔒 Security & Privacy
+
+Forma is built for Enterprise, which means privacy is non-negotiable.
+
+- **Zero Telemetry**: Forma does not track your usage, collect your prompts, or phone home.
+- **Local Execution**: The Go CLI and Python Engine run entirely on your local machine.
+- **Sandboxed Agent Logic**: All AI requests are handled exclusively by your IDE's existing LLM connections. Forma acts merely as local context and tooling.
 
 <br/>
 
