@@ -1,199 +1,122 @@
 <div align="center">
 
-# Forma
+<img src="https://raw.githubusercontent.com/fzihak/forma/main/.github/assets/banner.png" alt="Forma Vanguard Framework" width="100%" />
 
-### The AI skill that reasons before it designs.
+# 📐 FORMA
+**The AI skill that reasons before it designs.**
 
-[![License](https://img.shields.io/github/license/fzihak/forma?style=flat-square&color=0A0A0A)](LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/fzihak/forma/release.yml?style=flat-square&color=0A0A0A)](https://github.com/fzihak/forma/actions/workflows/release.yml)
-[![Architecture](https://img.shields.io/badge/architecture-Vanguard_V3-0A0A0A?style=flat-square)]()
-[![Reasoning Layers](https://img.shields.io/badge/reasoning%20layers-12-0A0A0A?style=flat-square)]()
-[![Industries](https://img.shields.io/badge/industries-16-0A0A0A?style=flat-square)]()
-[![Platforms](https://img.shields.io/badge/platforms-7-0A0A0A?style=flat-square)]()
-[![NPM version](https://img.shields.io/npm/v/@foysalzihak/forma-cli?style=flat-square&color=0A0A0A)](https://www.npmjs.com/package/@foysalzihak/forma-cli)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/fzihak/forma/release.yml?style=for-the-badge&color=0A0A0A&logo=githubactions&logoColor=white)](https://github.com/fzihak/forma/actions/workflows/release.yml)
+[![NPM version](https://img.shields.io/npm/v/@foysalzihak/forma-cli?style=for-the-badge&color=0A0A0A&logo=npm)](https://www.npmjs.com/package/@foysalzihak/forma-cli)
+[![Architecture](https://img.shields.io/badge/Architecture-Vanguard_V3-0A0A0A?style=for-the-badge&logo=polkadot)](https://github.com/fzihak/forma)
+[![License](https://img.shields.io/github/license/fzihak/forma?style=for-the-badge&color=0A0A0A)](LICENSE)
+
+<br/>
+
+*Forma is an open-source Design Intelligence Framework for AI coding assistants. It replaces basic "generate UI" prompts with an enterprise-grade, multi-agent reasoning architecture.*
 
 </div>
 
 ---
 
-## The gap no one is talking about
+## ⚡ The Problem
 
-Every AI design skill today answers the same question:
+Every AI coding assistant today answers the same question: > *"How should this look?"*
 
-> *"How should this look?"*
-
-Color palettes. Font pairings. Style recommendations. Useful — but shallow.
-
-Real design requires asking harder questions before a single line of code is written:
+Color palettes. Font pairings. Useful—but fundamentally shallow. Real, industry-grade design requires asking harder questions before a single line of code is written:
 
 - *Who is this for, and what do they actually need?*
-- *What does this industry require — and strictly forbid?*
-- *What psychology drives this user's decisions?*
-- *Will this be consistent with what we built last month?*
-- *Does this hold up for someone on a screen reader?*
+- *What does this specific industry strictly forbid?*
+- *What cognitive psychology drives this user's decisions?*
 - *Will this actually convert?*
 
-**Forma** is built to answer all of them — automatically, in sequence, before generating any UI.
+**Forma** is built to answer all of them. Automatically. In sequence.
 
----
+<br/>
 
-## What Forma is
+## 🧠 The Vanguard Architecture (V3)
 
-Forma is an open-source **Design Intelligence Framework** for AI coding assistants.
+Forma operates at the absolute pinnacle of AI software engineering. It is not just a prompt file—it is a secure, multi-language execution environment powered by Python and Go.
 
-It installs as a skill into Claude Code, Cursor, Windsurf, and others. Once installed, it replaces the one-step "generate UI" pattern with a structured, multi-layer reasoning system that plans, researches, builds, audits, and physically heals its own code.
+<details>
+<summary><b>1️⃣ 12-Layer Reasoning System</b></summary>
+<br>
+Before any UI is generated, Forma forces your AI through a sequential gauntlet:
+UX Pre-Flight → Industry Intelligence → Psychology Analysis → Component Best Practices → Accessibility Audit → Output.
+</details>
 
-**Without Forma**
+<details>
+<summary><b>2️⃣ AST-Driven Auto-Healer (Zero-Token Healing)</b></summary>
+<br>
+Instead of forcing the AI to waste thousands of tokens rewriting an entire React component just to fix a missing `aria-label`, the Forma Critic agent triggers the Go-based Auto-Healer (`forma heal <file>`). The CLI physically reads your frontend code and surgically injects missing ARIA labels, alt texts, and SVG properties in <b>milliseconds</b>.
+</details>
 
-```
-Your prompt  →  AI generates UI
-```
+<details>
+<summary><b>3️⃣ W3C Design Token Engine</b></summary>
+<br>
+Every generated design system is backed by advanced mathematics (OKLCH Color Spaces, Fluid `clamp()` Typography, and Spring Physics) and exported directly into the global W3C Design Token format.
+</details>
 
-**With Forma**
+<details>
+<summary><b>4️⃣ Diagnostic Resilience & Graceful Halts</b></summary>
+<br>
+Forma will never catastrophically crash on a developer's machine. The `forma doctor` command instantly diagnoses your environment. If it detects a system failure, it triggers a <b>Graceful Halt</b> rather than hallucinating bad code.
+</details>
 
-```
-Your prompt
-      │
-      ▼
-Trigger detection — only the relevant layers activate
-      │
-      ▼
-UX Pre-Flight — audience, goals, risks, information architecture
-      │
-      ▼
-Industry Intelligence — what this domain requires and forbids
-      │
-      ▼
-Psychology Analysis — trust signals, conversion, cognitive load
-      │
-      ▼
-Design System Generation — typography, color, spacing, W3C tokens
-      │
-      ▼
-Component Selection — best practices, anti-patterns, industry variants
-      │
-      ▼
-UI Generation — framework-aware, token-driven
-      │
-      ▼
-Accessibility Audit — WCAG AA automated checks
-      │
-      ▼
-AST Auto-Healing — Go CLI physically injects missing syntax in 10ms
-      │
-      ▼
-Output
-```
+<br/>
 
----
-
-## Vanguard Architecture (V3)
-
-Forma operates at the absolute pinnacle of AI software engineering. It is not just a prompt file—it is a secure, multi-language execution environment.
-
-### 1. AST-Driven Auto-Healer
-Instead of forcing the AI to waste thousands of tokens rewriting an entire React/Vue component just to fix a missing `aria-label`, the Forma Critic agent triggers the Go-based Auto-Healer (`forma heal <file>`). The CLI physically reads your frontend code and surgically injects missing ARIA labels, alt texts, and SVG properties in **milliseconds** without using a single API token.
-
-### 2. Diagnostic Resilience
-Forma will never catastrophically crash on a developer's machine. The `forma doctor` command instantly diagnoses your Python environment and directory permissions. If the AI detects a system failure, it triggers a **Graceful Halt** rather than hallucinating bad code.
-
-### 3. W3C Design Token Engine
-Every generated design system is backed by advanced mathematics (OKLCH Color Spaces, Fluid `clamp()` Typography, and Spring Physics) and exported directly into the [W3C Design Token](https://design-tokens.github.io/community-group/format/) format. 
-
-```json
-{
-  "$schema": "https://design-tokens.org/schema.json",
-  "color": {
-    "primary":    { "$value": "oklch(0.6 0.15 250)", "$type": "color" }
-  },
-  "physics": {
-    "snappy": { "stiffness": 400, "damping": 30, "$type": "spring" }
-  }
-}
-```
-
----
-
-## Installation
+## 🚀 Quick Start
 
 **Requirements:** Node.js 18+ · Python 3.9+ · A supported AI assistant
 
-Forma is distributed globally via NPM and GitHub Actions.
-
+#### 1. Install Globally (NPM)
 ```bash
-# 1. Install the CLI wrapper globally
 npm install -g @foysalzihak/forma-cli
+```
 
-# 2. Install the agents into your IDE
+#### 2. Inject into your IDE
+```bash
 forma init --ai claude       # Claude Code
 forma init --ai cursor       # Cursor
 forma init --ai windsurf     # Windsurf
-forma init --ai copilot      # GitHub Copilot
-forma init --ai continue     # Continue
-forma init --ai all          # Install to all supported IDEs
-
-# (Optional) Install globally for all future projects
-forma init --ai cursor --global
+forma init --ai all          # Install everywhere
 ```
 
-### CLI Commands
+#### 3. Talk to your AI normally
+Install it once, then just talk to your IDE like you always have.
+> *"Build a fintech SaaS dashboard with a dark theme."*
+> *"Review this checkout UI for conversion and accessibility issues."*
 
-```bash
-forma doctor                       # Run system diagnostics
-forma update                       # Upgrade to the latest Forma release
-forma export --format tailwind     # Export W3C tokens to Tailwind config
-forma export --format css-vars     # Export W3C tokens to CSS variables
-forma heal <file>                  # Trigger the AST Auto-Healer on a file
-forma remove                       # Safely purge Forma from the repository
-```
+<br/>
 
----
+## 🛠️ CLI Toolkit
 
-## Usage
+The `forma-cli` binary is lightning fast and handles all environment integrations.
 
-Install once. Then just talk to your AI assistant the way you always have.
+| Command | Description |
+| :--- | :--- |
+| `forma doctor` | Runs a system diagnostic on your Python and Go environments. |
+| `forma heal <file>` | Triggers the AST Auto-Healer to physically inject missing WCAG code. |
+| `forma export --format tailwind` | Exports the W3C tokens into your Tailwind configuration. |
+| `forma update` | Instantly upgrades the CLI to the latest Vanguard release. |
+| `forma remove` | Safely purges Forma agents from your codebase. |
 
-```
-Build a fintech SaaS dashboard with dark theme
-```
+<br/>
 
-```
-Design a landing page for a healthcare appointment platform
-```
+## 🛡️ Compatibility
 
-```
-Review this checkout UI for conversion and accessibility issues
-```
+### Supported IDEs
+Forma injects seamlessly into the following platforms:
+`Claude Code` · `Cursor` · `Windsurf` · `GitHub Copilot` · `Continue` · `Kiro` · `Roo Code`
 
-The right layers activate automatically based on what you asked. You get enterprise-grade output without changing how you work.
+### Supported Frameworks
+Mention your stack in the prompt or let Forma default to HTML + Tailwind:
+`React` · `Next.js` · `Vue` · `Nuxt.js` · `Svelte` · `Astro` · `shadcn/ui` · `SwiftUI` · `Jetpack Compose` · `React Native` · `Flutter`
 
----
+<br/>
 
-## Supported platforms
+## 🧼 Uninstallation
 
-| Platform | Activation | Path |
-|---|---|---|
-| Claude Code | Automatic | `.claude/skills/` |
-| Cursor | Automatic | `.cursor/rules/` |
-| Windsurf | Automatic | `.windsurf/rules/` |
-| GitHub Copilot | Automatic | `.github/copilot-instructions.md` |
-| Continue | Automatic | `.continue/skills/` |
-| Kiro | `/forma` command | workflow file |
-| Roo Code | `/forma` command | workflow file |
-
----
-
-## Supported frameworks
-
-React · Next.js · Vue · Nuxt.js · Svelte · Astro · HTML + Tailwind · shadcn/ui · SwiftUI · Jetpack Compose · React Native · Flutter · Laravel
-
-Mention your stack in the prompt or let Forma default to HTML + Tailwind.
-
----
-
-## Uninstallation
-
-Forma respects your codebase. If you want to remove the AI logic from your project, you don't have to hunt down hidden files.
+Forma deeply respects your codebase. If you want to remove the AI logic from your project, you don't have to hunt down hidden files.
 
 ```bash
 # 1. Safely purge all Forma agents from your repository
@@ -203,37 +126,27 @@ forma remove
 npm uninstall -g @foysalzihak/forma-cli
 ```
 
----
+<br/>
 
-## Contributing
+## 🤝 Contributing
 
-We welcome contributions from the community! Forma is built with Go (CLI) and Python (Intelligence Engine).
+We welcome contributions from the community! Forma is a dual-engine framework built with **Go** (CLI) and **Python** (Intelligence).
 
 ```bash
+# Clone the repository
 git clone https://github.com/fzihak/forma.git
 cd forma
 
-# Test locally without downloading binaries
+# Run the Automated Test Suite
 cd forma-cli
-go run main.go init --ai claude --offline
-
-# Run Automated Test Suite
 go test ./internal/healer/...
-python -m unittest src/tests/test_engine.py
+python -m unittest ../src/tests/test_engine.py
 ```
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for full architectural guidelines.
 
 ---
-
-## License
-
-MIT — see [LICENSE](LICENSE) for details.
-
----
-
 <div align="center">
-
-Built with **Go**, **Python**, and **Mathematical Neuro-Design**.
-
+  <p>Built with <b>Go</b>, <b>Python</b>, and <b>Mathematical Neuro-Design</b>.</p>
+  <p>MIT License © Foysal Zihak</p>
 </div>
