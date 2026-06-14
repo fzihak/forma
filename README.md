@@ -5,10 +5,12 @@
 # 📐 FORMA
 **The AI skill that reasons before it designs.**
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/fzihak/forma/release.yml?style=for-the-badge&color=0A0A0A&logo=githubactions&logoColor=white)](https://github.com/fzihak/forma/actions/workflows/release.yml)
-[![NPM version](https://img.shields.io/npm/v/@foysalzihak/forma-cli?style=for-the-badge&color=0A0A0A&logo=npm)](https://www.npmjs.com/package/@foysalzihak/forma-cli)
-[![Architecture](https://img.shields.io/badge/Architecture-Vanguard_V3-0A0A0A?style=for-the-badge&logo=polkadot)](https://github.com/fzihak/forma)
-[![License](https://img.shields.io/github/license/fzihak/forma?style=for-the-badge&color=0A0A0A)](LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/fzihak/forma/release.yml?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/fzihak/forma/actions/workflows/release.yml)
+[![NPM version](https://img.shields.io/npm/v/@foysalzihak/forma-cli?style=for-the-badge&color=CB3837&logo=npm)](https://www.npmjs.com/package/@foysalzihak/forma-cli)
+[![Architecture](https://img.shields.io/badge/Architecture-Vanguard_V3-6366F1?style=for-the-badge&logo=polkadot)](https://github.com/fzihak/forma)
+[![Reasoning Layers](https://img.shields.io/badge/Layers-12-8B5CF6?style=for-the-badge)]()
+[![Industries](https://img.shields.io/badge/Industries-16-10B981?style=for-the-badge)]()
+[![License](https://img.shields.io/github/license/fzihak/forma?style=for-the-badge&color=3B82F6)](LICENSE)
 
 <br/>
 
@@ -105,12 +107,36 @@ The `forma-cli` binary is lightning fast and handles all environment integration
 ## 🛡️ Compatibility
 
 ### Supported IDEs
-Forma injects seamlessly into the following platforms:
-`Claude Code` · `Cursor` · `Windsurf` · `GitHub Copilot` · `Continue` · `Kiro` · `Roo Code`
+
+| Agent Platform | Support | Installation Command |
+| :--- | :---: | :--- |
+| ![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white) | ✅ | `forma init --ai claude` |
+| ![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=openai&logoColor=white) | ✅ | `forma init --ai cursor` |
+| ![Windsurf](https://img.shields.io/badge/Windsurf-0EA5E9?style=for-the-badge) | ✅ | `forma init --ai windsurf` |
+| ![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-181717?style=for-the-badge&logo=github&logoColor=white) | ✅ | `forma init --ai copilot` |
+| ![Continue](https://img.shields.io/badge/Continue.dev-2088FF?style=for-the-badge) | ✅ | `forma init --ai continue` |
+| ![Kiro](https://img.shields.io/badge/Kiro-FF3366?style=for-the-badge) | ✅ | `forma init --ai kiro` |
+| ![Roo Code](https://img.shields.io/badge/Roo_Code-6B21A8?style=for-the-badge) | ✅ | `forma init --ai roocode` |
+
+<br/>
 
 ### Supported Frameworks
-Mention your stack in the prompt or let Forma default to HTML + Tailwind:
-`React` · `Next.js` · `Vue` · `Nuxt.js` · `Svelte` · `Astro` · `shadcn/ui` · `SwiftUI` · `Jetpack Compose` · `React Native` · `Flutter`
+
+Forma is universally adaptable. Just mention your stack in the prompt, or let it intelligently default to HTML + Tailwind CSS.
+
+| Icon | Framework | Domain |
+| :---: | :--- | :--- |
+| <img src="https://skillicons.dev/icons?i=react" width="28"/> | **React** | Web UI Library |
+| <img src="https://skillicons.dev/icons?i=nextjs" width="28"/> | **Next.js** | Web Fullstack Framework |
+| <img src="https://skillicons.dev/icons?i=vue" width="28"/> | **Vue.js** | Web UI Library |
+| <img src="https://skillicons.dev/icons?i=nuxtjs" width="28"/> | **Nuxt.js** | Web Fullstack Framework |
+| <img src="https://skillicons.dev/icons?i=svelte" width="28"/> | **Svelte** | Web Compiler |
+| <img src="https://skillicons.dev/icons?i=astro" width="28"/> | **Astro** | Static Site Generator |
+| <img src="https://skillicons.dev/icons?i=tailwind" width="28"/> | **Tailwind CSS** | Global Styling System |
+| <img src="https://skillicons.dev/icons?i=flutter" width="28"/> | **Flutter** | Cross-Platform Mobile |
+| <img src="https://skillicons.dev/icons?i=laravel" width="28"/> | **Laravel** | PHP Fullstack Framework |
+| 🍏 | **SwiftUI** | iOS Native |
+| 🤖 | **Jetpack Compose** | Android Native |
 
 <br/>
 
