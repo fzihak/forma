@@ -93,6 +93,45 @@ graph TD
 
 <br/>
 
+## 🔬 Research & Data Methodology
+
+Forma is built on a foundation of peer-reviewed UX research, mathematical color spaces, and cognitive psychology. It is not an LLM hallucinating designs; it is an LLM querying a strict, deterministic database.
+
+### The Automated Reasoning Sequence
+When you prompt your IDE, Forma executes a massive background sequence before writing any code:
+
+```mermaid
+sequenceDiagram
+    participant Dev as IDE Developer
+    participant Forma as Forma Engine
+    participant DB as Knowledge Matrix
+    participant Output as Generated UI
+
+    Dev->>Forma: "Build a high-converting pricing table"
+    activate Forma
+    Forma->>DB: Query Psychology Triggers (SaaS)
+    DB-->>Forma: Inject: [Decoy Effect, Anchoring]
+    Forma->>DB: Query Accessibility (WCAG 2.2 AAA)
+    DB-->>Forma: Enforce: [Contrast > 7:1, aria-labelledby]
+    Forma->>DB: Map Mathematical Tokens
+    DB-->>Forma: Export: [OKLCH Fluid Space]
+    Forma-->>Output: Compile Validated UI Component
+    deactivate Forma
+    Output-->>Dev: Production-Ready Code
+```
+
+### Applied Cognitive Psychology
+Forma maps UI component generation directly to established psychological triggers to maximize user retention, trust, and conversion rates.
+
+| Cognitive Trigger | UI Execution Strategy | Primary Industry |
+| :--- | :--- | :--- |
+| **Hick's Law** | Progressive disclosure & automated layout reduction | SaaS, E-Commerce |
+| **Zeigarnik Effect** | Step-based visual progress rings & incomplete states | EdTech, Gamification |
+| **Von Restorff Effect** | OKLCH chroma-isolation for primary Call-to-Actions | Fintech, Marketing |
+| **Cognitive Load Theory** | Fluid whitespace scaling via Golden Ratio algorithms | Healthcare, Dashboards |
+
+<br/>
+
 ## 🚀 Quick Start
 
 **Requirements:** Node.js 18+ · Python 3.9+ · A supported AI assistant
