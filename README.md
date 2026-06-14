@@ -156,8 +156,6 @@ Forma is universally adaptable. Just mention your stack in the prompt, or let it
 | <img src="https://skillicons.dev/icons?i=laravel" width="28"/> | **Laravel** | PHP Fullstack Framework |
 | <img src="https://skillicons.dev/icons?i=django" width="28"/> | **Django** | Python Fullstack Framework |
 | <img src="https://skillicons.dev/icons?i=ruby" width="28"/> | **Ruby on Rails** | Ruby Fullstack Framework |
-| <img src="https://skillicons.dev/icons?i=express" width="28"/> | **Express.js** | Node.js Backend Framework |
-| <img src="https://skillicons.dev/icons?i=spring" width="28"/> | **Spring Boot** | Java Backend Framework |
 
 <br/>
 
