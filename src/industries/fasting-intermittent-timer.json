@@ -1,0 +1,68 @@
+{
+  "name": "Fasting & Intermittent Timer",
+  "description": "Protocol selector (16:8, 18:6, OMAD). Circular countdown timer. Fasting history log. Tips during fast. Electrolytes.",
+  "psychology_triggers": [
+    {
+      "name": "Cognitive Ease",
+      "implementation_mandate": "Enforce Cognitive Ease prominently in the main user flow.",
+      "anti_pattern": "Ignoring Cognitive Ease leads to high drop-off rates in this specific industry."
+    },
+    {
+      "name": "Endowed Progress Effect",
+      "implementation_mandate": "Enforce Endowed Progress Effect prominently in the main user flow.",
+      "anti_pattern": "Ignoring Endowed Progress Effect leads to high drop-off rates in this specific industry."
+    }
+  ],
+  "industry_constraints": [
+    {
+      "constraint": "Instant launch time (<1s)",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "High readability in varying light conditions",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "One-handed operation focus",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    }
+  ],
+  "forbidden_patterns": [
+    {
+      "pattern": "Neumorphism",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    },
+    {
+      "pattern": "Flat Design",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    }
+  ],
+  "required_patterns": [
+    {
+      "pattern": "Feature-Rich Showcase + Social Proof",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    },
+    {
+      "pattern": "N/A - Timer focused",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    }
+  ],
+  "core_components": [
+    "Switch",
+    "Slider",
+    "Progress Bar",
+    "Button"
+  ],
+  "a11y_overrides": {
+    "contrast_minimum": "4.5:1 (AA)",
+    "focus_ring_offset": "4px",
+    "touch_target_minimum": "44px"
+  },
+  "cognitive_load_thresholds": {
+    "max_choices_per_view": 7,
+    "max_steps_per_form": 3
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Enterprise Manufacturing",
+  "description": "Complex dashboard and ERP systems for monitoring supply chain and production.",
+  "psychology_triggers": [
+    {
+      "name": "Cognitive Ease",
+      "implementation_mandate": "Enforce Cognitive Ease prominently in the main user flow.",
+      "anti_pattern": "Ignoring Cognitive Ease leads to high drop-off rates in this specific industry."
+    },
+    {
+      "name": "Authority",
+      "implementation_mandate": "Enforce Authority prominently in the main user flow.",
+      "anti_pattern": "Ignoring Authority leads to high drop-off rates in this specific industry."
+    }
+  ],
+  "industry_constraints": [
+    {
+      "constraint": "High data density",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "Real-time websocket updates",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "Tablet/Rugged device optimization",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    }
+  ],
+  "forbidden_patterns": [
+    {
+      "pattern": "Low contrast text in bright factory environments",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    },
+    {
+      "pattern": "Hidden critical alerts",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    }
+  ],
+  "required_patterns": [
+    {
+      "pattern": "Status indicator badges",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    },
+    {
+      "pattern": "Data visualization dashboards",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    },
+    {
+      "pattern": "Bulk action capabilities",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    }
+  ],
+  "core_components": [
+    "Badge",
+    "Data Table",
+    "Chart"
+  ],
+  "a11y_overrides": {
+    "contrast_minimum": "4.5:1 (AA)",
+    "focus_ring_offset": "4px",
+    "touch_target_minimum": "44px"
+  },
+  "cognitive_load_thresholds": {
+    "max_choices_per_view": 7,
+    "max_steps_per_form": 3
+  }
+}

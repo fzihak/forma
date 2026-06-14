@@ -1,0 +1,78 @@
+{
+  "name": "Bookmark & Read-Later",
+  "description": "Fast save via share sheet. Article distraction-free view. Tags and collections. Offline sync. Reading progress.",
+  "psychology_triggers": [
+    {
+      "name": "Endowed Progress Effect",
+      "implementation_mandate": "Enforce Endowed Progress Effect prominently in the main user flow.",
+      "anti_pattern": "Ignoring Endowed Progress Effect leads to high drop-off rates in this specific industry."
+    },
+    {
+      "name": "Zeigarnik Effect",
+      "implementation_mandate": "Enforce Zeigarnik Effect prominently in the main user flow.",
+      "anti_pattern": "Ignoring Zeigarnik Effect leads to high drop-off rates in this specific industry."
+    },
+    {
+      "name": "Reciprocity",
+      "implementation_mandate": "Enforce Reciprocity prominently in the main user flow.",
+      "anti_pattern": "Ignoring Reciprocity leads to high drop-off rates in this specific industry."
+    },
+    {
+      "name": "Social Proof",
+      "implementation_mandate": "Enforce Social Proof prominently in the main user flow.",
+      "anti_pattern": "Ignoring Social Proof leads to high drop-off rates in this specific industry."
+    }
+  ],
+  "industry_constraints": [
+    {
+      "constraint": "COPPA compliance (if kids)",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "Accessibility for varied learning abilities",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "Offline mode support for study materials",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    }
+  ],
+  "forbidden_patterns": [
+    {
+      "pattern": "Editorial Grid",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    },
+    {
+      "pattern": "Swiss Modernism 2.0",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    }
+  ],
+  "required_patterns": [
+    {
+      "pattern": "Minimal & Direct + Demo",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    },
+    {
+      "pattern": "N/A - List focused",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    }
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Accordion",
+    "Tabs",
+    "Badge"
+  ],
+  "a11y_overrides": {
+    "contrast_minimum": "4.5:1 (AA)",
+    "focus_ring_offset": "4px",
+    "touch_target_minimum": "44px"
+  },
+  "cognitive_load_thresholds": {
+    "max_choices_per_view": 7,
+    "max_steps_per_form": 3
+  }
+}

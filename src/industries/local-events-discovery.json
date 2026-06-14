@@ -1,0 +1,78 @@
+{
+  "name": "Local Events & Discovery",
+  "description": "Location-based discovery. Category filters. RSVP flow. Map view. Friend attendance. Organizer tools. Reminders.",
+  "psychology_triggers": [
+    {
+      "name": "Scarcity",
+      "implementation_mandate": "Enforce Scarcity prominently in the main user flow.",
+      "anti_pattern": "Ignoring Scarcity leads to high drop-off rates in this specific industry."
+    },
+    {
+      "name": "Social Proof",
+      "implementation_mandate": "Enforce Social Proof prominently in the main user flow.",
+      "anti_pattern": "Ignoring Social Proof leads to high drop-off rates in this specific industry."
+    },
+    {
+      "name": "Anchoring",
+      "implementation_mandate": "Enforce Anchoring prominently in the main user flow.",
+      "anti_pattern": "Ignoring Anchoring leads to high drop-off rates in this specific industry."
+    }
+  ],
+  "industry_constraints": [
+    {
+      "constraint": "Timezone handling",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "Complex date-picker architectures",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "Multi-currency support",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "Offline map caching",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    }
+  ],
+  "forbidden_patterns": [
+    {
+      "pattern": "Glassmorphism",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    },
+    {
+      "pattern": "Flat Design",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    }
+  ],
+  "required_patterns": [
+    {
+      "pattern": "Hero-Centric Design + Feature-Rich",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    },
+    {
+      "pattern": "Event Analytics",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    }
+  ],
+  "core_components": [
+    "Input (Date)",
+    "Card",
+    "Select",
+    "Breadcrumb"
+  ],
+  "a11y_overrides": {
+    "contrast_minimum": "4.5:1 (AA)",
+    "focus_ring_offset": "4px",
+    "touch_target_minimum": "44px"
+  },
+  "cognitive_load_thresholds": {
+    "max_choices_per_view": 7,
+    "max_steps_per_form": 3
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Generative Art Platform",
+  "description": "Content is king. Fast loading. Creator attribution. Minting flow.",
+  "psychology_triggers": [
+    {
+      "name": "Zeigarnik Effect",
+      "implementation_mandate": "Enforce Zeigarnik Effect prominently in the main user flow.",
+      "anti_pattern": "Ignoring Zeigarnik Effect leads to high drop-off rates in this specific industry."
+    },
+    {
+      "name": "Endowed Progress Effect",
+      "implementation_mandate": "Enforce Endowed Progress Effect prominently in the main user flow.",
+      "anti_pattern": "Ignoring Endowed Progress Effect leads to high drop-off rates in this specific industry."
+    },
+    {
+      "name": "Loss Aversion",
+      "implementation_mandate": "Enforce Loss Aversion prominently in the main user flow.",
+      "anti_pattern": "Ignoring Loss Aversion leads to high drop-off rates in this specific industry."
+    },
+    {
+      "name": "Halo Effect",
+      "implementation_mandate": "Enforce Halo Effect prominently in the main user flow.",
+      "anti_pattern": "Ignoring Halo Effect leads to high drop-off rates in this specific industry."
+    }
+  ],
+  "industry_constraints": [
+    {
+      "constraint": "Performance optimization for animations",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "Cross-platform consistency",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "DRM handling UI for media",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    }
+  ],
+  "forbidden_patterns": [
+    {
+      "pattern": "Masonry Grid",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    },
+    {
+      "pattern": "Dark Mode",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    }
+  ],
+  "required_patterns": [
+    {
+      "pattern": "Bento Grid Showcase",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    },
+    {
+      "pattern": "Gallery / Portfolio",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    }
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast",
+    "Slider"
+  ],
+  "a11y_overrides": {
+    "contrast_minimum": "4.5:1 (AA)",
+    "focus_ring_offset": "4px",
+    "touch_target_minimum": "44px"
+  },
+  "cognitive_load_thresholds": {
+    "max_choices_per_view": 7,
+    "max_steps_per_form": 3
+  }
+}
