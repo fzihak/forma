@@ -5,6 +5,7 @@
 ### The AI skill that reasons before it designs.
 
 [![License](https://img.shields.io/github/license/fzihak/forma?style=flat-square&color=0A0A0A)](LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/fzihak/forma/release.yml?style=flat-square&color=0A0A0A)](https://github.com/fzihak/forma/actions/workflows/release.yml)
 [![Architecture](https://img.shields.io/badge/architecture-Vanguard_V3-0A0A0A?style=flat-square)]()
 [![Reasoning Layers](https://img.shields.io/badge/reasoning%20layers-12-0A0A0A?style=flat-square)]()
 [![Industries](https://img.shields.io/badge/industries-16-0A0A0A?style=flat-square)]()
