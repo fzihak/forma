@@ -1,0 +1,48 @@
+{
+  "id": "white-noise-ambient-sound-001",
+  "industry": "white-noise-ambient-sound",
+  "name": "White Noise & Ambient Sound",
+  "description": "Sound mixer with multiple simultaneous layers. Sleep timer with fade. Custom soundscapes. Offline. Background audio.",
+  "design_principles": [
+    "Minimalism ",
+    " Dark Mode (OLED)"
+  ],
+  "forbidden_patterns": [
+    "Neumorphism",
+    "Organic Biophilic"
+  ],
+  "required_patterns": [
+    "Minimal & Direct + Social Proof",
+    "N/A - Player focused"
+  ],
+  "color_mood": "Calming dark + ambient texture visual + subtle sound wave + sleep blue",
+  "use_cases": [
+    "white noise",
+    "ambient",
+    "sound",
+    "sleep",
+    "focus",
+    "rain",
+    "nature",
+    "relax",
+    "concentration",
+    "background",
+    "noisli"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

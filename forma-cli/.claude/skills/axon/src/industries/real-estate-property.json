@@ -1,0 +1,28 @@
+{
+  "name": "Real Estate",
+  "description": "Visual-first discovery platforms for high-value asset transactions.",
+  "psychology_triggers": [
+    "Social Proof",
+    "Scarcity",
+    "Anchoring"
+  ],
+  "industry_constraints": [
+    "High-res image optimization",
+    "Complex search filtering performance"
+  ],
+  "forbidden_patterns": [
+    "Low quality images",
+    "Hiding price details",
+    "Difficult contact forms"
+  ],
+  "required_patterns": [
+    "Immersive image galleries",
+    "Map-based search",
+    "Mortgage calculators"
+  ],
+  "core_components": [
+    "Card",
+    "Slider",
+    "Dialog"
+  ]
+}

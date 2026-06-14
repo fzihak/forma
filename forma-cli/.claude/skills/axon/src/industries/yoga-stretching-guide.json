@@ -1,0 +1,49 @@
+{
+  "id": "yoga-stretching-guide-001",
+  "industry": "yoga-stretching-guide",
+  "name": "Yoga & Stretching Guide",
+  "description": "Pose library with illustrations. Guided sessions with audio. Breathing exercises. Progress calendar. Beginner to advanced.",
+  "design_principles": [
+    "Organic Biophilic ",
+    " Soft UI Evolution"
+  ],
+  "forbidden_patterns": [
+    "Neumorphism",
+    "Minimalism"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven + Social Proof",
+    "N/A - Session focused"
+  ],
+  "color_mood": "Earth calming sage/terracotta/cream + breathing gradient + warm accent",
+  "use_cases": [
+    "yoga",
+    "stretch",
+    "flexibility",
+    "pose",
+    "asana",
+    "guided",
+    "session",
+    "calm",
+    "routine",
+    "wellness",
+    "down-dog"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support mandatory",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form",
+    "Progress Bar"
+  ]
+}

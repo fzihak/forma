@@ -1,0 +1,44 @@
+{
+  "id": "luxury-premium-brand-001",
+  "industry": "luxury-premium-brand",
+  "name": "Luxury/Premium Brand",
+  "description": "Elegance paramount. Premium imagery. Storytelling. High-quality visuals. Exclusive feel.",
+  "design_principles": [
+    "Liquid Glass ",
+    " Glassmorphism"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "3D & Hyperrealism"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven + Feature-Rich",
+    "Sales Intelligence Dashboard"
+  ],
+  "color_mood": "Black + Gold (#FFD700) + White + Minimal accent",
+  "use_cases": [
+    "brand",
+    "elegant",
+    "exclusive",
+    "high-end",
+    "luxury",
+    "premium"
+  ],
+  "psychology_triggers": [
+    "Scarcity",
+    "Social Proof",
+    "Anchoring",
+    "Zeigarnik Effect"
+  ],
+  "industry_constraints": [
+    "Performance/Load time critical (<2s)",
+    "Mobile-first indexability",
+    "Seamless payment gateway integration"
+  ],
+  "core_components": [
+    "Button",
+    "Slider",
+    "Badge",
+    "Breadcrumb"
+  ]
+}

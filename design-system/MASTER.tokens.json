@@ -1,0 +1,344 @@
+{
+  "$schema": "https://design-tokens.org/schema.json",
+  "project": "FormaTest",
+  "typography": {
+    "heading": {
+      "$value": "Inter",
+      "$type": "fontFamily"
+    },
+    "body": {
+      "$value": "Roboto",
+      "$type": "fontFamily"
+    },
+    "text-xs": {
+      "$value": "clamp(0.75rem, 0.72rem + 0.16vw, 0.875rem)",
+      "$type": "dimension",
+      "line_height": "1.4"
+    },
+    "text-sm": {
+      "$value": "clamp(0.875rem, 0.84rem + 0.18vw, 1rem)",
+      "$type": "dimension",
+      "line_height": "1.5"
+    },
+    "text-base": {
+      "$value": "clamp(1rem, 0.95rem + 0.23vw, 1.125rem)",
+      "$type": "dimension",
+      "line_height": "1.6"
+    },
+    "text-lg": {
+      "$value": "clamp(1.125rem, 1.07rem + 0.28vw, 1.25rem)",
+      "$type": "dimension",
+      "line_height": "1.5"
+    },
+    "text-xl": {
+      "$value": "clamp(1.25rem, 1.18rem + 0.36vw, 1.5rem)",
+      "$type": "dimension",
+      "line_height": "1.4"
+    },
+    "text-2xl": {
+      "$value": "clamp(1.5rem, 1.39rem + 0.54vw, 1.875rem)",
+      "$type": "dimension",
+      "line_height": "1.3"
+    },
+    "text-3xl": {
+      "$value": "clamp(1.875rem, 1.7rem + 0.85vw, 2.25rem)",
+      "$type": "dimension",
+      "line_height": "1.2"
+    },
+    "text-4xl": {
+      "$value": "clamp(2.25rem, 1.98rem + 1.36vw, 3rem)",
+      "$type": "dimension",
+      "line_height": "1.1"
+    },
+    "text-5xl": {
+      "$value": "clamp(3rem, 2.54rem + 2.27vw, 4.5rem)",
+      "$type": "dimension",
+      "line_height": "1"
+    }
+  },
+  "color": {
+    "primary": {
+      "$value": "#2563EB",
+      "$type": "color"
+    },
+    "on-primary": {
+      "$value": "#FFFFFF",
+      "$type": "color"
+    },
+    "secondary": {
+      "$value": "#3B82F6",
+      "$type": "color"
+    },
+    "on-secondary": {
+      "$value": "#FFFFFF",
+      "$type": "color"
+    },
+    "accent": {
+      "$value": "#EA580C",
+      "$type": "color"
+    },
+    "on-accent": {
+      "$value": "#FFFFFF",
+      "$type": "color"
+    },
+    "background": {
+      "$value": "#F8FAFC",
+      "$type": "color"
+    },
+    "foreground": {
+      "$value": "#1E293B",
+      "$type": "color"
+    },
+    "card": {
+      "$value": "#FFFFFF",
+      "$type": "color"
+    },
+    "card-foreground": {
+      "$value": "#1E293B",
+      "$type": "color"
+    },
+    "muted": {
+      "$value": "#E9EFF8",
+      "$type": "color"
+    },
+    "muted-foreground": {
+      "$value": "#64748B",
+      "$type": "color"
+    },
+    "border": {
+      "$value": "#E2E8F0",
+      "$type": "color"
+    },
+    "destructive": {
+      "$value": "#DC2626",
+      "$type": "color"
+    },
+    "on-destructive": {
+      "$value": "#FFFFFF",
+      "$type": "color"
+    },
+    "ring": {
+      "$value": "#2563EB",
+      "$type": "color"
+    }
+  },
+  "spacing": {
+    "3xs": {
+      "$value": "clamp(0.125rem, 0.11rem + 0.06vw, 0.1875rem)",
+      "$type": "dimension",
+      "pixel_equiv": "2px - 3px",
+      "use_cases": [
+        "Border radius micro-adjustments",
+        "1px border compensation"
+      ]
+    },
+    "2xs": {
+      "$value": "clamp(0.25rem, 0.23rem + 0.11vw, 0.375rem)",
+      "$type": "dimension",
+      "pixel_equiv": "4px - 6px",
+      "use_cases": [
+        "Input inner icon padding",
+        "Badge internal padding"
+      ]
+    },
+    "xs": {
+      "$value": "clamp(0.5rem, 0.45rem + 0.22vw, 0.75rem)",
+      "$type": "dimension",
+      "pixel_equiv": "8px - 12px",
+      "use_cases": [
+        "List item gap",
+        "Button internal padding X"
+      ]
+    },
+    "sm": {
+      "$value": "clamp(0.75rem, 0.68rem + 0.34vw, 1.125rem)",
+      "$type": "dimension",
+      "pixel_equiv": "12px - 18px",
+      "use_cases": [
+        "Card internal padding (mobile)",
+        "Input height compensation"
+      ]
+    },
+    "base": {
+      "$value": "clamp(1rem, 0.91rem + 0.45vw, 1.5rem)",
+      "$type": "dimension",
+      "pixel_equiv": "16px - 24px",
+      "use_cases": [
+        "Standard paragraph margin",
+        "Card internal padding (desktop)"
+      ]
+    },
+    "lg": {
+      "$value": "clamp(1.5rem, 1.36rem + 0.68vw, 2.25rem)",
+      "$type": "dimension",
+      "pixel_equiv": "24px - 36px",
+      "use_cases": [
+        "Section inner gap",
+        "Hero typography spacing"
+      ]
+    },
+    "xl": {
+      "$value": "clamp(2rem, 1.82rem + 0.9vw, 3rem)",
+      "$type": "dimension",
+      "pixel_equiv": "32px - 48px",
+      "use_cases": [
+        "Article section gaps",
+        "Header bottom margin"
+      ]
+    },
+    "2xl": {
+      "$value": "clamp(3rem, 2.73rem + 1.36vw, 4.5rem)",
+      "$type": "dimension",
+      "pixel_equiv": "48px - 72px",
+      "use_cases": [
+        "Major section dividers (mobile)"
+      ]
+    },
+    "3xl": {
+      "$value": "clamp(4rem, 3.64rem + 1.81vw, 6rem)",
+      "$type": "dimension",
+      "pixel_equiv": "64px - 96px",
+      "use_cases": [
+        "Major section dividers (desktop)",
+        "Hero padding top/bottom"
+      ]
+    },
+    "4xl": {
+      "$value": "clamp(6rem, 5.46rem + 2.72vw, 9rem)",
+      "$type": "dimension",
+      "pixel_equiv": "96px - 144px",
+      "use_cases": [
+        "Luxury/Editorial whitespace blocks",
+        "Footer separation"
+      ]
+    }
+  },
+  "animation": {
+    "micro-interactions-spring-type": {
+      "$value": "spring",
+      "$type": "string"
+    },
+    "micro-interactions-spring-stiffness": {
+      "$value": 400,
+      "$type": "number"
+    },
+    "micro-interactions-spring-damping": {
+      "$value": 30,
+      "$type": "number"
+    },
+    "micro-interactions-spring-mass": {
+      "$value": 1,
+      "$type": "number"
+    },
+    "view-transitions-api-page-routing-type": {
+      "$value": "view-transition",
+      "$type": "string"
+    },
+    "view-transitions-api-page-routing-duration": {
+      "$value": "300ms",
+      "$type": "duration"
+    },
+    "view-transitions-api-page-routing-easing": {
+      "$value": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "$type": "cubic-bezier"
+    },
+    "scroll-driven-animations-type": {
+      "$value": "scroll-timeline",
+      "$type": "string"
+    },
+    "flip-layout-shifts-type": {
+      "$value": "flip",
+      "$type": "string"
+    },
+    "flip-layout-shifts-duration": {
+      "$value": "250ms",
+      "$type": "duration"
+    },
+    "flip-layout-shifts-easing": {
+      "$value": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "$type": "cubic-bezier"
+    }
+  },
+  "border_radius": {
+    "sm": {
+      "$value": "0.125rem",
+      "$type": "dimension"
+    },
+    "base": {
+      "$value": "0.375rem",
+      "$type": "dimension"
+    },
+    "lg": {
+      "$value": "0.5rem",
+      "$type": "dimension"
+    },
+    "full": {
+      "$value": "9999px",
+      "$type": "dimension"
+    }
+  },
+  "advanced_intelligence": {
+    "industry_constraints": [
+      {
+        "constraint": "Keyboard shortcut support",
+        "severity": "CRITICAL",
+        "reasoning": "Industry standard compliance and user expectation alignment."
+      },
+      {
+        "constraint": "High data density view support",
+        "severity": "CRITICAL",
+        "reasoning": "Industry standard compliance and user expectation alignment."
+      },
+      {
+        "constraint": "Role-based access control UI",
+        "severity": "CRITICAL",
+        "reasoning": "Industry standard compliance and user expectation alignment."
+      }
+    ],
+    "forbidden_patterns": [
+      {
+        "pattern": "Form over function",
+        "alternative": "Use established, highly-accessible atomic patterns instead."
+      },
+      {
+        "pattern": "Excessive whitespace hiding critical data",
+        "alternative": "Use established, highly-accessible atomic patterns instead."
+      },
+      {
+        "pattern": "Dead-end empty states",
+        "alternative": "Use established, highly-accessible atomic patterns instead."
+      }
+    ],
+    "required_patterns": [
+      {
+        "pattern": "Actionable empty states",
+        "context": "Must be implemented flawlessly in the primary view/onboarding."
+      },
+      {
+        "pattern": "Command palettes (Ctrl+K)",
+        "context": "Must be implemented flawlessly in the primary view/onboarding."
+      },
+      {
+        "pattern": "Bulk action selections",
+        "context": "Must be implemented flawlessly in the primary view/onboarding."
+      }
+    ],
+    "psychology_triggers": [
+      {
+        "name": "Endowed Progress Effect",
+        "implementation_mandate": "Enforce Endowed Progress Effect prominently in the main user flow.",
+        "anti_pattern": "Ignoring Endowed Progress Effect leads to high drop-off rates in this specific industry."
+      },
+      {
+        "name": "Cognitive Ease",
+        "implementation_mandate": "Enforce Cognitive Ease prominently in the main user flow.",
+        "anti_pattern": "Ignoring Cognitive Ease leads to high drop-off rates in this specific industry."
+      }
+    ],
+    "core_components": [
+      "Sidebar",
+      "Data Table",
+      "Dropdown"
+    ]
+  }
+}

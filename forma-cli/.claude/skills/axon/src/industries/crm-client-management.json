@@ -1,0 +1,46 @@
+{
+  "id": "crm-client-management-001",
+  "industry": "crm-client-management",
+  "name": "CRM & Client Management",
+  "description": "Contact card list with avatar. Pipeline kanban board. Activity timeline. Quick-log (call/email/meeting). Deal amount + probability. Tag/segment filter. Mobile quick-actions.",
+  "design_principles": [
+    "Flat Design ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Soft UI Evolution",
+    "Micro-interactions"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Demo",
+    "Sales Intelligence Dashboard"
+  ],
+  "color_mood": "Professional blue + pipeline stage colors + closed-won green",
+  "use_cases": [
+    "crm",
+    "client",
+    "customer",
+    "sales",
+    "pipeline",
+    "contact",
+    "lead",
+    "deal",
+    "hubspot"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

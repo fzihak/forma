@@ -1,0 +1,47 @@
+{
+  "id": "voice-recorder-memo-001",
+  "industry": "voice-recorder-memo",
+  "name": "Voice Recorder & Memo",
+  "description": "Waveform display. Background recording. Auto-transcription (AI). Tag/organize. Cloud sync.",
+  "design_principles": [
+    "Minimalism ",
+    " AI-Native UI"
+  ],
+  "forbidden_patterns": [
+    "Flat Design",
+    "Dark Mode (OLED)"
+  ],
+  "required_patterns": [
+    "Interactive Product Demo + Minimal",
+    "N/A - Recording focused"
+  ],
+  "color_mood": "Clean white + recording red + waveform accent",
+  "use_cases": [
+    "voice",
+    "recorder",
+    "memo",
+    "audio",
+    "transcription",
+    "dictate",
+    "recording",
+    "microphone",
+    "note",
+    "otter"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "period-cycle-tracker-001",
+  "industry": "period-cycle-tracker",
+  "name": "Period & Cycle Tracker",
+  "description": "Cycle prediction. Symptom logging. Fertility window. Personalized insights. Privacy-first. Partner sharing option.",
+  "design_principles": [
+    "Soft UI Evolution ",
+    " Aurora UI"
+  ],
+  "forbidden_patterns": [
+    "Accessible & Ethical",
+    "Claymorphism"
+  ],
+  "required_patterns": [
+    "Social Proof-Focused + Trust",
+    "Healthcare Analytics"
+  ],
+  "color_mood": "Rose/blush + lavender + fertility green + soft calendar tones",
+  "use_cases": [
+    "period",
+    "cycle",
+    "menstrual",
+    "fertility",
+    "ovulation",
+    "pms",
+    "log",
+    "women",
+    "health",
+    "flo",
+    "clue",
+    "hormone"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

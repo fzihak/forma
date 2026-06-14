@@ -1,0 +1,49 @@
+{
+  "id": "book-reading-tracker-001",
+  "industry": "book-reading-tracker",
+  "name": "Book & Reading Tracker",
+  "description": "Barcode scan to add. Progress percentage. Annual reading goal. Notes and quotes. Friends activity. Genre stats.",
+  "design_principles": [
+    "Swiss Modernism 2.0 ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "E-Ink Paper",
+    "Soft UI Evolution"
+  ],
+  "required_patterns": [
+    "Social Proof-Focused + Feature-Rich",
+    "N/A - Library focused"
+  ],
+  "color_mood": "Warm paper white + ink brown + reading progress green + book cover colors",
+  "use_cases": [
+    "book",
+    "reading",
+    "tracker",
+    "goodreads",
+    "library",
+    "shelf",
+    "progress",
+    "review",
+    "notes",
+    "goal",
+    "literature"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Zeigarnik Effect",
+    "Reciprocity",
+    "Social Proof"
+  ],
+  "industry_constraints": [
+    "COPPA compliance (if kids)",
+    "Accessibility for varied learning abilities",
+    "Offline mode support for study materials"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Accordion",
+    "Tabs",
+    "Badge"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "bookmark-read-later-001",
+  "industry": "bookmark-read-later",
+  "name": "Bookmark & Read-Later",
+  "description": "Fast save via share sheet. Article distraction-free view. Tags and collections. Offline sync. Reading progress.",
+  "design_principles": [
+    "Minimalism ",
+    " Flat Design"
+  ],
+  "forbidden_patterns": [
+    "Editorial Grid",
+    "Swiss Modernism 2.0"
+  ],
+  "required_patterns": [
+    "Minimal & Direct + Demo",
+    "N/A - List focused"
+  ],
+  "color_mood": "Paper warm white + ink neutral + minimal accent + tag colors",
+  "use_cases": [
+    "bookmark",
+    "read-later",
+    "save",
+    "article",
+    "pocket",
+    "link",
+    "reading",
+    "archive",
+    "collection",
+    "raindrop"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Zeigarnik Effect",
+    "Reciprocity",
+    "Social Proof"
+  ],
+  "industry_constraints": [
+    "COPPA compliance (if kids)",
+    "Accessibility for varied learning abilities",
+    "Offline mode support for study materials"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Accordion",
+    "Tabs",
+    "Badge"
+  ]
+}

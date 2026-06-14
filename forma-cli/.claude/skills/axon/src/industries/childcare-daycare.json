@@ -1,0 +1,39 @@
+{
+  "id": "childcare-daycare-001",
+  "industry": "childcare-daycare",
+  "name": "Childcare/Daycare",
+  "description": "Programs. Staff profiles. Safety certifications. Parent portal. Activity updates. Cheerful imagery.",
+  "design_principles": [
+    "Claymorphism ",
+    " Vibrant & Block-based"
+  ],
+  "forbidden_patterns": [
+    "Soft UI Evolution",
+    "Accessible & Ethical"
+  ],
+  "required_patterns": [
+    "Social Proof-Focused + Trust",
+    "Parent Dashboard"
+  ],
+  "color_mood": "Playful pastels + Safe colors + Warm accents",
+  "use_cases": [
+    "childcare",
+    "daycare"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

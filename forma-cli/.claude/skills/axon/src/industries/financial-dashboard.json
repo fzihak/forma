@@ -1,0 +1,44 @@
+{
+  "id": "financial-dashboard-001",
+  "industry": "financial-dashboard",
+  "name": "Financial Dashboard",
+  "description": "High contrast, real-time updates, accuracy paramount.",
+  "design_principles": [
+    "Dark Mode (OLED) ",
+    " Data-Dense"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Accessible & Ethical"
+  ],
+  "required_patterns": [
+    "N/A - Dashboard focused",
+    "Financial Dashboard"
+  ],
+  "color_mood": "Dark bg + red/green alerts + trust blue",
+  "use_cases": [
+    "admin",
+    "analytics",
+    "dashboard",
+    "data",
+    "financial",
+    "panel"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Social Proof",
+    "Loss Aversion",
+    "Cognitive Ease"
+  ],
+  "industry_constraints": [
+    "Strict regulatory compliance",
+    "Zero-tolerance for calculation latency",
+    "Multi-currency/localization support"
+  ],
+  "core_components": [
+    "Data Table",
+    "Number Input",
+    "Progress Bar (Onboarding)",
+    "Tooltip"
+  ]
+}

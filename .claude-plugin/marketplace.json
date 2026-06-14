@@ -1,0 +1,33 @@
+{
+  "name": "forma",
+  "id": "forma",
+  "owner": {
+    "name": "fzihak"
+  },
+  "metadata": {
+    "description": "Design Intelligence Framework — multi-agent design reasoning with 67 styles, 161 palettes, 57 font pairings, 163 industry profiles, and W3C design token output.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "forma",
+      "source": "./",
+      "description": "The AI skill that reasons before it designs. Forma makes AI coding assistants think like a design team — researching audience, applying industry constraints, generating design systems, building interfaces, then auditing their own work.",
+      "version": "1.0.0",
+      "author": {
+        "name": "fzihak"
+      },
+      "keywords": [
+        "design-intelligence",
+        "design-system",
+        "design-tokens",
+        "ui",
+        "ux",
+        "accessibility",
+        "multi-agent"
+      ],
+      "category": "design",
+      "strict": false
+    }
+  ]
+}

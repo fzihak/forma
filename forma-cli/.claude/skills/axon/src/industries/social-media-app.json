@@ -1,0 +1,29 @@
+{
+  "name": "Social Media",
+  "description": "High-engagement, content-driven platforms optimizing for infinite scroll and interactions.",
+  "psychology_triggers": [
+    "Social Proof",
+    "Zeigarnik Effect",
+    "Reciprocity"
+  ],
+  "industry_constraints": [
+    "Extreme performance scaling",
+    "Content moderation UI",
+    "Offline caching"
+  ],
+  "forbidden_patterns": [
+    "Friction in content creation",
+    "Slow media loading",
+    "Confusing privacy settings"
+  ],
+  "required_patterns": [
+    "Infinite scroll",
+    "Double-tap to like",
+    "Skeleton loaders for feed"
+  ],
+  "core_components": [
+    "Avatar",
+    "Card (Feed)",
+    "Toast"
+  ]
+}

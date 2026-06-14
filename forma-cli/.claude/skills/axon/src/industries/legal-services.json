@@ -1,0 +1,28 @@
+{
+  "name": "Legal Services",
+  "description": "Trust-centric professional services requiring secure document handling and confidentiality.",
+  "psychology_triggers": [
+    "Authority",
+    "Social Proof"
+  ],
+  "industry_constraints": [
+    "Strict data privacy",
+    "Audit trails",
+    "Secure file handling"
+  ],
+  "forbidden_patterns": [
+    "Playful branding",
+    "Unclear terms",
+    "Missing contact information"
+  ],
+  "required_patterns": [
+    "Secure portals",
+    "Clear typography for heavy reading",
+    "Prominent consultation CTAs"
+  ],
+  "core_components": [
+    "Data Table",
+    "Accordion",
+    "Button"
+  ]
+}

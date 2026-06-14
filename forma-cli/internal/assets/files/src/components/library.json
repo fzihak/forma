@@ -1,0 +1,443 @@
+[
+  {
+    "name": "Button",
+    "anatomy": ["Container", "Label", "Leading Icon (optional)", "Trailing Icon (optional)", "Loading Spinner (optional)"],
+    "variants": ["Primary", "Secondary", "Outline", "Ghost", "Destructive", "Link"],
+    "interaction_states": {
+      "default": "Base styling with standard contrast.",
+      "hover": "Decrease lightness by 5-10% or apply subtle drop shadow. Use 150ms ease-out transition.",
+      "active": "Scale down to 0.98 or remove drop shadow to simulate physical press.",
+      "focus": "Apply 2px offset focus ring matching brand primary color. outline-offset-2.",
+      "disabled": "Opacity 50%, cursor-not-allowed, grayscale. Do not use tooltips on disabled buttons.",
+      "loading": "Replace leading icon with spinner or fade text to 0 and show spinner in center. Keep button width fixed to prevent layout shift."
+    },
+    "accessibility_rules": [
+      "Minimum contrast ratio 4.5:1 for text against button background.",
+      "Touch target minimum 44x44pt on mobile.",
+      "Must use semantic <button> or role='button'.",
+      "Icon-only buttons MUST have aria-label."
+    ],
+    "styling_guidelines": {
+      "padding": "px-4 py-2 for base, px-6 py-3 for lg.",
+      "typography": "font-medium or font-semibold. Avoid light weights for labels.",
+      "border_radius": "Match brand geometry (rounded-md to rounded-full)."
+    },
+    "conversion_notes": "Primary buttons should be visually isolated. Use only one primary button per view/section."
+  },
+  {
+    "name": "Card",
+    "anatomy": ["Container", "Header (Title, Subtitle, Actions)", "Media/Image", "Body", "Footer/Actions", "Divider (optional)"],
+    "variants": ["Elevated", "Outlined", "Filled/Flat", "Interactive (Clickable)"],
+    "interaction_states": {
+      "default": "Base surface color (e.g., bg-white or bg-slate-900).",
+      "hover": "If interactive, elevate shadow (e.g., shadow-md to shadow-xl) and apply subtle transform -translate-y-1. 300ms ease-out.",
+      "focus": "Focus ring if the entire card is a link. Avoid keyboard traps."
+    },
+    "accessibility_rules": [
+      "If interactive, avoid nested interactive elements (buttons inside a linked card) unless handled with pseudo-element overlays.",
+      "Ensure logical DOM order matches visual reading order.",
+      "Use <article> or <section> if the card represents a standalone piece of content."
+    ],
+    "styling_guidelines": {
+      "padding": "p-4, p-6, or p-8 consistent across breakpoints.",
+      "border_radius": "rounded-xl or rounded-2xl. Image inside must have matching border-radius minus padding to avoid corner clipping."
+    }
+  },
+  {
+    "name": "Dialog / Modal",
+    "anatomy": ["Overlay/Scrim", "Panel", "Header (Title, Close Button)", "Body", "Footer (Actions)"],
+    "variants": ["Alert", "Form", "Confirmation", "Full-screen (Mobile)"],
+    "interaction_states": {
+      "enter": "Animate in: fade overlay, slide up + fade panel. duration-300 ease-out.",
+      "exit": "Animate out: faster than enter, e.g., duration-200 ease-in."
+    },
+    "accessibility_rules": [
+      "Focus must be trapped inside the modal while open.",
+      "Initial focus should be on the first interactive element or the close button.",
+      "Must be dismissible via ESC key and clicking the overlay.",
+      "Use role='dialog' and aria-modal='true'. Focus must return to trigger element on close."
+    ],
+    "styling_guidelines": {
+      "scrim": "bg-black/50 or bg-slate-900/80 backdrop-blur-sm for depth.",
+      "panel": "Max width defined (max-w-md, max-w-lg), vertically and horizontally centered.",
+      "z_index": "Ensure it sits above all other elements (z-50)."
+    }
+  },
+  {
+    "name": "Input Field",
+    "anatomy": ["Label", "Input Container", "Prefix/Icon", "Value", "Suffix/Icon", "Helper Text", "Error Text"],
+    "variants": ["Text", "Email", "Password", "Number", "Search", "URL"],
+    "interaction_states": {
+      "default": "Border subtle, background surface or transparent.",
+      "hover": "Slightly darken/lighten border depending on theme.",
+      "focus": "Highlight border with brand primary, apply focus ring outline-offset-2.",
+      "error": "Border destructive red, text red, optional shake animation.",
+      "disabled": "Opacity 50%, bg-muted, cursor-not-allowed."
+    },
+    "accessibility_rules": [
+      "Label must be explicitly tied to input via id/htmlFor.",
+      "Never use placeholder as a replacement for a visible label.",
+      "Error messages and helper text must use aria-describedby linked to the input."
+    ],
+    "styling_guidelines": {
+      "height": "Match button heights (e.g., h-10 for base, h-12 for lg).",
+      "spacing": "Gap of 4px-8px between label, input, and helper text."
+    },
+    "conversion_notes": "Use auto-complete attributes to reduce friction. Minimize required fields."
+  },
+  {
+    "name": "Select / Dropdown",
+    "anatomy": ["Trigger Button", "Selected Value", "Chevron Icon", "Dropdown Menu/Popover", "Options List", "List Item", "Checkmark (Selected)"],
+    "variants": ["Native", "Custom Popover", "Searchable/Combobox", "Multi-select"],
+    "interaction_states": {
+      "default": "Looks similar to an input field but with a chevron.",
+      "hover": "Darken border or background.",
+      "focus": "Focus ring on the trigger.",
+      "open": "Trigger chevron rotates 180deg. Menu animates in (fade + scale-95 to scale-100)."
+    },
+    "accessibility_rules": [
+      "Trigger needs aria-haspopup='listbox' and aria-expanded.",
+      "Menu needs role='listbox'. Items need role='option' and aria-selected.",
+      "Keyboard navigation: Up/Down arrows to traverse options, Enter/Space to select, Esc to close."
+    ],
+    "styling_guidelines": {
+      "menu_max_height": "max-h-60 or max-h-72 with overflow-y-auto.",
+      "z_index": "Menu must be elevated (z-40 or z-50) with shadow-lg."
+    }
+  },
+  {
+    "name": "Data Table",
+    "anatomy": ["Container", "Toolbar (Search/Filter/Export)", "Header Row", "Rows", "Cells", "Pagination Footer", "Bulk Actions Bar"],
+    "variants": ["Simple", "Sortable", "Selectable (Checkboxes)", "Expandable (Sub-rows)", "Sticky Header"],
+    "interaction_states": {
+      "row_hover": "bg-muted/50 to help eye tracking across wide screens.",
+      "sort_active": "Highlight column header text and show directional arrow.",
+      "row_selected": "bg-primary/5 or bg-blue-50 to indicate selection."
+    },
+    "accessibility_rules": [
+      "Use semantic <table>, <thead>, <tbody>, <tr>, <th>, <td>.",
+      "Include scope='col' or scope='row' on header cells.",
+      "Ensure horizontal scrolling on small screens does not break page layout (use overflow-x-auto container)."
+    ],
+    "styling_guidelines": {
+      "alignment": "Numbers right-aligned, text left-aligned, status badges centered.",
+      "density": "Provide compact (py-2) and relaxed (py-4) cell padding options.",
+      "borders": "Subtle border-b on rows. Avoid vertical borders unless highly data-dense."
+    }
+  },
+  {
+    "name": "Tabs",
+    "anatomy": ["Tab List (Container)", "Tab Trigger", "Active Indicator", "Tab Panel (Content)"],
+    "variants": ["Underline", "Pills/Contained", "Vertical/Sidebar", "Fitted/Full-width"],
+    "interaction_states": {
+      "default": "Text muted, transparent background/border.",
+      "hover": "Text color darkens, subtle background shift.",
+      "active": "Primary text color. Active indicator (underline or pill background) becomes visible.",
+      "focus": "Focus ring around the specific tab trigger."
+    },
+    "accessibility_rules": [
+      "TabList needs role='tablist'.",
+      "Triggers need role='tab', aria-selected, and aria-controls linking to panel.",
+      "Panels need role='tabpanel' and aria-labelledby linking to trigger.",
+      "Keyboard navigation: Left/Right arrows switch tabs (automatic or manual activation)."
+    ],
+    "styling_guidelines": {
+      "active_indicator": "Use Framer Motion or layout animations to slide the underline/pill smoothly between tabs.",
+      "spacing": "Gap of 16px to 32px between horizontal tabs."
+    }
+  },
+  {
+    "name": "Accordion",
+    "anatomy": ["Container", "Accordion Item", "Header/Trigger", "Title", "Chevron/Plus Icon", "Content Panel"],
+    "variants": ["Single Expand (Exclusive)", "Multiple Expand", "Divided", "Contained/Card"],
+    "interaction_states": {
+      "hover": "Header background slightly darkens or title text changes color.",
+      "expanded": "Chevron rotates 180deg (or Plus becomes Minus). Content panel slides down.",
+      "focus": "Focus ring on the header trigger."
+    },
+    "accessibility_rules": [
+      "Header must be a <button> with aria-expanded='true/false' and aria-controls.",
+      "Content panel must have an id matching the aria-controls of the trigger.",
+      "Do not use display: none for animations if it breaks screen reader flow; use height animations carefully."
+    ],
+    "styling_guidelines": {
+      "animation": "Animate grid-template-rows from 0fr to 1fr for smooth height transitions without hardcoding heights.",
+      "spacing": "py-4 for headers, pb-4 for content."
+    }
+  },
+  {
+    "name": "Toast / Notification",
+    "anatomy": ["Viewport/Region", "Toast Container", "Icon (Success/Error/Info)", "Title", "Description", "Close Button", "Action Button (Optional)", "Progress Bar (Optional)"],
+    "variants": ["Success", "Error", "Warning", "Info", "Actionable"],
+    "interaction_states": {
+      "enter": "Slide in from edge (e.g., bottom-right) and fade in.",
+      "exit": "Slide out and fade out. Or shrink height to 0.",
+      "hover": "Pause auto-dismiss timer."
+    },
+    "accessibility_rules": [
+      "Region needs aria-live='polite' for info/success, aria-live='assertive' for errors.",
+      "Role should be 'status' or 'alert'.",
+      "Provide sufficient time to read (min 5 seconds) or allow manual dismissal."
+    ],
+    "styling_guidelines": {
+      "position": "Fixed to corners (bottom-right on desktop, top-center or bottom-center on mobile).",
+      "z_index": "Highest level (z-[100]).",
+      "shadow": "Deep shadow (shadow-lg or shadow-xl) for clear separation."
+    }
+  },
+  {
+    "name": "Avatar",
+    "anatomy": ["Container", "Image", "Fallback Initials", "Fallback Icon", "Status Badge (Online/Offline)"],
+    "variants": ["Circle", "Rounded Square", "Group/Stack"],
+    "interaction_states": {
+      "default": "Static display.",
+      "hover": "If clickable, slight scale or opacity change."
+    },
+    "accessibility_rules": [
+      "If informative, provide alt text (e.g., 'Profile picture of John Doe').",
+      "If decorative (name is right next to it), use alt=''."
+    ],
+    "styling_guidelines": {
+      "sizes": "Standard scale: xs(24px), sm(32px), md(40px), lg(48px), xl(64px).",
+      "fallback": "Use brand primary color with 10-20% opacity and primary colored text for initials."
+    }
+  },
+  {
+    "name": "Badge",
+    "anatomy": ["Container", "Label", "Dot/Icon (Optional)", "Remove Button (Optional)"],
+    "variants": ["Solid", "Subtle/Soft", "Outline", "Pill", "Status (Dot)"],
+    "interaction_states": {
+      "default": "Non-interactive by default.",
+      "hover": "Only changes state if it contains a remove button or acts as a filter tag."
+    },
+    "accessibility_rules": [
+      "If conveying status (e.g., red for Error), color must not be the only indicator. Use text or an icon.",
+      "If it's a filter tag, treat it as a button with aria-pressed or a checkbox."
+    ],
+    "styling_guidelines": {
+      "typography": "text-xs or text-sm, font-medium, uppercase tracking-wide (optional).",
+      "padding": "px-2.5 py-0.5.",
+      "colors": "Subtle variants work best: bg-blue-100 text-blue-800."
+    }
+  },
+  {
+    "name": "Breadcrumb",
+    "anatomy": ["Nav Container", "List", "List Item", "Link", "Current Page Text", "Separator Icon (Chevron/Slash)"],
+    "variants": ["Standard", "Collapsed (Ellipsis)"],
+    "interaction_states": {
+      "hover": "Links get underline or color change.",
+      "current": "Non-clickable, muted or bold text to indicate current location."
+    },
+    "accessibility_rules": [
+      "Wrap in <nav aria-label='Breadcrumb'>.",
+      "Use an ordered list <ol> to convey sequence.",
+      "Current page should have aria-current='page'.",
+      "Hide separators from screen readers (aria-hidden='true')."
+    ],
+    "styling_guidelines": {
+      "typography": "text-sm text-muted-foreground.",
+      "separators": "mx-2 w-4 h-4 opacity-50."
+    }
+  },
+  {
+    "name": "Checkbox / Radio",
+    "anatomy": ["Container", "Hidden Input", "Custom Visual Control", "Check/Dot Icon", "Label", "Description (Optional)"],
+    "variants": ["Standard", "Card/Tile (Selectable box)"],
+    "interaction_states": {
+      "default": "Border matches muted foreground.",
+      "hover": "Border darkens.",
+      "checked": "Background and border become primary color. Icon animates in (scale or stroke-dashoffset).",
+      "focus": "Focus ring around the custom control.",
+      "disabled": "Opacity 50%, not allowed."
+    },
+    "accessibility_rules": [
+      "Must use visually hidden actual <input type='checkbox'> or <input type='radio'> for native semantics and form submission.",
+      "Label must be linked via htmlFor/id.",
+      "Ensure the click target includes the label text, not just the tiny box."
+    ],
+    "styling_guidelines": {
+      "size": "w-4 h-4 or w-5 h-5.",
+      "card_variant": "When wrapping a whole card, apply ring/border to the card container on checked state."
+    }
+  },
+  {
+    "name": "Progress Bar",
+    "anatomy": ["Track", "Indicator (Fill)", "Label (Optional)", "Value Text (Optional)"],
+    "variants": ["Linear", "Circular", "Indeterminate (Loading)"],
+    "interaction_states": {
+      "default": "Indicator width/stroke-dashoffset transitions smoothly when value changes."
+    },
+    "accessibility_rules": [
+      "Use role='progressbar'.",
+      "Provide aria-valuenow, aria-valuemin, aria-valuemax.",
+      "If indeterminate, remove aria-valuenow."
+    ],
+    "styling_guidelines": {
+      "track": "bg-secondary or bg-muted. h-2 or h-3 for linear.",
+      "indicator": "bg-primary, rounded-full."
+    }
+  },
+  {
+    "name": "Skeleton",
+    "anatomy": ["Container", "Pulsing Background"],
+    "variants": ["Text Line", "Circle (Avatar)", "Rectangle (Card/Image)"],
+    "interaction_states": {
+      "loading": "Continuous pulse or shimmer animation (opacity 0.5 to 1, or linear gradient translation)."
+    },
+    "accessibility_rules": [
+      "Should have aria-hidden='true'.",
+      "The container wrapping the skeletons should use aria-busy='true' and aria-live='polite'."
+    ],
+    "styling_guidelines": {
+      "animation": "animate-pulse (opacity) or a shimmer gradient moving left to right.",
+      "colors": "bg-muted or bg-slate-200/dark:bg-slate-800."
+    }
+  },
+  {
+    "name": "Slider",
+    "anatomy": ["Track", "Filled Range", "Thumb/Handle", "Value Label/Tooltip", "Marks/Steps (Optional)"],
+    "variants": ["Single Value", "Range (Two Thumbs)", "Stepped"],
+    "interaction_states": {
+      "hover": "Thumb slightly enlarges or shows shadow.",
+      "active/drag": "Thumb scales up, value tooltip appears.",
+      "focus": "Focus ring on the thumb."
+    },
+    "accessibility_rules": [
+      "Thumb must be a <button> or <input type='range'>.",
+      "Needs role='slider', aria-valuemin, max, now.",
+      "Keyboard: Left/Right arrows increment/decrement. PageUp/PageDown for larger steps."
+    ],
+    "styling_guidelines": {
+      "track": "h-1.5 or h-2, rounded-full.",
+      "thumb": "w-5 h-5, rounded-full, bg-white, border-2 border-primary, shadow-sm."
+    }
+  },
+  {
+    "name": "Switch / Toggle",
+    "anatomy": ["Track", "Thumb", "Label (External)"],
+    "variants": ["Standard", "With Icons (Sun/Moon inside thumb)"],
+    "interaction_states": {
+      "default": "Track is muted color.",
+      "hover": "Thumb shadow increases.",
+      "checked": "Track becomes primary color. Thumb translates to the right.",
+      "focus": "Focus ring around the track."
+    },
+    "accessibility_rules": [
+      "Use <button role='switch'>.",
+      "Must have aria-checked='true' or 'false'.",
+      "Must have an accessible label."
+    ],
+    "styling_guidelines": {
+      "track": "w-11 h-6 rounded-full transition-colors duration-200.",
+      "thumb": "w-5 h-5 rounded-full bg-white transition-transform duration-200."
+    }
+  },
+  {
+    "name": "Tooltip",
+    "anatomy": ["Trigger", "Content Panel", "Arrow (Optional)"],
+    "variants": ["Text Only", "Rich Content (Popover)"],
+    "interaction_states": {
+      "hover": "Wait 200ms delay, then animate in (fade + slight translation).",
+      "focus": "Also triggers on keyboard focus."
+    },
+    "accessibility_rules": [
+      "Use role='tooltip'.",
+      "Trigger must have aria-describedby pointing to the tooltip id.",
+      "Must not trap focus. Must dismiss on ESC."
+    ],
+    "styling_guidelines": {
+      "typography": "text-xs or text-sm.",
+      "padding": "px-3 py-1.5.",
+      "colors": "Usually inverse of the theme (dark bg on light mode) for high contrast."
+    }
+  },
+  {
+    "name": "Pagination",
+    "anatomy": ["Container", "Previous Button", "Page Numbers", "Ellipsis", "Next Button"],
+    "variants": ["Standard", "Simple (Prev/Next only)"],
+    "interaction_states": {
+      "hover": "Number buttons get subtle background.",
+      "current": "Primary background and text color, bold.",
+      "disabled": "Prev/Next disabled on first/last pages."
+    },
+    "accessibility_rules": [
+      "Wrap in <nav aria-label='Pagination'>.",
+      "Current page needs aria-current='page'.",
+      "Buttons need clear aria-labels (e.g., 'Go to page 2')."
+    ],
+    "styling_guidelines": {
+      "sizing": "w-9 h-9 or w-10 h-10 for touch targets.",
+      "layout": "Flex container with gap-1 or gap-2."
+    }
+  },
+  {
+    "name": "Hero Section (Page Level)",
+    "anatomy": ["Section Container", "Eyebrow Text/Badge", "H1 Headline", "Subheadline", "Primary CTA", "Secondary CTA", "Hero Media/Illustration", "Social Proof/Trust Bar"],
+    "variants": ["Split Layout (Left Text, Right Image)", "Centered Align", "Background Image/Video with Overlay"],
+    "interaction_states": {
+      "load": "Staggered fade-in: Eyebrow (0ms) -> H1 (100ms) -> Subhead (200ms) -> CTAs (300ms) -> Media (400ms)."
+    },
+    "accessibility_rules": [
+      "H1 must be the first heading on the page.",
+      "Background images must have sufficient contrast with overlay text (ratio > 4.5:1).",
+      "Do not auto-play background video if prefers-reduced-motion is true."
+    ],
+    "styling_guidelines": {
+      "padding": "py-20 md:py-32.",
+      "typography": "H1 should be text-5xl md:text-7xl font-extrabold tracking-tight. Subheadline text-xl text-muted-foreground max-w-2xl."
+    },
+    "conversion_notes": "The primary CTA must be immediately visible above the fold. Trust bar (logos of clients) directly below the hero massively boosts credibility."
+  },
+  {
+    "name": "Pricing Section (Page Level)",
+    "anatomy": ["Section Header", "Billing Toggle (Monthly/Yearly)", "Pricing Cards", "Tier Name", "Price", "Features List", "CTA", "FAQ (Optional)"],
+    "variants": ["3-Tier Standard", "4-Tier Grid", "Slider-based (Usage)"],
+    "interaction_states": {
+      "toggle": "Switching billing animate prices simultaneously.",
+      "hover_card": "Cards elevate slightly on hover."
+    },
+    "accessibility_rules": [
+      "Toggle must be a semantic switch or radio group.",
+      "Screen readers must announce the billing cycle clearly with the price (e.g., '$29 per month')."
+    ],
+    "styling_guidelines": {
+      "highlight": "The 'Pro' or 'Recommended' tier should have a distinctive border (e.g., ring-2 ring-primary), an elevated shadow, and a badge.",
+      "features": "Use green checkmarks for included, grey dashes/crosses for excluded."
+    },
+    "conversion_notes": "Leverage Von Restorff effect to make one tier stand out. Frame yearly plans with 'Save 20%' badges. Limit choices to 3 to avoid Hick's Law paralysis."
+  },
+  {
+    "name": "Feature Grid / Bento Box (Page Level)",
+    "anatomy": ["Section Header", "Grid Container", "Feature Cards (varying spans)", "Icons/Illustrations", "Short Descriptions"],
+    "variants": ["Bento Box (Asymmetric Grid)", "Standard 3-Column", "Alternating Zig-Zag"],
+    "interaction_states": {
+      "hover": "Cards show subtle gradient shifts, inner illustrations perform micro-animations."
+    },
+    "accessibility_rules": [
+      "Ensure reading order is logical (left-to-right, top-to-bottom) despite grid placements.",
+      "Icons should be decorative (aria-hidden) if the text explains the feature."
+    ],
+    "styling_guidelines": {
+      "grid": "Use CSS Grid. For Bento: auto-rows, spanning columns/rows (col-span-2, row-span-2).",
+      "cards": "bg-surface, subtle border, overflow-hidden."
+    }
+  },
+  {
+    "name": "Authentication Form (Page Level)",
+    "anatomy": ["Container/Card", "Logo", "Title/Greeting", "OAuth/Social Buttons", "Divider ('or')", "Email Input", "Password Input", "Forgot Password Link", "Submit Button", "Signup/Login Toggle Link"],
+    "variants": ["Split Screen (Image Left/Form Right)", "Centered Card", "Modal"],
+    "interaction_states": {
+      "submit": "Button shows loading state, inputs become disabled.",
+      "error": "Inline error messages appear below inputs."
+    },
+    "accessibility_rules": [
+      "Use proper autocomplete attributes (autocomplete='email', autocomplete='current-password').",
+      "Form must be navigable entirely by keyboard. Submit on Enter."
+    ],
+    "styling_guidelines": {
+      "layout": "Flex column with gap-4 or gap-6.",
+      "social_buttons": "Outline variant, centered icon + text."
+    },
+    "conversion_notes": "Minimize fields. Don't ask for Confirm Password on signup. Use OAuth for frictionless entry."
+  }
+]

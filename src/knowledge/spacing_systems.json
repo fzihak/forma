@@ -1,0 +1,72 @@
+{
+  "version": "2.0",
+  "schema": "ultra-advanced-fluid",
+  "scale": [
+    {
+      "token": "none",
+      "rem": "0rem",
+      "value": "0px",
+      "use_cases": ["Reset", "Collapse"]
+    },
+    {
+      "token": "3xs",
+      "rem": "clamp(0.125rem, 0.11rem + 0.06vw, 0.1875rem)",
+      "value": "2px - 3px",
+      "use_cases": ["Border radius micro-adjustments", "1px border compensation"]
+    },
+    {
+      "token": "2xs",
+      "rem": "clamp(0.25rem, 0.23rem + 0.11vw, 0.375rem)",
+      "value": "4px - 6px",
+      "use_cases": ["Input inner icon padding", "Badge internal padding"]
+    },
+    {
+      "token": "xs",
+      "rem": "clamp(0.5rem, 0.45rem + 0.22vw, 0.75rem)",
+      "value": "8px - 12px",
+      "use_cases": ["List item gap", "Button internal padding X"]
+    },
+    {
+      "token": "sm",
+      "rem": "clamp(0.75rem, 0.68rem + 0.34vw, 1.125rem)",
+      "value": "12px - 18px",
+      "use_cases": ["Card internal padding (mobile)", "Input height compensation"]
+    },
+    {
+      "token": "base",
+      "rem": "clamp(1rem, 0.91rem + 0.45vw, 1.5rem)",
+      "value": "16px - 24px",
+      "use_cases": ["Standard paragraph margin", "Card internal padding (desktop)"]
+    },
+    {
+      "token": "lg",
+      "rem": "clamp(1.5rem, 1.36rem + 0.68vw, 2.25rem)",
+      "value": "24px - 36px",
+      "use_cases": ["Section inner gap", "Hero typography spacing"]
+    },
+    {
+      "token": "xl",
+      "rem": "clamp(2rem, 1.82rem + 0.9vw, 3rem)",
+      "value": "32px - 48px",
+      "use_cases": ["Article section gaps", "Header bottom margin"]
+    },
+    {
+      "token": "2xl",
+      "rem": "clamp(3rem, 2.73rem + 1.36vw, 4.5rem)",
+      "value": "48px - 72px",
+      "use_cases": ["Major section dividers (mobile)"]
+    },
+    {
+      "token": "3xl",
+      "rem": "clamp(4rem, 3.64rem + 1.81vw, 6rem)",
+      "value": "64px - 96px",
+      "use_cases": ["Major section dividers (desktop)", "Hero padding top/bottom"]
+    },
+    {
+      "token": "4xl",
+      "rem": "clamp(6rem, 5.46rem + 2.72vw, 9rem)",
+      "value": "96px - 144px",
+      "use_cases": ["Luxury/Editorial whitespace blocks", "Footer separation"]
+    }
+  ]
+}

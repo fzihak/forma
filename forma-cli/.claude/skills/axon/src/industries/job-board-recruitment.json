@@ -1,0 +1,40 @@
+{
+  "id": "job-board-recruitment-001",
+  "industry": "job-board-recruitment",
+  "name": "Job Board/Recruitment",
+  "description": "Job listings. Search/filter. Company profiles. Application tracking. Resume upload. Salary insights.",
+  "design_principles": [
+    "Flat Design ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Vibrant & Block-based",
+    "Accessible & Ethical"
+  ],
+  "required_patterns": [
+    "Conversion-Optimized + Feature-Rich",
+    "HR Analytics Dashboard"
+  ],
+  "color_mood": "Professional Blue + Success Green + Neutral",
+  "use_cases": [
+    "board",
+    "job",
+    "recruitment"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

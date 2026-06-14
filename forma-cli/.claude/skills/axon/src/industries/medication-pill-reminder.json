@@ -1,0 +1,48 @@
+{
+  "id": "medication-pill-reminder-001",
+  "industry": "medication-pill-reminder",
+  "name": "Medication & Pill Reminder",
+  "description": "Multi-medication schedule. Caregiver sharing. Refill reminders. Drug interaction warnings. Large touch targets.",
+  "design_principles": [
+    "Accessible & Ethical ",
+    " Flat Design"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Trust & Authority"
+  ],
+  "required_patterns": [
+    "Trust & Authority + Feature-Rich",
+    "N/A - Schedule focused"
+  ],
+  "color_mood": "Medical trust blue + missed alert red + taken green + clean white",
+  "use_cases": [
+    "medication",
+    "pill",
+    "reminder",
+    "dose",
+    "schedule",
+    "prescription",
+    "drug",
+    "health",
+    "medisafe",
+    "refill"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support mandatory",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form",
+    "Progress Bar"
+  ]
+}

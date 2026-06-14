@@ -1,0 +1,49 @@
+{
+  "id": "ai-photo-avatar-generator-001",
+  "industry": "ai-photo-avatar-generator",
+  "name": "AI Photo & Avatar Generator",
+  "description": "Style selection. Multiple output variations. Privacy policy prominent. Fast generation. Credits/subscription system.",
+  "design_principles": [
+    "AI-Native UI ",
+    " Aurora UI"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "Minimalism"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Social Proof",
+    "N/A - Generation focused"
+  ],
+  "color_mood": "AI purple + aurora gradients + before/after neutral",
+  "use_cases": [
+    "ai",
+    "photo",
+    "avatar",
+    "lensa",
+    "portrait",
+    "generate",
+    "selfie",
+    "style",
+    "filter",
+    "prisma",
+    "art"
+  ],
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Endowed Progress Effect",
+    "Loss Aversion",
+    "Halo Effect"
+  ],
+  "industry_constraints": [
+    "Performance optimization for animations",
+    "Cross-platform consistency",
+    "DRM handling UI for media"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast",
+    "Slider"
+  ]
+}

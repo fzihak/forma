@@ -1,0 +1,44 @@
+{
+  "id": "beauty-spa-wellness-service-001",
+  "industry": "beauty-spa-wellness-service",
+  "name": "Beauty/Spa/Wellness Service",
+  "description": "Calming aesthetic. Booking system. Service menu. Before/after gallery. Testimonials. Relaxing imagery.",
+  "design_principles": [
+    "Soft UI Evolution ",
+    " Neumorphism"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "Minimalism"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design + Social Proof",
+    "User Behavior Analytics"
+  ],
+  "color_mood": "Soft pastels (Pink #FFB6C1 Sage #90EE90) + Cream + Gold accents",
+  "use_cases": [
+    "appointment",
+    "beauty",
+    "booking",
+    "consultation",
+    "service",
+    "spa",
+    "wellness"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

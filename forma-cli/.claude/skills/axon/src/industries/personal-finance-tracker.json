@@ -1,0 +1,47 @@
+{
+  "id": "personal-finance-tracker-001",
+  "industry": "personal-finance-tracker",
+  "name": "Personal Finance Tracker",
+  "description": "Category pie/donut charts. Monthly trend lines. Budget progress bars. Transaction list with swipe actions. Receipt camera. Currency formatting. Recurring entries.",
+  "design_principles": [
+    "Glassmorphism ",
+    " Dark Mode (OLED)"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Interactive Product Demo",
+    "Financial Dashboard"
+  ],
+  "color_mood": "Calm blue + success green + alert red + chart accents",
+  "use_cases": [
+    "budget",
+    "expense",
+    "money",
+    "finance",
+    "spending",
+    "savings",
+    "tracker",
+    "personal",
+    "wallet"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Social Proof",
+    "Loss Aversion",
+    "Cognitive Ease"
+  ],
+  "industry_constraints": [
+    "Strict regulatory compliance",
+    "Zero-tolerance for calculation latency",
+    "Multi-currency/localization support"
+  ],
+  "core_components": [
+    "Data Table",
+    "Number Input",
+    "Progress Bar (Onboarding)",
+    "Tooltip"
+  ]
+}

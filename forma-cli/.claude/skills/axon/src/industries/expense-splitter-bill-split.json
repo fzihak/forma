@@ -1,0 +1,49 @@
+{
+  "id": "expense-splitter-bill-split-001",
+  "industry": "expense-splitter-bill-split",
+  "name": "Expense Splitter / Bill Split",
+  "description": "Group expense tracking. Debt simplification algorithm. Payment reminders. Multi-currency. Receipt photo import.",
+  "design_principles": [
+    "Flat Design ",
+    " Vibrant & Block-based"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Micro-interactions"
+  ],
+  "required_patterns": [
+    "Minimal & Direct + Demo",
+    "N/A - Balance focused"
+  ],
+  "color_mood": "Success green + alert red + neutral grey + avatar accent colors",
+  "use_cases": [
+    "split",
+    "expense",
+    "bill",
+    "aa",
+    "share",
+    "friends",
+    "group",
+    "settle",
+    "debt",
+    "payment",
+    "owe"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Social Proof",
+    "Loss Aversion",
+    "Cognitive Ease"
+  ],
+  "industry_constraints": [
+    "Strict regulatory compliance",
+    "Zero-tolerance for calculation latency",
+    "Multi-currency/localization support"
+  ],
+  "core_components": [
+    "Data Table",
+    "Number Input",
+    "Progress Bar (Onboarding)",
+    "Tooltip"
+  ]
+}

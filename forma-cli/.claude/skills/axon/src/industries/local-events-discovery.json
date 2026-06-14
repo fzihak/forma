@@ -1,0 +1,49 @@
+{
+  "id": "local-events-discovery-001",
+  "industry": "local-events-discovery",
+  "name": "Local Events & Discovery",
+  "description": "Location-based discovery. Category filters. RSVP flow. Map view. Friend attendance. Organizer tools. Reminders.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design + Feature-Rich",
+    "Event Analytics"
+  ],
+  "color_mood": "City vibrant + event category colors + map accent + date highlight",
+  "use_cases": [
+    "local",
+    "events",
+    "discovery",
+    "meetup",
+    "nearby",
+    "social",
+    "city",
+    "activities",
+    "calendar",
+    "community",
+    "explore"
+  ],
+  "psychology_triggers": [
+    "Scarcity",
+    "Social Proof",
+    "Anchoring"
+  ],
+  "industry_constraints": [
+    "Timezone handling",
+    "Complex date-picker architectures",
+    "Multi-currency support",
+    "Offline map caching"
+  ],
+  "core_components": [
+    "Input (Date)",
+    "Card",
+    "Select",
+    "Breadcrumb"
+  ]
+}

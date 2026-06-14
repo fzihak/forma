@@ -1,0 +1,46 @@
+{
+  "id": "parenting-baby-tracker-001",
+  "industry": "parenting-baby-tracker",
+  "name": "Parenting & Baby Tracker",
+  "description": "Feed/sleep/diaper quick-log buttons. Growth percentile chart. Milestone timeline with photos. Multiple child profiles. Partner invite + shared access. Pediatric reference. One-handed operation.",
+  "design_principles": [
+    "Claymorphism ",
+    " Soft UI Evolution"
+  ],
+  "forbidden_patterns": [
+    "Vibrant & Block-based",
+    "Accessible & Ethical"
+  ],
+  "required_patterns": [
+    "Social Proof-Focused + Trust",
+    "User Behavior Analytics"
+  ],
+  "color_mood": "Soft pastels (baby pink/sky blue/mint/peach) + warm accents",
+  "use_cases": [
+    "baby",
+    "parenting",
+    "child",
+    "feeding",
+    "sleep",
+    "diaper",
+    "milestone",
+    "family",
+    "newborn"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

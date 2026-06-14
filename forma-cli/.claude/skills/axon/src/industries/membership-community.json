@@ -1,0 +1,41 @@
+{
+  "id": "membership-community-001",
+  "industry": "membership-community",
+  "name": "Membership/Community",
+  "description": "Member benefits. Pricing tiers. Community showcase. Events. Member directory. Exclusive content.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Soft UI Evolution"
+  ],
+  "forbidden_patterns": [
+    "Bento Box Grid",
+    "Micro-interactions"
+  ],
+  "required_patterns": [
+    "Social Proof-Focused + Conversion",
+    "Community Analytics"
+  ],
+  "color_mood": "Community brand colors + Engagement accents",
+  "use_cases": [
+    "community",
+    "membership"
+  ],
+  "psychology_triggers": [
+    "Social Proof",
+    "Zeigarnik Effect",
+    "Reciprocity",
+    "Fitts's Law"
+  ],
+  "industry_constraints": [
+    "Extreme performance scaling",
+    "Content moderation UI",
+    "Offline caching",
+    "Real-time websocket handling"
+  ],
+  "core_components": [
+    "Avatar",
+    "Card (Feed)",
+    "Toast",
+    "Input Field"
+  ]
+}

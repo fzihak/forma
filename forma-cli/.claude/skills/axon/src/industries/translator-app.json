@@ -1,0 +1,47 @@
+{
+  "id": "translator-app-001",
+  "industry": "translator-app",
+  "name": "Translator App",
+  "description": "Real-time camera translation (OCR). Voice input and output. Offline mode. Conversation mode. Phrasebook.",
+  "design_principles": [
+    "Flat Design ",
+    " AI-Native UI"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Micro-interactions"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Interactive Demo",
+    "N/A - Utility focused"
+  ],
+  "color_mood": "Global blue + neutral grey + language flag accent",
+  "use_cases": [
+    "translate",
+    "language",
+    "text",
+    "voice",
+    "ocr",
+    "dictionary",
+    "multilingual",
+    "real-time",
+    "detect",
+    "deepl"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

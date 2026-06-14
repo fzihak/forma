@@ -1,0 +1,45 @@
+{
+  "id": "inventory-stock-management-001",
+  "industry": "inventory-stock-management",
+  "name": "Inventory & Stock Management",
+  "description": "Product list/grid with thumbnails. Barcode/QR scanner. Stock level badges. Low-stock alert banner. Category/location filter. Batch edit. Reorder trigger. Audit log.",
+  "design_principles": [
+    "Flat Design ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Dark Mode (OLED)",
+    "Accessible & Ethical"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase",
+    "Real-Time Monitoring + Data-Dense"
+  ],
+  "color_mood": "Functional neutral + status traffic-light (green/amber/red) + scanner accent",
+  "use_cases": [
+    "inventory",
+    "stock",
+    "warehouse",
+    "product",
+    "barcode",
+    "supply",
+    "sku",
+    "management"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

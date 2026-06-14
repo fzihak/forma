@@ -1,0 +1,48 @@
+{
+  "id": "water-hydration-reminder-001",
+  "industry": "water-hydration-reminder",
+  "name": "Water & Hydration Reminder",
+  "description": "Tap to log quickly. Animated fill visualization. Custom reminders. Goal by weight/weather. Streak system. Widget.",
+  "design_principles": [
+    "Claymorphism ",
+    " Vibrant & Block-based"
+  ],
+  "forbidden_patterns": [
+    "Flat Design",
+    "Micro-interactions"
+  ],
+  "required_patterns": [
+    "Minimal & Direct + Demo",
+    "N/A - Daily goal focused"
+  ],
+  "color_mood": "Refreshing blue + water wave animation + goal progress accent",
+  "use_cases": [
+    "water",
+    "hydration",
+    "drink",
+    "reminder",
+    "daily",
+    "tracker",
+    "glasses",
+    "intake",
+    "health",
+    "cup",
+    "aqua"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

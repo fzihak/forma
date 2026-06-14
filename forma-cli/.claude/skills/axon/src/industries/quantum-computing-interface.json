@@ -1,0 +1,43 @@
+{
+  "id": "quantum-computing-interface-001",
+  "industry": "quantum-computing-interface",
+  "name": "Quantum Computing Interface",
+  "description": "Visualize complexity. Qubit states. Probability clouds. High-tech trust.",
+  "design_principles": [
+    "Holographic / HUD ",
+    " Dark Mode"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "Spatial UI"
+  ],
+  "required_patterns": [
+    "Immersive/Interactive Experience",
+    "3D Spatial Data + Real-Time Monitor"
+  ],
+  "color_mood": "Quantum Blue #00FFFF + Deep Black + Interference patterns",
+  "use_cases": [
+    "quantum",
+    "computing",
+    "physics",
+    "qubit",
+    "future",
+    "science"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

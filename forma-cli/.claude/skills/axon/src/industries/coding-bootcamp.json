@@ -1,0 +1,40 @@
+{
+  "id": "coding-bootcamp-001",
+  "industry": "coding-bootcamp",
+  "name": "Coding Bootcamp",
+  "description": "Curriculum. Projects. Career outcomes. Alumni. Pricing. Application. Terminal aesthetic.",
+  "design_principles": [
+    "Dark Mode (OLED) ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Cyberpunk UI",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Social Proof",
+    "Student Analytics"
+  ],
+  "color_mood": "Code editor colors + Brand + Success green",
+  "use_cases": [
+    "bootcamp",
+    "coding"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Zeigarnik Effect",
+    "Reciprocity",
+    "Social Proof"
+  ],
+  "industry_constraints": [
+    "COPPA compliance (if kids)",
+    "Accessibility for varied learning abilities",
+    "Offline mode support for study materials"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Accordion",
+    "Tabs",
+    "Badge"
+  ]
+}

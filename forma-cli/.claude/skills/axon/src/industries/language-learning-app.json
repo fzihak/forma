@@ -1,0 +1,41 @@
+{
+  "id": "language-learning-app-001",
+  "industry": "language-learning-app",
+  "name": "Language Learning App",
+  "description": "Lesson structure. Progress tracking. Gamification. Speaking practice. Community. Achievement badges.",
+  "design_principles": [
+    "Claymorphism ",
+    " Vibrant & Block-based"
+  ],
+  "forbidden_patterns": [
+    "Micro-interactions",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Social Proof",
+    "Learning Analytics"
+  ],
+  "color_mood": "Playful colors + Progress indicators + Country flags",
+  "use_cases": [
+    "app",
+    "language",
+    "learning"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Zeigarnik Effect",
+    "Reciprocity",
+    "Social Proof"
+  ],
+  "industry_constraints": [
+    "COPPA compliance (if kids)",
+    "Accessibility for varied learning abilities",
+    "Offline mode support for study materials"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Accordion",
+    "Tabs",
+    "Badge"
+  ]
+}

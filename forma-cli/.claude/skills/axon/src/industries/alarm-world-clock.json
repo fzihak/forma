@@ -1,0 +1,46 @@
+{
+  "id": "alarm-world-clock-001",
+  "industry": "alarm-world-clock",
+  "name": "Alarm & World Clock",
+  "description": "Gentle wake (gradual volume). Timezone visualizer. Sleep tracking integration. Smart alarm skip. Bedtime mode.",
+  "design_principles": [
+    "Dark Mode (OLED) ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Neumorphism",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Minimal & Direct",
+    "N/A - Utility focused"
+  ],
+  "color_mood": "Deep dark + ambient glow accent + timezone gradient",
+  "use_cases": [
+    "alarm",
+    "clock",
+    "world",
+    "timezone",
+    "timer",
+    "wake",
+    "sleep",
+    "schedule",
+    "reminder",
+    "bedtime"
+  ],
+  "psychology_triggers": [
+    "Cognitive Ease",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "Instant launch time (<1s)",
+    "High readability in varying light conditions",
+    "One-handed operation focus"
+  ],
+  "core_components": [
+    "Switch",
+    "Slider",
+    "Progress Bar",
+    "Button"
+  ]
+}

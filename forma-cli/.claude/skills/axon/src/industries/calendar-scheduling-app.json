@@ -1,0 +1,48 @@
+{
+  "id": "calendar-scheduling-app-001",
+  "industry": "calendar-scheduling-app",
+  "name": "Calendar & Scheduling App",
+  "description": "Event color coding. Week/month/day views. Recurring events. Conflict detection. Multi-calendar sync.",
+  "design_principles": [
+    "Flat Design ",
+    " Micro-interactions"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Soft UI Evolution"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Demo",
+    "N/A - Calendar focused"
+  ],
+  "color_mood": "Clean blue + event category accent colors + success green",
+  "use_cases": [
+    "calendar",
+    "scheduling",
+    "planner",
+    "agenda",
+    "events",
+    "reminder",
+    "appointment",
+    "organize",
+    "date",
+    "sync"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Zeigarnik Effect",
+    "Reciprocity",
+    "Social Proof"
+  ],
+  "industry_constraints": [
+    "COPPA compliance (if kids)",
+    "Accessibility for varied learning abilities",
+    "Offline mode support for study materials"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Accordion",
+    "Tabs",
+    "Badge"
+  ]
+}

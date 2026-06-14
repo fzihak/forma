@@ -1,0 +1,50 @@
+{
+  "id": "arcade-retro-game-001",
+  "industry": "arcade-retro-game",
+  "name": "Arcade & Retro Game",
+  "description": "Instant play with no login. Game Center leaderboards. Haptic feedback on collision. Offline. Controller support.",
+  "design_principles": [
+    "Pixel Art ",
+    " Retro-Futurism"
+  ],
+  "forbidden_patterns": [
+    "Vibrant & Block-based",
+    "Motion-Driven"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Hero-Centric",
+    "N/A - Score focused"
+  ],
+  "color_mood": "Neon on black + pixel palette + score gold + danger red",
+  "use_cases": [
+    "arcade",
+    "retro",
+    "8bit",
+    "action",
+    "shoot",
+    "runner",
+    "tap",
+    "reflex",
+    "endless",
+    "pixel",
+    "classic",
+    "score"
+  ],
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Endowed Progress Effect",
+    "Loss Aversion",
+    "Halo Effect"
+  ],
+  "industry_constraints": [
+    "Performance optimization for animations",
+    "Cross-platform consistency",
+    "DRM handling UI for media"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast",
+    "Slider"
+  ]
+}

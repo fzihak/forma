@@ -1,0 +1,40 @@
+{
+  "id": "agriculture-farm-tech-001",
+  "industry": "agriculture-farm-tech",
+  "name": "Agriculture/Farm Tech",
+  "description": "Crop monitoring. Weather data. IoT sensors. Yield tracking. Market prices. Sustainable imagery.",
+  "design_principles": [
+    "Organic Biophilic ",
+    " Flat Design"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Accessible & Ethical"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Trust",
+    "IoT Sensor Dashboard"
+  ],
+  "color_mood": "Earth Green (#4A7C23) + Brown + Sky Blue",
+  "use_cases": [
+    "agriculture",
+    "farm",
+    "tech"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

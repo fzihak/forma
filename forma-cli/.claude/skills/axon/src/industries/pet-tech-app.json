@@ -1,0 +1,39 @@
+{
+  "id": "pet-tech-app-001",
+  "industry": "pet-tech-app",
+  "name": "Pet Tech App",
+  "description": "Pet profiles. Health tracking. Playful UI. Photo galleries. Vet integration.",
+  "design_principles": [
+    "Claymorphism ",
+    " Vibrant & Block-based"
+  ],
+  "forbidden_patterns": [
+    "Micro-interactions",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven",
+    "User Behavior Analytics"
+  ],
+  "color_mood": "Playful + Warm colors",
+  "use_cases": [
+    "app",
+    "pet",
+    "tech"
+  ],
+  "psychology_triggers": [
+    "Cognitive Ease",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "Instant launch time (<1s)",
+    "High readability in varying light conditions",
+    "One-handed operation focus"
+  ],
+  "core_components": [
+    "Switch",
+    "Slider",
+    "Progress Bar",
+    "Button"
+  ]
+}

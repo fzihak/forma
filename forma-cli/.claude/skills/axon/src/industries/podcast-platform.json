@@ -1,0 +1,40 @@
+{
+  "id": "podcast-platform-001",
+  "industry": "podcast-platform",
+  "name": "Podcast Platform",
+  "description": "Audio player UX. Episode discovery. Creator tools. Analytics for podcasters.",
+  "design_principles": [
+    "Dark Mode (OLED) ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Motion-Driven",
+    "Vibrant & Block-based"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven",
+    "Media/Entertainment Dashboard"
+  ],
+  "color_mood": "Dark + Audio waveform accents",
+  "use_cases": [
+    "platform",
+    "podcast"
+  ],
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Endowed Progress Effect",
+    "Loss Aversion",
+    "Halo Effect"
+  ],
+  "industry_constraints": [
+    "Performance optimization for animations",
+    "Cross-platform consistency",
+    "DRM handling UI for media"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast",
+    "Slider"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "nft-web3-platform-001",
+  "industry": "nft-web3-platform",
+  "name": "NFT/Web3 Platform",
+  "description": "Wallet integration. Transaction feedback. Gas fees display. Dark mode essential.",
+  "design_principles": [
+    "Cyberpunk UI ",
+    " Glassmorphism"
+  ],
+  "forbidden_patterns": [
+    "Aurora UI",
+    "3D & Hyperrealism"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase",
+    "Crypto/Blockchain Dashboard"
+  ],
+  "color_mood": "Dark + Neon + Gold (#FFD700)",
+  "use_cases": [
+    "nft",
+    "platform",
+    "web"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

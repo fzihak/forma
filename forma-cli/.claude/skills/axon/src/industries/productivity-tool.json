@@ -1,0 +1,43 @@
+{
+  "id": "productivity-tool-001",
+  "industry": "productivity-tool",
+  "name": "Productivity Tool",
+  "description": "Ease of use. Speed & efficiency focus.",
+  "design_principles": [
+    "Flat Design ",
+    " Micro-interactions"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Soft UI Evolution"
+  ],
+  "required_patterns": [
+    "Interactive Product Demo",
+    "Drill-Down Analytics"
+  ],
+  "color_mood": "Clear hierarchy + functional colors",
+  "use_cases": [
+    "collaboration",
+    "productivity",
+    "project",
+    "task",
+    "tool",
+    "workflow"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

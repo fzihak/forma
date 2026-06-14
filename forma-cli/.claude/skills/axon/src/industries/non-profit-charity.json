@@ -1,0 +1,27 @@
+{
+  "name": "Nonprofit & Charity",
+  "description": "Emotionally driven platforms focused on storytelling and frictionless donations.",
+  "psychology_triggers": [
+    "Reciprocity",
+    "Social Proof",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "Payment gateway flexibility",
+    "Tax receipt generation UI"
+  ],
+  "forbidden_patterns": [
+    "Guilt-tripping dark patterns",
+    "Complicated donation flows"
+  ],
+  "required_patterns": [
+    "Impact storytelling visuals",
+    "One-click donation options",
+    "Progress towards goal meters"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Button (Donate)",
+    "Card"
+  ]
+}

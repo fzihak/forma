@@ -1,0 +1,45 @@
+{
+  "id": "booking-appointment-app-001",
+  "industry": "booking-appointment-app",
+  "name": "Booking & Appointment App",
+  "description": "Calendar strip or month picker. Available time-slot grid. Service + staff selector. Confirmation summary. Reminder push. Reschedule/cancel flow. Two-sided (provider \u2194 client).",
+  "design_principles": [
+    "Soft UI Evolution ",
+    " Flat Design"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Micro-interactions"
+  ],
+  "required_patterns": [
+    "Conversion-Optimized",
+    "Drill-Down Analytics"
+  ],
+  "color_mood": "Trust blue + available green + booked grey + confirm accent",
+  "use_cases": [
+    "booking",
+    "appointment",
+    "schedule",
+    "calendar",
+    "reservation",
+    "slot",
+    "service"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Zeigarnik Effect",
+    "Reciprocity",
+    "Social Proof"
+  ],
+  "industry_constraints": [
+    "COPPA compliance (if kids)",
+    "Accessibility for varied learning abilities",
+    "Offline mode support for study materials"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Accordion",
+    "Tabs",
+    "Badge"
+  ]
+}

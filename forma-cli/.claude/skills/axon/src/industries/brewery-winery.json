@@ -1,0 +1,39 @@
+{
+  "id": "brewery-winery-001",
+  "industry": "brewery-winery",
+  "name": "Brewery/Winery",
+  "description": "Product showcase. Story/heritage. Tasting notes. Events. Club membership. Artisanal imagery.",
+  "design_principles": [
+    "Motion-Driven ",
+    " Storytelling-Driven"
+  ],
+  "forbidden_patterns": [
+    "Dark Mode (OLED)",
+    "Organic Biophilic"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven + Hero-Centric",
+    "N/A - E-commerce focused"
+  ],
+  "color_mood": "Deep amber/burgundy + Gold + Craft aesthetic",
+  "use_cases": [
+    "brewery",
+    "winery"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

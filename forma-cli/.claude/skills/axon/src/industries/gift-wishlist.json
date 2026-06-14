@@ -1,0 +1,49 @@
+{
+  "id": "gift-wishlist-001",
+  "industry": "gift-wishlist",
+  "name": "Gift & Wishlist",
+  "description": "Add from any URL. Price range filter. Reserved-by-others system. Occasion calendar. Collaborative list. Surprise mode.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Soft UI Evolution"
+  ],
+  "forbidden_patterns": [
+    "Claymorphism",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Minimal & Direct + Conversion",
+    "N/A - List focused"
+  ],
+  "color_mood": "Celebration warm pink/gold/red + category colors + surprise accent",
+  "use_cases": [
+    "gift",
+    "wishlist",
+    "present",
+    "birthday",
+    "occasion",
+    "registry",
+    "idea",
+    "shop",
+    "list",
+    "share",
+    "surprise"
+  ],
+  "psychology_triggers": [
+    "Scarcity",
+    "Social Proof",
+    "Anchoring",
+    "Zeigarnik Effect"
+  ],
+  "industry_constraints": [
+    "Performance/Load time critical (<2s)",
+    "Mobile-first indexability",
+    "Seamless payment gateway integration"
+  ],
+  "core_components": [
+    "Button",
+    "Slider",
+    "Badge",
+    "Breadcrumb"
+  ]
+}

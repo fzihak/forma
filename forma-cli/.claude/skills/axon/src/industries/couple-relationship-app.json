@@ -1,0 +1,47 @@
+{
+  "id": "couple-relationship-app-001",
+  "industry": "couple-relationship-app",
+  "name": "Couple & Relationship App",
+  "description": "Shared timeline. Anniversary countdowns. Secret chat. Photo albums. Love language quiz. Date night ideas.",
+  "design_principles": [
+    "Aurora UI ",
+    " Soft UI Evolution"
+  ],
+  "forbidden_patterns": [
+    "Claymorphism",
+    "Glassmorphism"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven + Social Proof",
+    "N/A - Couple focused"
+  ],
+  "color_mood": "Warm romantic pink/rose + soft gradient + memory photo tones",
+  "use_cases": [
+    "couple",
+    "relationship",
+    "partner",
+    "love",
+    "date",
+    "anniversary",
+    "memory",
+    "shared",
+    "intimate",
+    "between"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

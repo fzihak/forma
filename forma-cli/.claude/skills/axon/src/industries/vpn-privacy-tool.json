@@ -1,0 +1,48 @@
+{
+  "id": "vpn-privacy-tool-001",
+  "industry": "vpn-privacy-tool",
+  "name": "VPN & Privacy Tool",
+  "description": "One-tap connect. Server selection by country. No-log policy prominent. Speed indicator. Kill switch. Protocol choice.",
+  "design_principles": [
+    "Minimalism ",
+    " Dark Mode (OLED)"
+  ],
+  "forbidden_patterns": [
+    "Cyberpunk UI",
+    "Trust & Authority"
+  ],
+  "required_patterns": [
+    "Trust & Authority + Conversion-Optimized",
+    "N/A - Connection focused"
+  ],
+  "color_mood": "Dark shield blue + connected green + disconnected red + trust accent",
+  "use_cases": [
+    "vpn",
+    "privacy",
+    "secure",
+    "anonymous",
+    "encrypt",
+    "proxy",
+    "ip",
+    "protect",
+    "shield",
+    "network",
+    "nordvpn"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

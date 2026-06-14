@@ -1,0 +1,40 @@
+{
+  "id": "newsletter-platform-001",
+  "industry": "newsletter-platform",
+  "name": "Newsletter Platform",
+  "description": "Subscribe form. Archive. About. Social proof. Sample content. Simple conversion.",
+  "design_principles": [
+    "Minimalism ",
+    " Flat Design"
+  ],
+  "forbidden_patterns": [
+    "Swiss Modernism 2.0",
+    "Accessible & Ethical"
+  ],
+  "required_patterns": [
+    "Minimal & Direct + Conversion",
+    "Email Analytics"
+  ],
+  "color_mood": "Brand primary + Clean white + CTA accent",
+  "use_cases": [
+    "newsletter",
+    "platform"
+  ],
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Endowed Progress Effect",
+    "Loss Aversion",
+    "Halo Effect"
+  ],
+  "industry_constraints": [
+    "Performance optimization for animations",
+    "Cross-platform consistency",
+    "DRM handling UI for media"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast",
+    "Slider"
+  ]
+}

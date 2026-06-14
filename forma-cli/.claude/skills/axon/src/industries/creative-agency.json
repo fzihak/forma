@@ -1,0 +1,42 @@
+{
+  "id": "creative-agency-001",
+  "industry": "creative-agency",
+  "name": "Creative Agency",
+  "description": "Differentiation key. Wow-factor necessary.",
+  "design_principles": [
+    "Brutalism ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Retro-Futurism",
+    "Storytelling-Driven"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven",
+    "N/A - Portfolio focused"
+  ],
+  "color_mood": "Bold primaries + artistic freedom",
+  "use_cases": [
+    "agency",
+    "creative",
+    "design",
+    "marketing",
+    "studio"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ev-charging-ecosystem-001",
+  "industry": "ev-charging-ecosystem",
+  "name": "EV/Charging Ecosystem",
+  "description": "Charging station maps. Range estimation. Cost calculation. Environmental impact.",
+  "design_principles": [
+    "Minimalism ",
+    " Aurora UI"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "Organic Biophilic"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design",
+    "Energy/Utilities Dashboard"
+  ],
+  "color_mood": "Electric Blue (#009CD1) + Green",
+  "use_cases": [
+    "charging",
+    "ecosystem",
+    "ev"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

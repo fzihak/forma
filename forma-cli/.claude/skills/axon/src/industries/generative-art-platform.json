@@ -1,0 +1,44 @@
+{
+  "id": "generative-art-platform-001",
+  "industry": "generative-art-platform",
+  "name": "Generative Art Platform",
+  "description": "Content is king. Fast loading. Creator attribution. Minting flow.",
+  "design_principles": [
+    "Minimalism (Frame) ",
+    " Gen Z Chaos"
+  ],
+  "forbidden_patterns": [
+    "Masonry Grid",
+    "Dark Mode"
+  ],
+  "required_patterns": [
+    "Bento Grid Showcase",
+    "Gallery / Portfolio"
+  ],
+  "color_mood": "Neutral #F5F5F5 (Canvas) + User Content",
+  "use_cases": [
+    "art",
+    "generative",
+    "ai",
+    "creative",
+    "platform",
+    "gallery"
+  ],
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Endowed Progress Effect",
+    "Loss Aversion",
+    "Halo Effect"
+  ],
+  "industry_constraints": [
+    "Performance optimization for animations",
+    "Cross-platform consistency",
+    "DRM handling UI for media"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast",
+    "Slider"
+  ]
+}

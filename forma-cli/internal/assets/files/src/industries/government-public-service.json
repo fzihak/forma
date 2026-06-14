@@ -1,0 +1,75 @@
+{
+  "name": "Government & Public Sector",
+  "description": "Utilitarian services requiring absolute accessibility, clarity, and trust.",
+  "psychology_triggers": [
+    {
+      "name": "Authority",
+      "implementation_mandate": "Enforce Authority prominently in the main user flow.",
+      "anti_pattern": "Ignoring Authority leads to high drop-off rates in this specific industry."
+    },
+    {
+      "name": "Cognitive Ease",
+      "implementation_mandate": "Enforce Cognitive Ease prominently in the main user flow.",
+      "anti_pattern": "Ignoring Cognitive Ease leads to high drop-off rates in this specific industry."
+    }
+  ],
+  "industry_constraints": [
+    {
+      "constraint": "WCAG AAA strict compliance",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "Multi-lingual support",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "Legacy browser support",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    }
+  ],
+  "forbidden_patterns": [
+    {
+      "pattern": "Trendy but unusable UI patterns",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    },
+    {
+      "pattern": "Hidden information",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    },
+    {
+      "pattern": "Complex jargon without explanation",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    }
+  ],
+  "required_patterns": [
+    {
+      "pattern": "High-contrast modes",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    },
+    {
+      "pattern": "Clear breadcrumbs",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    },
+    {
+      "pattern": "Printable formats",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    }
+  ],
+  "core_components": [
+    "Breadcrumb",
+    "Form",
+    "Table"
+  ],
+  "a11y_overrides": {
+    "contrast_minimum": "4.5:1 (AA)",
+    "focus_ring_offset": "4px",
+    "touch_target_minimum": "44px"
+  },
+  "cognitive_load_thresholds": {
+    "max_choices_per_view": 7,
+    "max_steps_per_form": 3
+  }
+}

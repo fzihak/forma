@@ -1,0 +1,44 @@
+{
+  "id": "marketplace-p2p-001",
+  "industry": "marketplace-p2p",
+  "name": "Marketplace (P2P)",
+  "description": "Seller/buyer profiles. Listings. Reviews/ratings. Secure payment. Messaging. Search/filter. Trust badges.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Flat Design"
+  ],
+  "forbidden_patterns": [
+    "Micro-interactions",
+    "Trust & Authority"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Social Proof",
+    "E-commerce Analytics"
+  ],
+  "color_mood": "Trust colors + Category colors + Success green",
+  "use_cases": [
+    "buyers",
+    "listings",
+    "marketplace",
+    "p",
+    "platform",
+    "sellers"
+  ],
+  "psychology_triggers": [
+    "Scarcity",
+    "Social Proof",
+    "Anchoring",
+    "Zeigarnik Effect"
+  ],
+  "industry_constraints": [
+    "Performance/Load time critical (<2s)",
+    "Mobile-first indexability",
+    "Seamless payment gateway integration"
+  ],
+  "core_components": [
+    "Button",
+    "Slider",
+    "Badge",
+    "Breadcrumb"
+  ]
+}

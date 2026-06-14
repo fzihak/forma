@@ -1,0 +1,44 @@
+{
+  "id": "wedding-event-planning-001",
+  "industry": "wedding-event-planning",
+  "name": "Wedding/Event Planning",
+  "description": "Portfolio gallery. Vendor directory. Planning tools. Timeline. Budget tracker. Romantic aesthetic.",
+  "design_principles": [
+    "Soft UI Evolution ",
+    " Aurora UI"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "Motion-Driven"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven + Social Proof",
+    "N/A - Planning focused"
+  ],
+  "color_mood": "Soft Pink (#FFD6E0) + Gold + Cream + Sage",
+  "use_cases": [
+    "conference",
+    "event",
+    "meetup",
+    "planning",
+    "registration",
+    "ticket",
+    "wedding"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

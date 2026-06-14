@@ -1,0 +1,50 @@
+{
+  "id": "photo-editor-filters-001",
+  "industry": "photo-editor-filters",
+  "name": "Photo Editor & Filters",
+  "description": "Non-destructive editing. Filter preview carousel. Histogram. RAW support. Batch export. Social share direct.",
+  "design_principles": [
+    "Minimalism ",
+    " Dark Mode (OLED)"
+  ],
+  "forbidden_patterns": [
+    "Motion-Driven",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Interactive Demo",
+    "N/A - Editor focused"
+  ],
+  "color_mood": "Dark editor background + vibrant filter preview strip + tool icon accent",
+  "use_cases": [
+    "photo",
+    "edit",
+    "filter",
+    "vsco",
+    "snapseed",
+    "enhance",
+    "crop",
+    "retouch",
+    "adjust",
+    "luts",
+    "preset",
+    "adjust"
+  ],
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Endowed Progress Effect",
+    "Loss Aversion",
+    "Halo Effect"
+  ],
+  "industry_constraints": [
+    "Performance optimization for animations",
+    "Cross-platform consistency",
+    "DRM handling UI for media"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast",
+    "Slider"
+  ]
+}

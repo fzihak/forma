@@ -1,0 +1,48 @@
+{
+  "id": "trivia-quiz-game-001",
+  "industry": "trivia-quiz-game",
+  "name": "Trivia & Quiz Game",
+  "description": "Timer pressure UX. Category selection. Streak system. Real-time multiplayer. Daily quiz mode.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Micro-interactions"
+  ],
+  "forbidden_patterns": [
+    "Claymorphism",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Social Proof",
+    "Leaderboard Analytics"
+  ],
+  "color_mood": "Energetic blue + correct green + incorrect red + leaderboard gold",
+  "use_cases": [
+    "trivia",
+    "quiz",
+    "knowledge",
+    "question",
+    "answer",
+    "challenge",
+    "leaderboard",
+    "fact",
+    "brain",
+    "compete"
+  ],
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Endowed Progress Effect",
+    "Loss Aversion",
+    "Halo Effect"
+  ],
+  "industry_constraints": [
+    "Performance optimization for animations",
+    "Cross-platform consistency",
+    "DRM handling UI for media"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast",
+    "Slider"
+  ]
+}

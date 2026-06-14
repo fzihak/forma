@@ -1,0 +1,29 @@
+{
+  "name": "E-Commerce",
+  "description": "Conversion-optimized shopping platforms balancing product discovery with frictionless checkout.",
+  "psychology_triggers": [
+    "Scarcity",
+    "Social Proof",
+    "Anchoring",
+    "Zeigarnik Effect"
+  ],
+  "industry_constraints": [
+    "Performance/Load time critical (<2s)",
+    "Mobile-first indexability"
+  ],
+  "forbidden_patterns": [
+    "Multi-column forms on mobile",
+    "Hidden shipping costs",
+    "Mandatory account creation before checkout"
+  ],
+  "required_patterns": [
+    "Sticky 'Add to Cart' bar on mobile",
+    "Guest checkout",
+    "Prominent trust badges"
+  ],
+  "core_components": [
+    "Button",
+    "Slider",
+    "Badge"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "dental-practice-001",
+  "industry": "dental-practice",
+  "name": "Dental Practice",
+  "description": "Services. Dentist profiles. Before/after. Online booking. Insurance. Patient testimonials. Friendly imagery.",
+  "design_principles": [
+    "Soft UI Evolution ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Accessible & Ethical",
+    "Trust & Authority"
+  ],
+  "required_patterns": [
+    "Social Proof-Focused + Conversion",
+    "Patient Analytics"
+  ],
+  "color_mood": "Fresh Blue + White + Smile Yellow accent",
+  "use_cases": [
+    "dental",
+    "practice"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support mandatory",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form",
+    "Progress Bar"
+  ]
+}

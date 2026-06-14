@@ -1,0 +1,50 @@
+{
+  "id": "music-instrument-learning-001",
+  "industry": "music-instrument-learning",
+  "name": "Music Instrument Learning",
+  "description": "Interactive instrument on-screen. Sheet music display. Song library. Slow-tempo practice. Recording and playback. Teacher mode.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Dark Mode (OLED)",
+    "Soft UI Evolution"
+  ],
+  "required_patterns": [
+    "Interactive Product Demo + Social Proof",
+    "Learning Analytics"
+  ],
+  "color_mood": "Musical warm deep red/brown + note color system + skill progress bar",
+  "use_cases": [
+    "music",
+    "instrument",
+    "piano",
+    "guitar",
+    "learn",
+    "lesson",
+    "tutorial",
+    "notes",
+    "play",
+    "chord",
+    "practice",
+    "simply"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Zeigarnik Effect",
+    "Reciprocity",
+    "Social Proof"
+  ],
+  "industry_constraints": [
+    "COPPA compliance (if kids)",
+    "Accessibility for varied learning abilities",
+    "Offline mode support for study materials"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Accordion",
+    "Tabs",
+    "Badge"
+  ]
+}

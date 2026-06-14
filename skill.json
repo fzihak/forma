@@ -1,0 +1,41 @@
+{
+  "name": "forma",
+  "displayName": "Forma",
+  "description": "The AI skill that reasons before it designs. A Design Intelligence Framework with multi-agent reasoning, industry constraints, psychology triggers, and W3C design token output.",
+  "version": "1.0.0",
+  "author": "fzihak",
+  "license": "MIT",
+  "homepage": "https://github.com/fzihak/forma",
+  "repository": "https://github.com/fzihak/forma",
+  "keywords": [
+    "design-intelligence",
+    "design-system",
+    "ui",
+    "ux",
+    "accessibility",
+    "design-tokens",
+    "multi-agent",
+    "ai-skill"
+  ],
+  "platforms": [
+    "claude",
+    "cursor",
+    "windsurf",
+    "copilot",
+    "kiro",
+    "roocode",
+    "kilocode",
+    "codex",
+    "qoder",
+    "gemini",
+    "trae",
+    "opencode",
+    "continue",
+    "codebuddy",
+    "droid",
+    "warp",
+    "augment",
+    "antigravity"
+  ],
+  "install": "forma init --ai {{platform}}"
+}

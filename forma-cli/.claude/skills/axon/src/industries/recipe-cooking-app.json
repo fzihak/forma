@@ -1,0 +1,45 @@
+{
+  "id": "recipe-cooking-app-001",
+  "industry": "recipe-cooking-app",
+  "name": "Recipe & Cooking App",
+  "description": "Step-by-step with checkable instructions. Ingredient list with serving adjuster. Built-in timer per step. Cooking mode (screen-awake + large text). Save/bookmark. Share.",
+  "design_principles": [
+    "Claymorphism ",
+    " Vibrant & Block-based"
+  ],
+  "forbidden_patterns": [
+    "Soft UI Evolution",
+    "Organic Biophilic"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design + Feature-Rich",
+    "N/A - Content focused"
+  ],
+  "color_mood": "Warm food tones (terracotta/sage/cream) + appetizing imagery",
+  "use_cases": [
+    "recipe",
+    "cooking",
+    "food",
+    "kitchen",
+    "cookbook",
+    "meal",
+    "ingredient",
+    "chef"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

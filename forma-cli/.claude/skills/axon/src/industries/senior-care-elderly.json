@@ -1,0 +1,40 @@
+{
+  "id": "senior-care-elderly-001",
+  "industry": "senior-care-elderly",
+  "name": "Senior Care/Elderly",
+  "description": "Care services. Staff qualifications. Facility tour. Family portal. Large touch targets. High contrast. Accessibility-first.",
+  "design_principles": [
+    "Accessible & Ethical ",
+    " Soft UI Evolution"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Neumorphism"
+  ],
+  "required_patterns": [
+    "Trust & Authority + Social Proof",
+    "Healthcare Analytics"
+  ],
+  "color_mood": "Calm Blue + Warm neutrals + Large text",
+  "use_cases": [
+    "care",
+    "elderly",
+    "senior"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

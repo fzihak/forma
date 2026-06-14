@@ -1,0 +1,48 @@
+{
+  "id": "email-client-001",
+  "industry": "email-client",
+  "name": "Email Client",
+  "description": "Unified inbox. Swipe actions (archive/delete/snooze). Priority sorting. Smart reply. Unsubscribe tool.",
+  "design_principles": [
+    "Flat Design ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Micro-interactions",
+    "Soft UI Evolution"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Demo",
+    "N/A - Inbox focused"
+  ],
+  "color_mood": "Clean white + brand primary + priority red + snooze amber",
+  "use_cases": [
+    "email",
+    "mail",
+    "inbox",
+    "compose",
+    "thread",
+    "newsletter",
+    "filter",
+    "reply",
+    "gmail",
+    "spark",
+    "superhuman"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

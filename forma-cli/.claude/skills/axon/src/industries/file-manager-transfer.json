@@ -1,0 +1,47 @@
+{
+  "id": "file-manager-transfer-001",
+  "industry": "file-manager-transfer",
+  "name": "File Manager & Transfer",
+  "description": "Folder tree navigation. File type preview. Wireless P2P transfer. Cloud integration. Compress and extract.",
+  "design_principles": [
+    "Flat Design ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Accessible & Ethical",
+    "Dark Mode (OLED)"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Demo",
+    "N/A - File tree focused"
+  ],
+  "color_mood": "Functional neutral + file type color coding (PDF orange, doc blue, image purple)",
+  "use_cases": [
+    "file",
+    "manager",
+    "transfer",
+    "folder",
+    "document",
+    "storage",
+    "cloud",
+    "share",
+    "organize",
+    "compress"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

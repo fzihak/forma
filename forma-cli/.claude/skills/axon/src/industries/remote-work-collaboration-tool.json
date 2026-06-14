@@ -1,0 +1,41 @@
+{
+  "id": "remote-work-collaboration-tool-001",
+  "industry": "remote-work-collaboration-tool",
+  "name": "Remote Work/Collaboration Tool",
+  "description": "Real-time collaboration. Status indicators. Video integration. Notification management.",
+  "design_principles": [
+    "Soft UI Evolution ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "Micro-interactions"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase",
+    "Drill-Down Analytics"
+  ],
+  "color_mood": "Calm Blue + Neutral grey",
+  "use_cases": [
+    "collaboration",
+    "remote",
+    "tool",
+    "work"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

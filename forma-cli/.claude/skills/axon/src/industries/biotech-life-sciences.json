@@ -1,0 +1,41 @@
+{
+  "id": "biotech-life-sciences-001",
+  "industry": "biotech-life-sciences",
+  "name": "Biotech / Life Sciences",
+  "description": "Data accuracy. Cleanliness. Complex data viz.",
+  "design_principles": [
+    "Glassmorphism ",
+    " Clean Science"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Organic Biophilic"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven + Research",
+    "Data-Dense + Predictive"
+  ],
+  "color_mood": "Sterile White + DNA Blue + Life Green",
+  "use_cases": [
+    "biotech",
+    "biology",
+    "science"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support mandatory",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form",
+    "Progress Bar"
+  ]
+}

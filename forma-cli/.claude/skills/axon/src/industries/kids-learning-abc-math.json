@@ -1,0 +1,49 @@
+{
+  "id": "kids-learning-abc-math-001",
+  "industry": "kids-learning-abc-math",
+  "name": "Kids Learning (ABC & Math)",
+  "description": "Age-appropriate UI for 2-8. No ads. No dark patterns. Curriculum aligned. Parent progress reports. Reward system.",
+  "design_principles": [
+    "Claymorphism ",
+    " Vibrant & Block-based"
+  ],
+  "forbidden_patterns": [
+    "Micro-interactions",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Social Proof-Focused + Trust",
+    "Parent Dashboard"
+  ],
+  "color_mood": "Bright primary + child-safe pastels + reward gold + interactive accent",
+  "use_cases": [
+    "kids",
+    "children",
+    "learning",
+    "abc",
+    "math",
+    "phonics",
+    "numbers",
+    "education",
+    "games",
+    "preschool",
+    "early"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Zeigarnik Effect",
+    "Reciprocity",
+    "Social Proof"
+  ],
+  "industry_constraints": [
+    "COPPA compliance (if kids)",
+    "Accessibility for varied learning abilities",
+    "Offline mode support for study materials"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Accordion",
+    "Tabs",
+    "Badge"
+  ]
+}

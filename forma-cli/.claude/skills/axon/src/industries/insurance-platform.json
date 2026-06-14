@@ -1,0 +1,27 @@
+{
+  "name": "Insurance",
+  "description": "Risk management platforms needing to simplify complex policies and build immense trust.",
+  "psychology_triggers": [
+    "Loss Aversion",
+    "Authority",
+    "Cognitive Ease"
+  ],
+  "industry_constraints": [
+    "Regulatory compliance",
+    "Complex conditional logic forms"
+  ],
+  "forbidden_patterns": [
+    "Overwhelming single-page forms",
+    "Deceptive coverage phrasing"
+  ],
+  "required_patterns": [
+    "Multi-step wizards",
+    "Clear coverage comparison tables",
+    "Human-centric imagery"
+  ],
+  "core_components": [
+    "Table (Comparison)",
+    "Form Wizard",
+    "Tooltip"
+  ]
+}

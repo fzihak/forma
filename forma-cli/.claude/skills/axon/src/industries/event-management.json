@@ -1,0 +1,43 @@
+{
+  "id": "event-management-001",
+  "industry": "event-management",
+  "name": "Event Management",
+  "description": "Event showcase. Registration. Agenda. Speakers. Sponsors. Ticket sales. Countdown timer.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "Aurora UI"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design + Feature-Rich",
+    "Event Analytics"
+  ],
+  "color_mood": "Event theme colors + Excitement accents",
+  "use_cases": [
+    "conference",
+    "event",
+    "management",
+    "meetup",
+    "registration",
+    "ticket"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "plant-care-tracker-001",
+  "industry": "plant-care-tracker",
+  "name": "Plant Care Tracker",
+  "description": "Plant database with care guides. Watering reminders. Growth photo timeline. AI health diagnosis. Collection sharing.",
+  "design_principles": [
+    "Organic Biophilic ",
+    " Soft UI Evolution"
+  ],
+  "forbidden_patterns": [
+    "Claymorphism",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven + Social Proof",
+    "N/A - Plant collection focused"
+  ],
+  "color_mood": "Nature greens + earth brown + sunny yellow reminder + water blue",
+  "use_cases": [
+    "plant",
+    "care",
+    "water",
+    "garden",
+    "tracker",
+    "reminder",
+    "species",
+    "photo",
+    "grow",
+    "health",
+    "planta"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

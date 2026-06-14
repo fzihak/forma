@@ -1,0 +1,42 @@
+{
+  "id": "online-course-e-learning-001",
+  "industry": "online-course-e-learning",
+  "name": "Online Course/E-learning",
+  "description": "Course catalog. Progress tracking. Video player. Quizzes. Certificates. Community forums. Gamification.",
+  "design_principles": [
+    "Claymorphism ",
+    " Vibrant & Block-based"
+  ],
+  "forbidden_patterns": [
+    "Motion-Driven",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Social Proof",
+    "Education Dashboard"
+  ],
+  "color_mood": "Vibrant learning colors + Progress green",
+  "use_cases": [
+    "course",
+    "e",
+    "learning",
+    "online"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Zeigarnik Effect",
+    "Reciprocity",
+    "Social Proof"
+  ],
+  "industry_constraints": [
+    "COPPA compliance (if kids)",
+    "Accessibility for varied learning abilities",
+    "Offline mode support for study materials"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Accordion",
+    "Tabs",
+    "Badge"
+  ]
+}

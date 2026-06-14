@@ -1,0 +1,47 @@
+{
+  "id": "restaurant-food-service-001",
+  "industry": "restaurant-food-service",
+  "name": "Restaurant/Food Service",
+  "description": "Menu display. Online ordering. Reservation system. Food photography. Location/hours prominent.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Claymorphism",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design + Conversion",
+    "N/A - Booking focused"
+  ],
+  "color_mood": "Warm colors (Orange Red Brown) + appetizing imagery",
+  "use_cases": [
+    "appointment",
+    "booking",
+    "consultation",
+    "delivery",
+    "food",
+    "menu",
+    "order",
+    "restaurant",
+    "service"
+  ],
+  "psychology_triggers": [
+    "Scarcity",
+    "Social Proof",
+    "Anchoring"
+  ],
+  "industry_constraints": [
+    "Timezone handling",
+    "Complex date-picker architectures",
+    "Multi-currency support",
+    "Offline map caching"
+  ],
+  "core_components": [
+    "Input (Date)",
+    "Card",
+    "Select",
+    "Breadcrumb"
+  ]
+}

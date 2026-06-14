@@ -1,0 +1,45 @@
+{
+  "id": "notes-writing-app-001",
+  "industry": "notes-writing-app",
+  "name": "Notes & Writing App",
+  "description": "WYSIWYG or Markdown toggle. Folder/tag organization. Full-text search. Cloud sync. Typography-first. Distraction-free zen mode. Slash-command palette.",
+  "design_principles": [
+    "Minimalism ",
+    " Flat Design"
+  ],
+  "forbidden_patterns": [
+    "Swiss Modernism 2.0",
+    "Soft UI Evolution"
+  ],
+  "required_patterns": [
+    "Minimal & Direct",
+    "N/A - Editor focused"
+  ],
+  "color_mood": "Clean white/cream + minimal accent + editor syntax colors",
+  "use_cases": [
+    "notes",
+    "memo",
+    "writing",
+    "editor",
+    "notebook",
+    "markdown",
+    "journal",
+    "notion",
+    "obsidian"
+  ],
+  "psychology_triggers": [
+    "Cognitive Ease",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "Instant launch time (<1s)",
+    "High readability in varying light conditions",
+    "One-handed operation focus"
+  ],
+  "core_components": [
+    "Switch",
+    "Slider",
+    "Progress Bar",
+    "Button"
+  ]
+}

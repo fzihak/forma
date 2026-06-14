@@ -1,0 +1,44 @@
+{
+  "id": "hyperlocal-services-001",
+  "industry": "hyperlocal-services",
+  "name": "Hyperlocal Services",
+  "description": "Map integration. Service categories. Provider profiles. Booking system. Reviews.",
+  "design_principles": [
+    "Minimalism ",
+    " Vibrant & Block-based"
+  ],
+  "forbidden_patterns": [
+    "Micro-interactions",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Conversion-Optimized",
+    "Drill-Down Analytics + Map"
+  ],
+  "color_mood": "Location markers + Trust colors",
+  "use_cases": [
+    "appointment",
+    "booking",
+    "consultation",
+    "hyperlocal",
+    "service",
+    "services"
+  ],
+  "psychology_triggers": [
+    "Scarcity",
+    "Social Proof",
+    "Anchoring"
+  ],
+  "industry_constraints": [
+    "Timezone handling",
+    "Complex date-picker architectures",
+    "Multi-currency support",
+    "Offline map caching"
+  ],
+  "core_components": [
+    "Input (Date)",
+    "Card",
+    "Select",
+    "Breadcrumb"
+  ]
+}

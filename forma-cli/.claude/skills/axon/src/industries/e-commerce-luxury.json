@@ -1,0 +1,52 @@
+{
+  "id": "e-commerce-luxury-001",
+  "industry": "e-commerce-luxury",
+  "name": "E-commerce Luxury",
+  "description": "Elegance & sophistication. Premium materials.",
+  "design_principles": [
+    "Liquid Glass ",
+    " Glassmorphism"
+  ],
+  "forbidden_patterns": [
+    "3D & Hyperrealism",
+    "Aurora UI"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase",
+    "Sales Intelligence Dashboard"
+  ],
+  "color_mood": "Premium colors + minimal accent",
+  "use_cases": [
+    "buy",
+    "commerce",
+    "e",
+    "ecommerce",
+    "elegant",
+    "exclusive",
+    "high-end",
+    "luxury",
+    "premium",
+    "products",
+    "retail",
+    "sell",
+    "shop",
+    "store"
+  ],
+  "psychology_triggers": [
+    "Scarcity",
+    "Social Proof",
+    "Anchoring",
+    "Zeigarnik Effect"
+  ],
+  "industry_constraints": [
+    "Performance/Load time critical (<2s)",
+    "Mobile-first indexability",
+    "Seamless payment gateway integration"
+  ],
+  "core_components": [
+    "Button",
+    "Slider",
+    "Badge",
+    "Breadcrumb"
+  ]
+}

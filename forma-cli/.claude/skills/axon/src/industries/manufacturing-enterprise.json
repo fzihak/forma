@@ -1,0 +1,27 @@
+{
+  "name": "Enterprise Manufacturing",
+  "description": "Complex dashboard and ERP systems for monitoring supply chain and production.",
+  "psychology_triggers": [
+    "Cognitive Ease",
+    "Authority"
+  ],
+  "industry_constraints": [
+    "High data density",
+    "Real-time websocket updates",
+    "Tablet/Rugged device optimization"
+  ],
+  "forbidden_patterns": [
+    "Low contrast text in bright factory environments",
+    "Hidden critical alerts"
+  ],
+  "required_patterns": [
+    "Status indicator badges",
+    "Data visualization dashboards",
+    "Bulk action capabilities"
+  ],
+  "core_components": [
+    "Badge",
+    "Data Table",
+    "Chart"
+  ]
+}

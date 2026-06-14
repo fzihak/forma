@@ -1,0 +1,43 @@
+{
+  "id": "spatial-computing-os-app-001",
+  "industry": "spatial-computing-os-app",
+  "name": "Spatial Computing OS / App",
+  "description": "Gaze/Pinch interaction. Depth hierarchy. Environment awareness.",
+  "design_principles": [
+    "Spatial UI (VisionOS)"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "3D & Hyperrealism"
+  ],
+  "required_patterns": [
+    "Immersive/Interactive Experience",
+    "Spatial Dashboard"
+  ],
+  "color_mood": "Frosted Glass + System Colors + Depth",
+  "use_cases": [
+    "spatial",
+    "vr",
+    "ar",
+    "vision",
+    "os",
+    "immersive",
+    "mixed-reality"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "invoice-billing-tool-001",
+  "industry": "invoice-billing-tool",
+  "name": "Invoice & Billing Tool",
+  "description": "Invoice template with line items. Tax/discount calculation. Status badges (Draft/Sent/Paid/Overdue). PDF export + share. Payment link generation. Client address book. Recurring invoices.",
+  "design_principles": [
+    "Minimalism ",
+    " Flat Design"
+  ],
+  "forbidden_patterns": [
+    "Swiss Modernism 2.0",
+    "Accessible & Ethical"
+  ],
+  "required_patterns": [
+    "Conversion-Optimized + Trust",
+    "Financial Dashboard"
+  ],
+  "color_mood": "Professional navy + paid green + overdue red + neutral grey",
+  "use_cases": [
+    "invoice",
+    "billing",
+    "payment",
+    "receipt",
+    "freelance",
+    "estimate",
+    "quote",
+    "accounting"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Social Proof",
+    "Loss Aversion",
+    "Cognitive Ease"
+  ],
+  "industry_constraints": [
+    "Strict regulatory compliance",
+    "Zero-tolerance for calculation latency",
+    "Multi-currency/localization support"
+  ],
+  "core_components": [
+    "Data Table",
+    "Number Input",
+    "Progress Bar (Onboarding)",
+    "Tooltip"
+  ]
+}

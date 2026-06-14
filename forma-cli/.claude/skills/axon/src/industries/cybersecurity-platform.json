@@ -1,0 +1,40 @@
+{
+  "id": "cybersecurity-platform-001",
+  "industry": "cybersecurity-platform",
+  "name": "Cybersecurity Platform",
+  "description": "Data density. Threat visualization. Dark mode default.",
+  "design_principles": [
+    "Cyberpunk UI ",
+    " Dark Mode (OLED)"
+  ],
+  "forbidden_patterns": [
+    "Neubrutalism",
+    "Minimal & Direct"
+  ],
+  "required_patterns": [
+    "Trust & Authority + Real-Time",
+    "Real-Time Monitoring + Heat Map"
+  ],
+  "color_mood": "Matrix Green + Deep Black + Terminal feel",
+  "use_cases": [
+    "cyber",
+    "security",
+    "platform"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "public-transit-guide-001",
+  "industry": "public-transit-guide",
+  "name": "Public Transit Guide",
+  "description": "Real-time arrivals. Offline maps. Disruption alerts. Multi-modal routing. Fare calculation. Accessibility features.",
+  "design_principles": [
+    "Flat Design ",
+    " Accessible & Ethical"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Motion-Driven"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Interactive Demo",
+    "Real-Time Monitoring + Map"
+  ],
+  "color_mood": "Transit brand line colors + real-time indicator green/red + map neutral",
+  "use_cases": [
+    "transit",
+    "bus",
+    "metro",
+    "subway",
+    "train",
+    "route",
+    "schedule",
+    "map",
+    "city",
+    "commute",
+    "trip",
+    "citymapper"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

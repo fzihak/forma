@@ -1,0 +1,43 @@
+{
+  "id": "sustainable-energy-climate-tech-001",
+  "industry": "sustainable-energy-climate-tech",
+  "name": "Sustainable Energy / Climate Tech",
+  "description": "Data transparency. Impact visualization. Low-carbon web design.",
+  "design_principles": [
+    "Organic Biophilic ",
+    " E-Ink / Paper"
+  ],
+  "forbidden_patterns": [
+    "Data-Dense",
+    "Swiss Modernism"
+  ],
+  "required_patterns": [
+    "Interactive Demo + Data",
+    "Energy/Utilities Dashboard"
+  ],
+  "color_mood": "Earth Green + Sky Blue + Solar Yellow",
+  "use_cases": [
+    "climate",
+    "energy",
+    "sustainable",
+    "green",
+    "tech",
+    "carbon"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

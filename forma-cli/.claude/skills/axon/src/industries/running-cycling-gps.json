@@ -1,0 +1,49 @@
+{
+  "id": "running-cycling-gps-001",
+  "industry": "running-cycling-gps",
+  "name": "Running & Cycling GPS",
+  "description": "Live GPS tracking. Route map. Auto-pause detection. Segment leaderboards. Training zones. Social feed. Garmin sync.",
+  "design_principles": [
+    "Dark Mode (OLED) ",
+    " Vibrant & Block-based"
+  ],
+  "forbidden_patterns": [
+    "Motion-Driven",
+    "Glassmorphism"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Social Proof",
+    "Performance Analytics"
+  ],
+  "color_mood": "Energetic orange + map accent + pace zones (green/yellow/red)",
+  "use_cases": [
+    "running",
+    "cycling",
+    "gps",
+    "strava",
+    "track",
+    "route",
+    "speed",
+    "distance",
+    "cadence",
+    "pace",
+    "workout",
+    "sport"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

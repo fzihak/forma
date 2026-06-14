@@ -1,0 +1,46 @@
+[
+  {
+    "id": "wcag-2.2-001",
+    "name": "Target Size (Minimum)",
+    "level": "AA",
+    "description": "The size of the target for pointer inputs is at least 24 by 24 CSS pixels.",
+    "check_method": "AST_REGEX",
+    "ast_heuristics": {
+      "regex": "<(button|a|input)[^>]*class=\"[^\"]*\\b(w-[0-5]|h-[0-5])\\b[^\"]*\"",
+      "warning": "Found touch target smaller than 24x24px (Tailwind w-6/h-6)."
+    }
+  },
+  {
+    "id": "wcag-2.2-002",
+    "name": "Focus Not Obscured",
+    "level": "AA",
+    "description": "When a UI component receives keyboard focus, it is not entirely hidden by author-created content.",
+    "check_method": "AST_REGEX",
+    "ast_heuristics": {
+      "regex": "fixed.*z-\\d+.*sticky",
+      "warning": "Check fixed headers/footers to ensure they use scroll-padding to avoid obscuring focused elements."
+    }
+  },
+  {
+    "id": "wcag-2.1-001",
+    "name": "ARIA State Synchronization",
+    "level": "A",
+    "description": "Dynamic states (expanded, checked, selected) must map to ARIA attributes.",
+    "check_method": "AST_REGEX",
+    "ast_heuristics": {
+      "regex": "<button[^>]*onClick=\\{[^>]*\\}[^>]*(?!aria-expanded|aria-pressed|aria-controls)",
+      "warning": "Interactive toggle buttons must include aria-expanded or aria-pressed."
+    }
+  },
+  {
+    "id": "wcag-2.1-002",
+    "name": "Screen Reader Exclusivity",
+    "level": "AA",
+    "description": "Visual icons must be hidden from screen readers, and screen-reader-only text must be provided.",
+    "check_method": "AST_REGEX",
+    "ast_heuristics": {
+      "regex": "<svg[^>]*(?!aria-hidden=\"true\")[^>]*>",
+      "warning": "Decorative SVGs must include aria-hidden='true'."
+    }
+  }
+]

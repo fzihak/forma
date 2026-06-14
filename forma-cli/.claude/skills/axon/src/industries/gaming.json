@@ -1,0 +1,28 @@
+{
+  "name": "Gaming",
+  "description": "Highly immersive, entertaining interfaces prioritizing aesthetics, motion, and engagement.",
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Endowed Progress Effect",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Performance optimization for animations",
+    "Cross-platform consistency (Console/PC/Mobile)"
+  ],
+  "forbidden_patterns": [
+    "Boring corporate typography",
+    "Static un-animated transitions",
+    "Clunky loading screens without lore/tips"
+  ],
+  "required_patterns": [
+    "Micro-interactions",
+    "Gamified progress bars",
+    "Dark mode by default"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Logistics & Delivery",
+  "description": "Time-sensitive operational apps for tracking, dispatch, and routing.",
+  "psychology_triggers": [
+    {
+      "name": "Cognitive Ease",
+      "implementation_mandate": "Enforce Cognitive Ease prominently in the main user flow.",
+      "anti_pattern": "Ignoring Cognitive Ease leads to high drop-off rates in this specific industry."
+    },
+    {
+      "name": "Anchoring",
+      "implementation_mandate": "Enforce Anchoring prominently in the main user flow.",
+      "anti_pattern": "Ignoring Anchoring leads to high drop-off rates in this specific industry."
+    }
+  ],
+  "industry_constraints": [
+    {
+      "constraint": "Offline mode support",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "High readability in direct sunlight",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "One-handed operation on mobile",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    }
+  ],
+  "forbidden_patterns": [
+    {
+      "pattern": "Low contrast gray text",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    },
+    {
+      "pattern": "Complex nested menus",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    },
+    {
+      "pattern": "Small touch targets",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    }
+  ],
+  "required_patterns": [
+    {
+      "pattern": "Real-time map integrations",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    },
+    {
+      "pattern": "Large thumb-zone CTAs",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    },
+    {
+      "pattern": "Clear status chronologies",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    }
+  ],
+  "core_components": [
+    "Breadcrumb",
+    "Badge",
+    "Card"
+  ],
+  "a11y_overrides": {
+    "contrast_minimum": "4.5:1 (AA)",
+    "focus_ring_offset": "4px",
+    "touch_target_minimum": "44px"
+  },
+  "cognitive_load_thresholds": {
+    "max_choices_per_view": 7,
+    "max_steps_per_form": 3
+  }
+}

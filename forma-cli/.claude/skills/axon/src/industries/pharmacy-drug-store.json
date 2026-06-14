@@ -1,0 +1,41 @@
+{
+  "id": "pharmacy-drug-store-001",
+  "industry": "pharmacy-drug-store",
+  "name": "Pharmacy/Drug Store",
+  "description": "Product catalog. Prescription upload. Refill reminders. Health info. Store locator. Safety certifications.",
+  "design_principles": [
+    "Flat Design ",
+    " Accessible & Ethical"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Trust & Authority"
+  ],
+  "required_patterns": [
+    "Conversion-Optimized + Trust",
+    "Inventory Dashboard"
+  ],
+  "color_mood": "Pharmacy Green + Trust Blue + Clean White",
+  "use_cases": [
+    "drug",
+    "pharmacy",
+    "store"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support mandatory",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form",
+    "Progress Bar"
+  ]
+}

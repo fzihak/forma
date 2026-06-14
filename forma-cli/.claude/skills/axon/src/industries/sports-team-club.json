@@ -1,0 +1,40 @@
+{
+  "id": "sports-team-club-001",
+  "industry": "sports-team-club",
+  "name": "Sports Team/Club",
+  "description": "Schedule. Roster. News. Tickets. Merchandise. Fan engagement. Action imagery.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Dark Mode (OLED)",
+    "3D & Hyperrealism"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design + Feature-Rich",
+    "Performance Analytics"
+  ],
+  "color_mood": "Team colors + Energetic accents",
+  "use_cases": [
+    "club",
+    "sports",
+    "team"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

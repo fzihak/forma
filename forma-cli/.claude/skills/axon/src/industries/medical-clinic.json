@@ -1,0 +1,40 @@
+{
+  "id": "medical-clinic-001",
+  "industry": "medical-clinic",
+  "name": "Medical Clinic",
+  "description": "Services. Doctor profiles. Online booking. Patient portal. Insurance info. HIPAA compliant. Trust signals.",
+  "design_principles": [
+    "Accessible & Ethical ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Neumorphism",
+    "Trust & Authority"
+  ],
+  "required_patterns": [
+    "Trust & Authority + Conversion",
+    "Healthcare Analytics"
+  ],
+  "color_mood": "Medical Blue (#0077B6) + Trust White + Calm Green",
+  "use_cases": [
+    "clinic",
+    "medical"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support mandatory",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form",
+    "Progress Bar"
+  ]
+}

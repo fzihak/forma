@@ -1,0 +1,46 @@
+{
+  "id": "flashcard-study-tool-001",
+  "industry": "flashcard-study-tool",
+  "name": "Flashcard & Study Tool",
+  "description": "3D card flip animation. Spaced repetition algorithm. Deck browser. Session progress bar. Streak tracking. Timed quiz mode. Share/import decks. Rich text + image cards.",
+  "design_principles": [
+    "Claymorphism ",
+    " Micro-interactions"
+  ],
+  "forbidden_patterns": [
+    "Vibrant & Block-based",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Demo",
+    "Learning Analytics"
+  ],
+  "color_mood": "Playful primary + correct green + incorrect red + progress blue",
+  "use_cases": [
+    "flashcard",
+    "quiz",
+    "study",
+    "spaced-repetition",
+    "anki",
+    "learn",
+    "memory",
+    "exam"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Zeigarnik Effect",
+    "Reciprocity",
+    "Social Proof"
+  ],
+  "industry_constraints": [
+    "COPPA compliance (if kids)",
+    "Accessibility for varied learning abilities",
+    "Offline mode support for study materials"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Accordion",
+    "Tabs",
+    "Badge"
+  ]
+}

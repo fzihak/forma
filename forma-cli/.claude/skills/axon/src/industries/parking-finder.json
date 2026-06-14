@@ -1,0 +1,49 @@
+{
+  "id": "parking-finder-001",
+  "industry": "parking-finder",
+  "name": "Parking Finder",
+  "description": "Real-time availability. In-app navigation. Payment integration. Parking timer alert. Favorite spots. Street vs garage.",
+  "design_principles": [
+    "Minimalism ",
+    " Glassmorphism"
+  ],
+  "forbidden_patterns": [
+    "Flat Design",
+    "Micro-interactions"
+  ],
+  "required_patterns": [
+    "Conversion-Optimized + Feature-Rich",
+    "Real-Time Monitoring + Map"
+  ],
+  "color_mood": "Trust blue + available green + occupied red + map neutral",
+  "use_cases": [
+    "parking",
+    "spot",
+    "finder",
+    "map",
+    "pay",
+    "meter",
+    "garage",
+    "location",
+    "car",
+    "reserve",
+    "spothero"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Social Proof",
+    "Loss Aversion",
+    "Cognitive Ease"
+  ],
+  "industry_constraints": [
+    "Strict regulatory compliance",
+    "Zero-tolerance for calculation latency",
+    "Multi-currency/localization support"
+  ],
+  "core_components": [
+    "Data Table",
+    "Number Input",
+    "Progress Bar (Onboarding)",
+    "Tooltip"
+  ]
+}

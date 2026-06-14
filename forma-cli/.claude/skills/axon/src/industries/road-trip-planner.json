@@ -1,0 +1,49 @@
+{
+  "id": "road-trip-planner-001",
+  "industry": "road-trip-planner",
+  "name": "Road Trip Planner",
+  "description": "Route planning with stops. Point-of-interest discovery. Gas/food/hotel along route. Offline maps. Trip sharing.",
+  "design_principles": [
+    "Aurora UI ",
+    " Organic Biophilic"
+  ],
+  "forbidden_patterns": [
+    "Motion-Driven",
+    "Vibrant & Block-based"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven + Hero-Centric",
+    "N/A - Trip focused"
+  ],
+  "color_mood": "Adventure warm sunset orange + map teal + stop markers + road neutral",
+  "use_cases": [
+    "road",
+    "trip",
+    "drive",
+    "route",
+    "planner",
+    "travel",
+    "stop",
+    "map",
+    "adventure",
+    "scenic",
+    "car",
+    "wanderlog"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

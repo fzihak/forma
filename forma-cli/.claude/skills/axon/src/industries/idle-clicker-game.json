@@ -1,0 +1,48 @@
+{
+  "id": "idle-clicker-game-001",
+  "industry": "idle-clicker-game",
+  "name": "Idle & Clicker Game",
+  "description": "Offline progress calculation. Satisfying number animations. Upgrade tree clarity. Prestige system. Optional ads.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Claymorphism",
+    "3D & Hyperrealism"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase",
+    "N/A - Progress focused"
+  ],
+  "color_mood": "Coin gold + upgrade blue + prestige purple + progress green",
+  "use_cases": [
+    "idle",
+    "clicker",
+    "incremental",
+    "passive",
+    "cookie",
+    "adventure",
+    "progress",
+    "offline",
+    "collect",
+    "prestige"
+  ],
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Endowed Progress Effect",
+    "Loss Aversion",
+    "Halo Effect"
+  ],
+  "industry_constraints": [
+    "Performance optimization for animations",
+    "Cross-platform consistency",
+    "DRM handling UI for media"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast",
+    "Slider"
+  ]
+}

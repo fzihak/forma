@@ -1,0 +1,46 @@
+{
+  "id": "food-delivery-on-demand-001",
+  "industry": "food-delivery-on-demand",
+  "name": "Food Delivery / On-Demand",
+  "description": "Restaurant cards with ratings. Menu category horizontal scroll. Cart bottom sheet. Real-time map tracking + driver ETA. Order status stepper. Rating post-delivery.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design + Feature-Rich",
+    "Real-Time Monitoring + Map"
+  ],
+  "color_mood": "Appetizing warm (orange/red) + trust blue + map accent",
+  "use_cases": [
+    "delivery",
+    "food",
+    "order",
+    "uber-eats",
+    "doordash",
+    "takeout",
+    "on-demand",
+    "courier"
+  ],
+  "psychology_triggers": [
+    "Scarcity",
+    "Social Proof",
+    "Anchoring"
+  ],
+  "industry_constraints": [
+    "Timezone handling",
+    "Complex date-picker architectures",
+    "Multi-currency support",
+    "Offline map caching"
+  ],
+  "core_components": [
+    "Input (Date)",
+    "Card",
+    "Select",
+    "Breadcrumb"
+  ]
+}

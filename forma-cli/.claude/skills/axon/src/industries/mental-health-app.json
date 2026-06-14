@@ -1,0 +1,41 @@
+{
+  "id": "mental-health-app-001",
+  "industry": "mental-health-app",
+  "name": "Mental Health App",
+  "description": "Calming aesthetics. Privacy-first. Crisis resources. Progress tracking. Accessibility mandatory.",
+  "design_principles": [
+    "Neumorphism ",
+    " Accessible & Ethical"
+  ],
+  "forbidden_patterns": [
+    "Claymorphism",
+    "Soft UI Evolution"
+  ],
+  "required_patterns": [
+    "Social Proof-Focused",
+    "Healthcare Analytics"
+  ],
+  "color_mood": "Calm Pastels + Trust colors",
+  "use_cases": [
+    "app",
+    "health",
+    "mental"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support mandatory",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form",
+    "Progress Bar"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "drawing-sketching-canvas-001",
+  "industry": "drawing-sketching-canvas",
+  "name": "Drawing & Sketching Canvas",
+  "description": "Pressure sensitivity. Infinite canvas (pan/zoom). Layer management. Undo history. Export PNG/PSD/SVG.",
+  "design_principles": [
+    "Minimalism ",
+    " Dark Mode (OLED)"
+  ],
+  "forbidden_patterns": [
+    "Anti-Polish Raw",
+    "Motion-Driven"
+  ],
+  "required_patterns": [
+    "Interactive Product Demo + Storytelling",
+    "N/A - Canvas focused"
+  ],
+  "color_mood": "Neutral canvas + full-spectrum color picker + tool panel dark",
+  "use_cases": [
+    "drawing",
+    "sketch",
+    "procreate",
+    "canvas",
+    "paint",
+    "illustration",
+    "digital",
+    "brush",
+    "layers",
+    "art",
+    "stylus"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

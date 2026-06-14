@@ -1,0 +1,41 @@
+{
+  "id": "banking-traditional-finance-001",
+  "industry": "banking-traditional-finance",
+  "name": "Banking/Traditional Finance",
+  "description": "Security-first. Account overview. Transaction history. Mobile banking. Accessibility critical. Trust paramount.",
+  "design_principles": [
+    "Minimalism ",
+    " Accessible & Ethical"
+  ],
+  "forbidden_patterns": [
+    "Trust & Authority",
+    "Dark Mode (OLED)"
+  ],
+  "required_patterns": [
+    "Trust & Authority + Feature-Rich",
+    "Financial Dashboard"
+  ],
+  "color_mood": "Navy (#0A1628) + Trust Blue + Gold accents",
+  "use_cases": [
+    "banking",
+    "finance",
+    "traditional"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Social Proof",
+    "Loss Aversion",
+    "Cognitive Ease"
+  ],
+  "industry_constraints": [
+    "Strict regulatory compliance",
+    "Zero-tolerance for calculation latency",
+    "Multi-currency/localization support"
+  ],
+  "core_components": [
+    "Data Table",
+    "Number Input",
+    "Progress Bar (Onboarding)",
+    "Tooltip"
+  ]
+}

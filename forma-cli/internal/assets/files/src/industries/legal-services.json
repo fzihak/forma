@@ -1,0 +1,75 @@
+{
+  "name": "Legal Services",
+  "description": "Trust-centric professional services requiring secure document handling and confidentiality.",
+  "psychology_triggers": [
+    {
+      "name": "Authority",
+      "implementation_mandate": "Enforce Authority prominently in the main user flow.",
+      "anti_pattern": "Ignoring Authority leads to high drop-off rates in this specific industry."
+    },
+    {
+      "name": "Social Proof",
+      "implementation_mandate": "Enforce Social Proof prominently in the main user flow.",
+      "anti_pattern": "Ignoring Social Proof leads to high drop-off rates in this specific industry."
+    }
+  ],
+  "industry_constraints": [
+    {
+      "constraint": "Strict data privacy",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "Audit trails",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    },
+    {
+      "constraint": "Secure file handling",
+      "severity": "CRITICAL",
+      "reasoning": "Industry standard compliance and user expectation alignment."
+    }
+  ],
+  "forbidden_patterns": [
+    {
+      "pattern": "Playful branding",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    },
+    {
+      "pattern": "Unclear terms",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    },
+    {
+      "pattern": "Missing contact information",
+      "alternative": "Use established, highly-accessible atomic patterns instead."
+    }
+  ],
+  "required_patterns": [
+    {
+      "pattern": "Secure portals",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    },
+    {
+      "pattern": "Clear typography for heavy reading",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    },
+    {
+      "pattern": "Prominent consultation CTAs",
+      "context": "Must be implemented flawlessly in the primary view/onboarding."
+    }
+  ],
+  "core_components": [
+    "Data Table",
+    "Accordion",
+    "Button"
+  ],
+  "a11y_overrides": {
+    "contrast_minimum": "4.5:1 (AA)",
+    "focus_ring_offset": "4px",
+    "touch_target_minimum": "44px"
+  },
+  "cognitive_load_thresholds": {
+    "max_choices_per_view": 7,
+    "max_steps_per_form": 3
+  }
+}

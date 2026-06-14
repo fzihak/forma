@@ -1,0 +1,529 @@
+[
+  {
+    "name": "Button",
+    "anatomy": [
+      "Container",
+      "Label",
+      "Leading Icon (optional)",
+      "Trailing Icon (optional)"
+    ],
+    "variants": [
+      "Primary",
+      "Secondary",
+      "Outline",
+      "Ghost",
+      "Destructive"
+    ],
+    "interaction_states": {
+      "default": "Base styling with standard contrast.",
+      "hover": "Decrease lightness by 5-10% or apply subtle drop shadow.",
+      "active": "Scale down to 0.98 or remove drop shadow (simulate press).",
+      "focus": "Apply 2px offset focus ring matching brand primary color.",
+      "disabled": "Opacity 50%, pointer-events none, grayscale."
+    },
+    "accessibility_rules": [
+      "Minimum contrast ratio 4.5:1 for text against button background.",
+      "Touch target minimum 44x44pt on mobile.",
+      "Must use semantic <button> or role='button' with proper aria-label if icon-only."
+    ],
+    "styling_guidelines": {
+      "padding": "px-4 py-2 for base, px-6 py-3 for lg.",
+      "typography": "font-medium or font-semibold, never light.",
+      "border_radius": "Match brand geometry (rounded-md to rounded-full)."
+    }
+  },
+  {
+    "name": "Card",
+    "anatomy": [
+      "Container",
+      "Header",
+      "Media/Image",
+      "Title",
+      "Subtitle",
+      "Body",
+      "Footer/Actions"
+    ],
+    "variants": [
+      "Elevated",
+      "Outlined",
+      "Filled/Flat",
+      "Interactive"
+    ],
+    "interaction_states": {
+      "default": "Base surface color (e.g., bg-white or bg-slate-900).",
+      "hover": "If interactive, elevate shadow (e.g., shadow-md to shadow-xl) and apply subtle transform -translate-y-1.",
+      "focus": "Focus ring if the entire card is a link."
+    },
+    "accessibility_rules": [
+      "If interactive, avoid nested interactive elements (buttons inside a linked card) unless handled carefully with z-index and event propagation.",
+      "Ensure logical reading order (DOM order matches visual order)."
+    ],
+    "styling_guidelines": {
+      "padding": "p-4 or p-6 consistent across breakpoints.",
+      "border_radius": "rounded-xl or rounded-2xl. Image inside must have matching border-radius minus padding."
+    }
+  },
+  {
+    "name": "Dialog / Modal",
+    "anatomy": [
+      "Overlay/Scrim",
+      "Panel",
+      "Header (Title, Close Button)",
+      "Body",
+      "Footer (Actions)"
+    ],
+    "variants": [
+      "Alert",
+      "Form",
+      "Confirmation",
+      "Full-screen (Mobile)"
+    ],
+    "interaction_states": {
+      "enter": "Animate in (fade overlay, slide up + fade panel).",
+      "exit": "Animate out (faster than enter, e.g., 150ms)."
+    },
+    "accessibility_rules": [
+      "Focus must be trapped inside the modal while open.",
+      "Initial focus should be on the first interactive element or the modal itself.",
+      "Must be dismissible via ESC key and clicking the overlay.",
+      "Use role='dialog' and aria-modal='true'."
+    ],
+    "styling_guidelines": {
+      "scrim": "bg-black/50 backdrop-blur-sm for depth.",
+      "panel": "Max width defined (max-w-md, max-w-lg), centered in viewport.",
+      "z_index": "Ensure it sits above all other elements (z-50)."
+    }
+  },
+  {
+    "name": "Input Field",
+    "anatomy": [
+      "Label",
+      "Input Container",
+      "Prefix/Icon",
+      "Value",
+      "Suffix/Icon",
+      "Helper Text",
+      "Error Text"
+    ],
+    "variants": [
+      "Text",
+      "Email",
+      "Password",
+      "Number",
+      "Search"
+    ],
+    "interaction_states": {
+      "default": "Border subtle, background surface or transparent.",
+      "hover": "Slightly darken border.",
+      "focus": "Highlight border with brand primary, apply focus ring.",
+      "error": "Border destructive red, text red, shake animation.",
+      "disabled": "Opacity 50%, bg-muted."
+    },
+    "accessibility_rules": [
+      "Label must be explicitly tied to input via id/htmlFor.",
+      "Never use placeholder as a replacement for label.",
+      "Error messages must use aria-describedby."
+    ],
+    "styling_guidelines": {
+      "height": "Match button heights (e.g., h-10 for base).",
+      "spacing": "Gap of 4px between label, input, and helper text."
+    }
+  },
+  {
+    "name": "Data Table",
+    "anatomy": [
+      "Container",
+      "Toolbar (Search/Filter)",
+      "Header Row",
+      "Rows",
+      "Cells",
+      "Pagination Footer"
+    ],
+    "variants": [
+      "Simple",
+      "Sortable",
+      "Selectable",
+      "Expandable"
+    ],
+    "interaction_states": {
+      "row_hover": "bg-muted/50 to help eye tracking across wide screens.",
+      "sort_active": "Highlight column header and show directional arrow."
+    },
+    "accessibility_rules": [
+      "Use semantic <table>, <thead>, <tbody>, <tr>, <th>, <td>.",
+      "Include scope='col' or scope='row' on header cells."
+    ],
+    "styling_guidelines": {
+      "alignment": "Numbers right-aligned, text left-aligned, status badges centered.",
+      "density": "Provide compact (py-2) and relaxed (py-4) options."
+    }
+  },
+  {
+    "name": "Select/Dropdown",
+    "anatomy": [
+      "Standard structure for Select/Dropdown"
+    ],
+    "variants": [
+      "Default",
+      "Variant A",
+      "Variant B"
+    ],
+    "interaction_states": {
+      "default": "Standard state",
+      "focus": "Visible focus ring",
+      "disabled": "Reduced opacity"
+    },
+    "accessibility_rules": [
+      "Keyboard navigable",
+      "Screen reader supported via ARIA roles"
+    ],
+    "styling_guidelines": {
+      "spacing": "Consistent with 8pt grid"
+    }
+  },
+  {
+    "name": "Tabs",
+    "anatomy": [
+      "Standard structure for Tabs"
+    ],
+    "variants": [
+      "Default",
+      "Variant A",
+      "Variant B"
+    ],
+    "interaction_states": {
+      "default": "Standard state",
+      "focus": "Visible focus ring",
+      "disabled": "Reduced opacity"
+    },
+    "accessibility_rules": [
+      "Keyboard navigable",
+      "Screen reader supported via ARIA roles"
+    ],
+    "styling_guidelines": {
+      "spacing": "Consistent with 8pt grid"
+    }
+  },
+  {
+    "name": "Accordion",
+    "anatomy": [
+      "Standard structure for Accordion"
+    ],
+    "variants": [
+      "Default",
+      "Variant A",
+      "Variant B"
+    ],
+    "interaction_states": {
+      "default": "Standard state",
+      "focus": "Visible focus ring",
+      "disabled": "Reduced opacity"
+    },
+    "accessibility_rules": [
+      "Keyboard navigable",
+      "Screen reader supported via ARIA roles"
+    ],
+    "styling_guidelines": {
+      "spacing": "Consistent with 8pt grid"
+    }
+  },
+  {
+    "name": "Toast/Notification",
+    "anatomy": [
+      "Standard structure for Toast/Notification"
+    ],
+    "variants": [
+      "Default",
+      "Variant A",
+      "Variant B"
+    ],
+    "interaction_states": {
+      "default": "Standard state",
+      "focus": "Visible focus ring",
+      "disabled": "Reduced opacity"
+    },
+    "accessibility_rules": [
+      "Keyboard navigable",
+      "Screen reader supported via ARIA roles"
+    ],
+    "styling_guidelines": {
+      "spacing": "Consistent with 8pt grid"
+    }
+  },
+  {
+    "name": "Avatar",
+    "anatomy": [
+      "Standard structure for Avatar"
+    ],
+    "variants": [
+      "Default",
+      "Variant A",
+      "Variant B"
+    ],
+    "interaction_states": {
+      "default": "Standard state",
+      "focus": "Visible focus ring",
+      "disabled": "Reduced opacity"
+    },
+    "accessibility_rules": [
+      "Keyboard navigable",
+      "Screen reader supported via ARIA roles"
+    ],
+    "styling_guidelines": {
+      "spacing": "Consistent with 8pt grid"
+    }
+  },
+  {
+    "name": "Badge",
+    "anatomy": [
+      "Standard structure for Badge"
+    ],
+    "variants": [
+      "Default",
+      "Variant A",
+      "Variant B"
+    ],
+    "interaction_states": {
+      "default": "Standard state",
+      "focus": "Visible focus ring",
+      "disabled": "Reduced opacity"
+    },
+    "accessibility_rules": [
+      "Keyboard navigable",
+      "Screen reader supported via ARIA roles"
+    ],
+    "styling_guidelines": {
+      "spacing": "Consistent with 8pt grid"
+    }
+  },
+  {
+    "name": "Breadcrumb",
+    "anatomy": [
+      "Standard structure for Breadcrumb"
+    ],
+    "variants": [
+      "Default",
+      "Variant A",
+      "Variant B"
+    ],
+    "interaction_states": {
+      "default": "Standard state",
+      "focus": "Visible focus ring",
+      "disabled": "Reduced opacity"
+    },
+    "accessibility_rules": [
+      "Keyboard navigable",
+      "Screen reader supported via ARIA roles"
+    ],
+    "styling_guidelines": {
+      "spacing": "Consistent with 8pt grid"
+    }
+  },
+  {
+    "name": "Checkbox/Radio",
+    "anatomy": [
+      "Standard structure for Checkbox/Radio"
+    ],
+    "variants": [
+      "Default",
+      "Variant A",
+      "Variant B"
+    ],
+    "interaction_states": {
+      "default": "Standard state",
+      "focus": "Visible focus ring",
+      "disabled": "Reduced opacity"
+    },
+    "accessibility_rules": [
+      "Keyboard navigable",
+      "Screen reader supported via ARIA roles"
+    ],
+    "styling_guidelines": {
+      "spacing": "Consistent with 8pt grid"
+    }
+  },
+  {
+    "name": "Progress Bar",
+    "anatomy": [
+      "Standard structure for Progress Bar"
+    ],
+    "variants": [
+      "Default",
+      "Variant A",
+      "Variant B"
+    ],
+    "interaction_states": {
+      "default": "Standard state",
+      "focus": "Visible focus ring",
+      "disabled": "Reduced opacity"
+    },
+    "accessibility_rules": [
+      "Keyboard navigable",
+      "Screen reader supported via ARIA roles"
+    ],
+    "styling_guidelines": {
+      "spacing": "Consistent with 8pt grid"
+    }
+  },
+  {
+    "name": "Skeleton",
+    "anatomy": [
+      "Standard structure for Skeleton"
+    ],
+    "variants": [
+      "Default",
+      "Variant A",
+      "Variant B"
+    ],
+    "interaction_states": {
+      "default": "Standard state",
+      "focus": "Visible focus ring",
+      "disabled": "Reduced opacity"
+    },
+    "accessibility_rules": [
+      "Keyboard navigable",
+      "Screen reader supported via ARIA roles"
+    ],
+    "styling_guidelines": {
+      "spacing": "Consistent with 8pt grid"
+    }
+  },
+  {
+    "name": "Slider",
+    "anatomy": [
+      "Standard structure for Slider"
+    ],
+    "variants": [
+      "Default",
+      "Variant A",
+      "Variant B"
+    ],
+    "interaction_states": {
+      "default": "Standard state",
+      "focus": "Visible focus ring",
+      "disabled": "Reduced opacity"
+    },
+    "accessibility_rules": [
+      "Keyboard navigable",
+      "Screen reader supported via ARIA roles"
+    ],
+    "styling_guidelines": {
+      "spacing": "Consistent with 8pt grid"
+    }
+  },
+  {
+    "name": "Switch",
+    "anatomy": [
+      "Standard structure for Switch"
+    ],
+    "variants": [
+      "Default",
+      "Variant A",
+      "Variant B"
+    ],
+    "interaction_states": {
+      "default": "Standard state",
+      "focus": "Visible focus ring",
+      "disabled": "Reduced opacity"
+    },
+    "accessibility_rules": [
+      "Keyboard navigable",
+      "Screen reader supported via ARIA roles"
+    ],
+    "styling_guidelines": {
+      "spacing": "Consistent with 8pt grid"
+    }
+  },
+  {
+    "name": "Tooltip",
+    "anatomy": [
+      "Standard structure for Tooltip"
+    ],
+    "variants": [
+      "Default",
+      "Variant A",
+      "Variant B"
+    ],
+    "interaction_states": {
+      "default": "Standard state",
+      "focus": "Visible focus ring",
+      "disabled": "Reduced opacity"
+    },
+    "accessibility_rules": [
+      "Keyboard navigable",
+      "Screen reader supported via ARIA roles"
+    ],
+    "styling_guidelines": {
+      "spacing": "Consistent with 8pt grid"
+    }
+  },
+  {
+    "name": "Pagination",
+    "anatomy": [
+      "Standard structure for Pagination"
+    ],
+    "variants": [
+      "Default",
+      "Variant A",
+      "Variant B"
+    ],
+    "interaction_states": {
+      "default": "Standard state",
+      "focus": "Visible focus ring",
+      "disabled": "Reduced opacity"
+    },
+    "accessibility_rules": [
+      "Keyboard navigable",
+      "Screen reader supported via ARIA roles"
+    ],
+    "styling_guidelines": {
+      "spacing": "Consistent with 8pt grid"
+    }
+  },
+  {
+    "name": "Navbar",
+    "anatomy": [
+      "Standard structure for Navbar"
+    ],
+    "variants": [
+      "Default",
+      "Variant A",
+      "Variant B"
+    ],
+    "interaction_states": {
+      "default": "Standard state",
+      "focus": "Visible focus ring",
+      "disabled": "Reduced opacity"
+    },
+    "accessibility_rules": [
+      "Keyboard navigable",
+      "Screen reader supported via ARIA roles"
+    ],
+    "styling_guidelines": {
+      "spacing": "Consistent with 8pt grid"
+    }
+  },
+  {
+    "name": "Sidebar",
+    "anatomy": [
+      "Standard structure for Sidebar"
+    ],
+    "variants": [
+      "Default",
+      "Variant A",
+      "Variant B"
+    ],
+    "interaction_states": {
+      "default": "Standard state",
+      "focus": "Visible focus ring",
+      "disabled": "Reduced opacity"
+    },
+    "accessibility_rules": [
+      "Keyboard navigable",
+      "Screen reader supported via ARIA roles"
+    ],
+    "styling_guidelines": {
+      "spacing": "Consistent with 8pt grid"
+    }
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "id": "portfolio-personal-001",
+  "industry": "portfolio-personal",
+  "name": "Portfolio/Personal",
+  "description": "Showcase work. Personality shine through.",
+  "design_principles": [
+    "Motion-Driven ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Brutalism",
+    "Aurora UI"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven",
+    "N/A - Personal branding"
+  ],
+  "color_mood": "Brand primary + artistic interpretation",
+  "use_cases": [
+    "creative",
+    "personal",
+    "portfolio",
+    "projects",
+    "showcase",
+    "work"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

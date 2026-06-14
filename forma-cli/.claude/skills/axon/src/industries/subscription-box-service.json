@@ -1,0 +1,46 @@
+{
+  "id": "subscription-box-service-001",
+  "industry": "subscription-box-service",
+  "name": "Subscription Box Service",
+  "description": "Unboxing experience. Personalization quiz. Subscription management. Product reveals.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Claymorphism",
+    "Aurora UI"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase",
+    "E-commerce Analytics"
+  ],
+  "color_mood": "Brand + Excitement colors",
+  "use_cases": [
+    "appointment",
+    "booking",
+    "box",
+    "consultation",
+    "membership",
+    "plan",
+    "recurring",
+    "service",
+    "subscription"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

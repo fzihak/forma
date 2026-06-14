@@ -1,0 +1,40 @@
+{
+  "id": "creator-economy-platform-001",
+  "industry": "creator-economy-platform",
+  "name": "Creator Economy Platform",
+  "description": "Creator profiles. Monetization display. Engagement metrics. Social proof.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Bento Box Grid"
+  ],
+  "forbidden_patterns": [
+    "Motion-Driven",
+    "Aurora UI"
+  ],
+  "required_patterns": [
+    "Social Proof-Focused",
+    "User Behavior Analytics"
+  ],
+  "color_mood": "Vibrant + Brand colors",
+  "use_cases": [
+    "creator",
+    "economy",
+    "platform"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

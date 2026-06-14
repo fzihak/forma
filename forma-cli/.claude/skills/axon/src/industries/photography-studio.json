@@ -1,0 +1,40 @@
+{
+  "id": "photography-studio-001",
+  "industry": "photography-studio",
+  "name": "Photography Studio",
+  "description": "Portfolio gallery. Before/after. Service packages. Booking system. Client galleries. Full-bleed imagery.",
+  "design_principles": [
+    "Motion-Driven ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Aurora UI",
+    "Glassmorphism"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven + Hero-Centric",
+    "N/A - Portfolio focused"
+  ],
+  "color_mood": "Black + White + Minimal accent",
+  "use_cases": [
+    "photography",
+    "studio"
+  ],
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Endowed Progress Effect",
+    "Loss Aversion",
+    "Halo Effect"
+  ],
+  "industry_constraints": [
+    "Performance optimization for animations",
+    "Cross-platform consistency",
+    "DRM handling UI for media"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast",
+    "Slider"
+  ]
+}

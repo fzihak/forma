@@ -1,0 +1,39 @@
+{
+  "id": "construction-architecture-001",
+  "industry": "construction-architecture",
+  "name": "Construction/Architecture",
+  "description": "Project portfolio. 3D renders. Timeline. Material specs. Team collaboration. Blueprint aesthetic.",
+  "design_principles": [
+    "Minimalism ",
+    " 3D & Hyperrealism"
+  ],
+  "forbidden_patterns": [
+    "Brutalism",
+    "Swiss Modernism 2.0"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design + Feature-Rich",
+    "Project Management Dashboard"
+  ],
+  "color_mood": "Grey (#4A4A4A) + Orange (safety) + Blueprint Blue",
+  "use_cases": [
+    "architecture",
+    "construction"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

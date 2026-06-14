@@ -1,0 +1,50 @@
+{
+  "id": "anonymous-community-confession-001",
+  "industry": "anonymous-community-confession",
+  "name": "Anonymous Community / Confession",
+  "description": "Anonymous posting with moderation. Safety reporting. Reaction system. Trending topics. Mental health resources link.",
+  "design_principles": [
+    "Dark Mode (OLED) ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "Soft UI Evolution"
+  ],
+  "required_patterns": [
+    "Social Proof-Focused + Feature-Rich",
+    "User Behavior Analytics"
+  ],
+  "color_mood": "Dark protective + subtle gradient + upvote green + empathy warm accent",
+  "use_cases": [
+    "anonymous",
+    "community",
+    "confess",
+    "whisper",
+    "secret",
+    "vent",
+    "share",
+    "safe",
+    "private",
+    "social",
+    "yikyak"
+  ],
+  "psychology_triggers": [
+    "Social Proof",
+    "Zeigarnik Effect",
+    "Reciprocity",
+    "Fitts's Law"
+  ],
+  "industry_constraints": [
+    "Extreme performance scaling",
+    "Content moderation UI",
+    "Offline caching",
+    "Real-time websocket handling"
+  ],
+  "core_components": [
+    "Avatar",
+    "Card (Feed)",
+    "Toast",
+    "Input Field"
+  ]
+}

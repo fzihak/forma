@@ -1,0 +1,45 @@
+{
+  "id": "habit-tracker-001",
+  "industry": "habit-tracker",
+  "name": "Habit Tracker",
+  "description": "Streak calendar heatmap. Daily check-in interaction. Gamification (badges/levels/fire). Reminder push. Progress ring charts. Weekly/monthly stats. Motivational micro-copy.",
+  "design_principles": [
+    "Claymorphism ",
+    " Vibrant & Block-based"
+  ],
+  "forbidden_patterns": [
+    "Micro-interactions",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Social Proof-Focused + Demo",
+    "User Behavior Analytics"
+  ],
+  "color_mood": "Streak warm (amber/orange) + progress green + motivational accents",
+  "use_cases": [
+    "habit",
+    "streak",
+    "routine",
+    "daily",
+    "tracker",
+    "goals",
+    "consistency",
+    "discipline"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

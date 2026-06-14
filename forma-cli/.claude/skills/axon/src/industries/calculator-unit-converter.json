@@ -1,0 +1,46 @@
+{
+  "id": "calculator-unit-converter-001",
+  "industry": "calculator-unit-converter",
+  "name": "Calculator & Unit Converter",
+  "description": "Scientific mode toggle. Live currency rates. Calculation history. Widget support. Gesture input.",
+  "design_principles": [
+    "Neumorphism ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Flat Design",
+    "Dark Mode (OLED)"
+  ],
+  "required_patterns": [
+    "Minimal & Direct",
+    "N/A - Utility focused"
+  ],
+  "color_mood": "Dark functional + orange operation keys + clear button hierarchy",
+  "use_cases": [
+    "calculator",
+    "converter",
+    "unit",
+    "math",
+    "currency",
+    "measurement",
+    "scientific",
+    "formula",
+    "percentage"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

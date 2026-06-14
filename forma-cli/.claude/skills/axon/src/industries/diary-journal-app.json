@@ -1,0 +1,44 @@
+{
+  "id": "diary-journal-app-001",
+  "industry": "diary-journal-app",
+  "name": "Diary & Journal App",
+  "description": "Calendar month-view entry. Mood tag selector (emoji/color). Photo/voice attachment. Writing prompts. Privacy lock (FaceID/PIN). Search across entries. Export to PDF.",
+  "design_principles": [
+    "Soft UI Evolution ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Neumorphism",
+    "Sketch Hand-Drawn"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven",
+    "N/A - Personal focused"
+  ],
+  "color_mood": "Warm paper tones (cream/linen) + muted ink + mood-coded accents",
+  "use_cases": [
+    "diary",
+    "journal",
+    "personal",
+    "daily",
+    "reflection",
+    "mood",
+    "gratitude",
+    "writing"
+  ],
+  "psychology_triggers": [
+    "Cognitive Ease",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "Instant launch time (<1s)",
+    "High readability in varying light conditions",
+    "One-handed operation focus"
+  ],
+  "core_components": [
+    "Switch",
+    "Slider",
+    "Progress Bar",
+    "Button"
+  ]
+}

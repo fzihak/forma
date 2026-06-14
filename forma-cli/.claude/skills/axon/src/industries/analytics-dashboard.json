@@ -1,0 +1,42 @@
+{
+  "id": "analytics-dashboard-001",
+  "industry": "analytics-dashboard",
+  "name": "Analytics Dashboard",
+  "description": "Clarity > aesthetics. Color-coded data priority.",
+  "design_principles": [
+    "Data-Dense ",
+    " Heat Map & Heatmap"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Dark Mode (OLED)"
+  ],
+  "required_patterns": [
+    "N/A - Analytics focused",
+    "Drill-Down Analytics + Comparative"
+  ],
+  "color_mood": "Cool\u2192Hot gradients + neutral grey",
+  "use_cases": [
+    "admin",
+    "analytics",
+    "dashboard",
+    "data",
+    "panel"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

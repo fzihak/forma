@@ -1,0 +1,161 @@
+[
+  {
+    "id": "psy-001",
+    "name": "Social Proof",
+    "category": "Trust & Credibility",
+    "description": "The psychological phenomenon where people assume the actions of others in an attempt to reflect correct behavior for a given situation. Highly effective for B2B SaaS and E-commerce.",
+    "how_to_apply": "Integrate verified user testimonials, live activity counts ('120 people viewing'), trust badges (SOC2, GDPR), and review aggregates (stars) near primary CTAs.",
+    "anti_patterns": [
+      "Fake or overly generic reviews (e.g., 'Great app! - John')",
+      "Aggressive FOMO popups ('Someone in Ohio just bought X') which degrade brand trust.",
+      "Stock photography for user avatars."
+    ],
+    "ui_examples": [
+      "'Trusted by' logo band in Hero section",
+      "Inline star ratings on pricing cards",
+      "Testimonial carousel"
+    ]
+  },
+  {
+    "id": "psy-002",
+    "name": "Scarcity & Urgency",
+    "category": "Conversion Motivation",
+    "description": "Items appear more valuable when they are limited in availability (scarcity) or time (urgency). Triggers loss aversion.",
+    "how_to_apply": "Display stock levels ('Only 2 left at this price'), limited-time countdowns for legitimate offers, or exclusive invite-only gates.",
+    "anti_patterns": [
+      "Fake countdown timers that reset on page refresh.",
+      "False stock limits on digital goods without logical constraint.",
+      "Using red aggressively everywhere, causing sensory fatigue."
+    ],
+    "ui_examples": [
+      "Inline stock indicator on product page",
+      "Countdown banner fixed to top of viewport",
+      "Expiring discount code on checkout modal"
+    ]
+  },
+  {
+    "id": "psy-003",
+    "name": "Loss Aversion",
+    "category": "Decision Psychology",
+    "description": "The pain of losing something is psychologically twice as powerful as the pleasure of gaining the equivalent thing.",
+    "how_to_apply": "Frame value propositions around what the user saves (time, money, effort) rather than just what they gain. Offer free trials that users don't want to give up.",
+    "anti_patterns": [
+      "Dark patterns like 'Confirm shaming' (e.g., 'No thanks, I prefer paying full price').",
+      "Making cancellation intentionally difficult (Roach Motel)."
+    ],
+    "ui_examples": [
+      "'You are saving $50 today' checkout summary",
+      "Trial expiration warning with 'Keep my data' CTA"
+    ]
+  },
+  {
+    "id": "psy-004",
+    "name": "Cognitive Ease (Hick's Law)",
+    "category": "Friction Reduction",
+    "description": "The time it takes to make a decision increases with the number and complexity of choices. Simplify to reduce cognitive load.",
+    "how_to_apply": "Group related actions, use progressive disclosure (show advanced options only when needed), and establish a clear visual hierarchy with one primary CTA.",
+    "anti_patterns": [
+      "Presenting all features on a single screen without visual hierarchy.",
+      "Equal visual weight for Primary and Secondary buttons.",
+      "Jargon-heavy microcopy that requires mental translation."
+    ],
+    "ui_examples": [
+      "Progressive disclosure accordion in settings",
+      "Multi-step wizard instead of a long single form",
+      "Clear Primary/Secondary/Tertiary button styling"
+    ]
+  },
+  {
+    "id": "psy-005",
+    "name": "Anchoring Effect",
+    "category": "Pricing & Value",
+    "description": "People rely heavily on the first piece of information offered (the 'anchor') when making decisions.",
+    "how_to_apply": "Show the highest price tier first, or show the 'original price' crossed out next to the discounted price. Highlight a 'Recommended' tier to set the baseline expectation.",
+    "anti_patterns": [
+      "Anchoring with an unrealistically high, fake price.",
+      "Failing to justify the value of the anchor tier."
+    ],
+    "ui_examples": [
+      "Three-tier pricing table with 'Pro' highlighted",
+      "Strikethrough original price in cart"
+    ]
+  },
+  {
+    "id": "psy-006",
+    "name": "Zeigarnik Effect",
+    "category": "Engagement & Retention",
+    "description": "People remember uncompleted or interrupted tasks better than completed tasks. Unfinished tasks create psychological tension.",
+    "how_to_apply": "Use progress bars indicating a task is partially complete upon starting. Show 'profile completion' meters to drive data collection.",
+    "anti_patterns": [
+      "Progress bars that move backward or stall unexpectedly.",
+      "Starting a progress bar at 0% (always start at >0% to trigger the Endowed Progress Effect)."
+    ],
+    "ui_examples": [
+      "Onboarding checklist widget",
+      "Profile completeness ring chart",
+      "Multi-step checkout breadcrumbs"
+    ]
+  },
+  {
+    "id": "psy-007",
+    "name": "Endowed Progress Effect",
+    "category": "Motivation",
+    "description": "People are more motivated to complete a goal if they perceive they have already been given a head start.",
+    "how_to_apply": "When a user signs up, give them the first onboarding step automatically 'checked off' (e.g., 'Account Created'). Pre-fill forms with known data.",
+    "anti_patterns": [
+      "Making the head start feel trivial or fake.",
+      "Resetting progress without clear warning."
+    ],
+    "ui_examples": [
+      "Loyalty card with first 2 stamps pre-filled",
+      "Checkout with 'Shipping Info' automatically pulled from Apple Pay"
+    ]
+  },
+  {
+    "id": "psy-008",
+    "name": "Reciprocity",
+    "category": "Relationship Building",
+    "description": "When someone does something nice for you, you feel an urge to do something nice in return.",
+    "how_to_apply": "Provide extreme upfront value (free tools, ungated templates, deep insights) before asking for an email or payment. The 'Give, Give, Give, Ask' framework.",
+    "anti_patterns": [
+      "Gating basic functionality before demonstrating value.",
+      "Demanding contact info to read a basic blog post."
+    ],
+    "ui_examples": [
+      "Interactive ROI calculator before email capture",
+      "7-day free trial without credit card required"
+    ]
+  },
+  {
+    "id": "psy-009",
+    "name": "Authority & Halo Effect",
+    "category": "Trust & Credibility",
+    "description": "People tend to obey authority figures and transfer positive feelings about one trait (e.g., beautiful design) to the entire brand (Halo Effect).",
+    "how_to_apply": "Use high-quality, premium UI to instantly communicate competence. Feature endorsements from industry experts or recognized publications.",
+    "anti_patterns": [
+      "Appealing to irrelevant authorities.",
+      "Over-promising with authority figures while the actual product UX is broken."
+    ],
+    "ui_examples": [
+      "'Featured in TechCrunch' banner",
+      "Expert quote in hero section",
+      "Pixel-perfect, micro-animated interface signaling premium quality"
+    ]
+  },
+  {
+    "id": "psy-010",
+    "name": "Fitts's Law",
+    "category": "Interaction Ergonomics",
+    "description": "The time required to rapidly move to a target area is a function of the ratio between the distance to the target and the width of the target.",
+    "how_to_apply": "Make primary CTAs large and position them close to where the user's focus/cursor currently is. On mobile, keep primary actions in the bottom 'thumb zone'.",
+    "anti_patterns": [
+      "Tiny hit areas for important actions.",
+      "Placing the 'Next' button far away from the last input field in a form."
+    ],
+    "ui_examples": [
+      "Sticky bottom CTA bar on mobile",
+      "Large, full-width primary buttons in modals",
+      "Expanded padding around text links for larger tap target"
+    ]
+  }
+]

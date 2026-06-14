@@ -1,0 +1,49 @@
+{
+  "id": "micro-saas-001",
+  "industry": "micro-saas",
+  "name": "Micro SaaS",
+  "description": "Keep simple, show product quickly. Speed is key.",
+  "design_principles": [
+    "Flat Design ",
+    " Vibrant & Block"
+  ],
+  "forbidden_patterns": [
+    "Motion-Driven",
+    "Micro-interactions"
+  ],
+  "required_patterns": [
+    "Minimal & Direct + Demo",
+    "Executive Dashboard"
+  ],
+  "color_mood": "Vibrant primary + white space",
+  "use_cases": [
+    "app",
+    "b2b",
+    "cloud",
+    "indie",
+    "micro",
+    "micro-saas",
+    "niche",
+    "saas",
+    "small",
+    "software",
+    "solo",
+    "subscription"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

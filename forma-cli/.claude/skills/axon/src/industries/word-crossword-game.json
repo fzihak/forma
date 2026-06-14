@@ -1,0 +1,48 @@
+{
+  "id": "word-crossword-game-001",
+  "industry": "word-crossword-game",
+  "name": "Word & Crossword Game",
+  "description": "Daily challenge with shareable results. Physical keyboard feel. Difficulty levels. Dictionary hints. Streak stats.",
+  "design_principles": [
+    "Minimalism ",
+    " Flat Design"
+  ],
+  "forbidden_patterns": [
+    "Swiss Modernism 2.0",
+    "Micro-interactions"
+  ],
+  "required_patterns": [
+    "Minimal & Direct + Demo",
+    "N/A - Game focused"
+  ],
+  "color_mood": "Clean white + warm letter tiles + success green + shake red",
+  "use_cases": [
+    "word",
+    "crossword",
+    "wordle",
+    "spelling",
+    "vocabulary",
+    "letters",
+    "grid",
+    "puzzle",
+    "dictionary",
+    "daily"
+  ],
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Endowed Progress Effect",
+    "Loss Aversion",
+    "Halo Effect"
+  ],
+  "industry_constraints": [
+    "Performance optimization for animations",
+    "Cross-platform consistency",
+    "DRM handling UI for media"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast",
+    "Slider"
+  ]
+}

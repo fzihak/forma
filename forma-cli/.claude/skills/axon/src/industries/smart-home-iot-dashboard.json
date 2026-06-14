@@ -1,0 +1,45 @@
+{
+  "id": "smart-home-iot-dashboard-001",
+  "industry": "smart-home-iot-dashboard",
+  "name": "Smart Home/IoT Dashboard",
+  "description": "Device status. Real-time controls. Energy monitoring. Automation rules. Quick actions.",
+  "design_principles": [
+    "Glassmorphism ",
+    " Dark Mode (OLED)"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "AI-Native UI"
+  ],
+  "required_patterns": [
+    "Interactive Product Demo",
+    "Real-Time Monitoring"
+  ],
+  "color_mood": "Dark + Status indicator colors",
+  "use_cases": [
+    "admin",
+    "analytics",
+    "dashboard",
+    "data",
+    "home",
+    "iot",
+    "panel",
+    "smart"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "fasting-intermittent-timer-001",
+  "industry": "fasting-intermittent-timer",
+  "name": "Fasting & Intermittent Timer",
+  "description": "Protocol selector (16:8, 18:6, OMAD). Circular countdown timer. Fasting history log. Tips during fast. Electrolytes.",
+  "design_principles": [
+    "Minimalism ",
+    " Dark Mode (OLED)"
+  ],
+  "forbidden_patterns": [
+    "Neumorphism",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Social Proof",
+    "N/A - Timer focused"
+  ],
+  "color_mood": "Fasting deep blue/purple + eating window green + timeline neutral",
+  "use_cases": [
+    "fasting",
+    "intermittent",
+    "16:8",
+    "timer",
+    "fast",
+    "eating",
+    "window",
+    "keto",
+    "diet",
+    "zero",
+    "weight",
+    "protocol"
+  ],
+  "psychology_triggers": [
+    "Cognitive Ease",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "Instant launch time (<1s)",
+    "High readability in varying light conditions",
+    "One-handed operation focus"
+  ],
+  "core_components": [
+    "Switch",
+    "Slider",
+    "Progress Bar",
+    "Button"
+  ]
+}

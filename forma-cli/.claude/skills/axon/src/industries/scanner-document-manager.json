@@ -1,0 +1,46 @@
+{
+  "id": "scanner-document-manager-001",
+  "industry": "scanner-document-manager",
+  "name": "Scanner & Document Manager",
+  "description": "Camera capture with auto-edge detection. Crop/rotate/enhance. OCR text extraction overlay. PDF multi-page creation. Folder tree organization. Cloud sync. Share/export. Batch scan mode.",
+  "design_principles": [
+    "Minimalism ",
+    " Flat Design"
+  ],
+  "forbidden_patterns": [
+    "Dark Mode (OLED)",
+    "Accessible & Ethical"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Demo",
+    "N/A - Tool focused"
+  ],
+  "color_mood": "Clean white + camera viewfinder accent + file-type color coding",
+  "use_cases": [
+    "scanner",
+    "document",
+    "ocr",
+    "pdf",
+    "scan",
+    "camera",
+    "file",
+    "archive",
+    "digitize"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

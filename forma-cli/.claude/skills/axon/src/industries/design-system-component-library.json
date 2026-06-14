@@ -1,0 +1,41 @@
+{
+  "id": "design-system-component-library-001",
+  "industry": "design-system-component-library",
+  "name": "Design System/Component Library",
+  "description": "Consistency. Developer-first approach.",
+  "design_principles": [
+    "Minimalism ",
+    " Accessible & Ethical"
+  ],
+  "forbidden_patterns": [
+    "Flat Design",
+    "Zero Interface"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase",
+    "N/A - Dev focused"
+  ],
+  "color_mood": "Clear hierarchy + code-like structure",
+  "use_cases": [
+    "component",
+    "design",
+    "library",
+    "system"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

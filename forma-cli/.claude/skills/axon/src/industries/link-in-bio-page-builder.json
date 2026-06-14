@@ -1,0 +1,49 @@
+{
+  "id": "link-in-bio-page-builder-001",
+  "industry": "link-in-bio-page-builder",
+  "name": "Link-in-Bio Page Builder",
+  "description": "Drag-drop builder. Theme templates. Click analytics. Custom domain. Social icon integration. QR code export.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Bento Box Grid"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Glassmorphism"
+  ],
+  "required_patterns": [
+    "Conversion-Optimized + Social Proof",
+    "Analytics (click tracking)"
+  ],
+  "color_mood": "Brand-customizable + accent link color + clean white canvas",
+  "use_cases": [
+    "bio",
+    "link",
+    "linktree",
+    "personal",
+    "page",
+    "creator",
+    "social",
+    "portfolio",
+    "profile",
+    "landing",
+    "custom"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support mandatory",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form",
+    "Progress Bar"
+  ]
+}

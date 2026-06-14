@@ -1,0 +1,41 @@
+{
+  "id": "developer-tool-ide-001",
+  "industry": "developer-tool-ide",
+  "name": "Developer Tool / IDE",
+  "description": "Keyboard shortcuts. Syntax highlighting. Fast performance.",
+  "design_principles": [
+    "Dark Mode (OLED) ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Flat Design",
+    "Bento Box Grid"
+  ],
+  "required_patterns": [
+    "Minimal & Direct + Documentation",
+    "Real-Time Monitor + Terminal"
+  ],
+  "color_mood": "Dark syntax theme colors + Blue focus",
+  "use_cases": [
+    "dev",
+    "developer",
+    "tool",
+    "ide"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

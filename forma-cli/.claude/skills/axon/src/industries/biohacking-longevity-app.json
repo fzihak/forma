@@ -1,0 +1,43 @@
+{
+  "id": "biohacking-longevity-app-001",
+  "industry": "biohacking-longevity-app",
+  "name": "Biohacking / Longevity App",
+  "description": "Personal data privacy. Scientific credibility. Biological visualizations.",
+  "design_principles": [
+    "Biomimetic / Organic 2.0"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Dark Mode (OLED)"
+  ],
+  "required_patterns": [
+    "Data-Dense + Storytelling",
+    "Real-Time Monitor + Biological Data"
+  ],
+  "color_mood": "Cellular Pink/Red + DNA Blue + Clean White",
+  "use_cases": [
+    "biohacking",
+    "health",
+    "longevity",
+    "tracking",
+    "wellness",
+    "science"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support mandatory",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form",
+    "Progress Bar"
+  ]
+}

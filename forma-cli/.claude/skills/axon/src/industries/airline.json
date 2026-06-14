@@ -1,0 +1,44 @@
+{
+  "id": "airline-001",
+  "industry": "airline",
+  "name": "Airline",
+  "description": "Flight search. Booking. Check-in. Boarding pass. Loyalty program. Route maps. Mobile-first.",
+  "design_principles": [
+    "Minimalism ",
+    " Glassmorphism"
+  ],
+  "forbidden_patterns": [
+    "Motion-Driven",
+    "Accessible & Ethical"
+  ],
+  "required_patterns": [
+    "Conversion-Optimized + Feature-Rich",
+    "Operations Dashboard"
+  ],
+  "color_mood": "Sky Blue + Brand colors + Trust accents",
+  "use_cases": [
+    "airline",
+    "aviation",
+    "flight",
+    "travel",
+    "booking",
+    "airport",
+    "flying"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

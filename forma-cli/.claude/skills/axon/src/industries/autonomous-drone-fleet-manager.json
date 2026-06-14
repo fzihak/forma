@@ -1,0 +1,42 @@
+{
+  "id": "autonomous-drone-fleet-manager-001",
+  "industry": "autonomous-drone-fleet-manager",
+  "name": "Autonomous Drone Fleet Manager",
+  "description": "Real-time telemetry. 3D spatial awareness. Latency indicators. Safety alerts.",
+  "design_principles": [
+    "HUD / Sci-Fi FUI"
+  ],
+  "forbidden_patterns": [
+    "Real-Time Monitor",
+    "Spatial UI"
+  ],
+  "required_patterns": [
+    "Real-Time Monitor",
+    "Geographic + Real-Time"
+  ],
+  "color_mood": "Tactical Green #00FF00 + Alert Red + Map Dark",
+  "use_cases": [
+    "drone",
+    "autonomous",
+    "fleet",
+    "aerial",
+    "logistics",
+    "robotics"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

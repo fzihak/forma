@@ -1,0 +1,41 @@
+{
+  "id": "florist-plant-shop-001",
+  "industry": "florist-plant-shop",
+  "name": "Florist/Plant Shop",
+  "description": "Product catalog. Occasion categories. Delivery scheduling. Care guides. Seasonal collections. Beautiful imagery.",
+  "design_principles": [
+    "Organic Biophilic ",
+    " Vibrant & Block-based"
+  ],
+  "forbidden_patterns": [
+    "Aurora UI",
+    "Motion-Driven"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design + Conversion",
+    "E-commerce Analytics"
+  ],
+  "color_mood": "Natural Green + Floral pinks/purples + Earth tones",
+  "use_cases": [
+    "florist",
+    "plant",
+    "shop"
+  ],
+  "psychology_triggers": [
+    "Scarcity",
+    "Social Proof",
+    "Anchoring",
+    "Zeigarnik Effect"
+  ],
+  "industry_constraints": [
+    "Performance/Load time critical (<2s)",
+    "Mobile-first indexability",
+    "Seamless payment gateway integration"
+  ],
+  "core_components": [
+    "Button",
+    "Slider",
+    "Badge",
+    "Breadcrumb"
+  ]
+}

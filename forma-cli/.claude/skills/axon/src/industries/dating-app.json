@@ -1,0 +1,41 @@
+{
+  "id": "dating-app-001",
+  "industry": "dating-app",
+  "name": "Dating App",
+  "description": "Profile cards. Swipe interactions. Match animations. Safety features. Video chat.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Aurora UI",
+    "Glassmorphism"
+  ],
+  "required_patterns": [
+    "Social Proof-Focused",
+    "User Behavior Analytics"
+  ],
+  "color_mood": "Warm + Romantic (Pink/Red gradients)",
+  "use_cases": [
+    "app",
+    "dating"
+  ],
+  "psychology_triggers": [
+    "Social Proof",
+    "Zeigarnik Effect",
+    "Reciprocity",
+    "Fitts's Law"
+  ],
+  "industry_constraints": [
+    "Extreme performance scaling",
+    "Content moderation UI",
+    "Offline caching",
+    "Real-time websocket handling"
+  ],
+  "core_components": [
+    "Avatar",
+    "Card (Feed)",
+    "Toast",
+    "Input Field"
+  ]
+}

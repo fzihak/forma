@@ -1,0 +1,48 @@
+{
+  "id": "mood-tracker-001",
+  "industry": "mood-tracker",
+  "name": "Mood Tracker",
+  "description": "One-tap daily check-in. Emotion wheel selector. Mood calendar heatmap. Pattern insights. Export and share.",
+  "design_principles": [
+    "Soft UI Evolution ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Aurora UI",
+    "Neumorphism"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven + Social Proof",
+    "N/A - Mood chart focused"
+  ],
+  "color_mood": "Emotion gradient (blue sad to yellow happy) + pastel per mood + insight accent",
+  "use_cases": [
+    "mood",
+    "emotion",
+    "feeling",
+    "mental",
+    "daily",
+    "journal",
+    "wellbeing",
+    "check-in",
+    "log",
+    "track",
+    "daylio"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

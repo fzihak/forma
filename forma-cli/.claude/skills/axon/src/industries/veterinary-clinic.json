@@ -1,0 +1,40 @@
+{
+  "id": "veterinary-clinic-001",
+  "industry": "veterinary-clinic",
+  "name": "Veterinary Clinic",
+  "description": "Pet services. Vet profiles. Online booking. Pet portal. Emergency info. Friendly animal imagery.",
+  "design_principles": [
+    "Claymorphism ",
+    " Accessible & Ethical"
+  ],
+  "forbidden_patterns": [
+    "Soft UI Evolution",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Social Proof-Focused + Trust",
+    "Pet Health Dashboard"
+  ],
+  "color_mood": "Caring Blue + Pet-friendly colors + Warm accents",
+  "use_cases": [
+    "clinic",
+    "veterinary"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support mandatory",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form",
+    "Progress Bar"
+  ]
+}

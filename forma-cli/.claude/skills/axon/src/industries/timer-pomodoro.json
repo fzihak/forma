@@ -1,0 +1,44 @@
+{
+  "id": "timer-pomodoro-001",
+  "industry": "timer-pomodoro",
+  "name": "Timer & Pomodoro",
+  "description": "Large centered countdown digits. Circular progress ring. Session/break auto-switch. Session history log. Custom interval settings. Sound + haptic alerts. Focus stats chart.",
+  "design_principles": [
+    "Minimalism ",
+    " Neumorphism"
+  ],
+  "forbidden_patterns": [
+    "Dark Mode (OLED)",
+    "Micro-interactions"
+  ],
+  "required_patterns": [
+    "Minimal & Direct",
+    "N/A - Utility focused"
+  ],
+  "color_mood": "High-contrast on dark + focus red/amber + break green",
+  "use_cases": [
+    "timer",
+    "pomodoro",
+    "countdown",
+    "stopwatch",
+    "focus",
+    "clock",
+    "productivity",
+    "interval"
+  ],
+  "psychology_triggers": [
+    "Cognitive Ease",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "Instant launch time (<1s)",
+    "High readability in varying light conditions",
+    "One-handed operation focus"
+  ],
+  "core_components": [
+    "Switch",
+    "Slider",
+    "Progress Bar",
+    "Button"
+  ]
+}

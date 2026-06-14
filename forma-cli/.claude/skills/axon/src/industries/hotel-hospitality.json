@@ -1,0 +1,40 @@
+{
+  "id": "hotel-hospitality-001",
+  "industry": "hotel-hospitality",
+  "name": "Hotel/Hospitality",
+  "description": "Room booking. Amenities showcase. Location maps. Guest reviews. Seasonal pricing. Luxury imagery.",
+  "design_principles": [
+    "Liquid Glass ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "Soft UI Evolution"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design + Social Proof",
+    "Revenue Management Dashboard"
+  ],
+  "color_mood": "Warm neutrals + Gold (#D4AF37) + Brand accent",
+  "use_cases": [
+    "hospitality",
+    "hotel"
+  ],
+  "psychology_triggers": [
+    "Scarcity",
+    "Social Proof",
+    "Anchoring"
+  ],
+  "industry_constraints": [
+    "Timezone handling",
+    "Complex date-picker architectures",
+    "Multi-currency support",
+    "Offline map caching"
+  ],
+  "core_components": [
+    "Input (Date)",
+    "Card",
+    "Select",
+    "Breadcrumb"
+  ]
+}

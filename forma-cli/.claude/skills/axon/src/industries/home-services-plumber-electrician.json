@@ -1,0 +1,44 @@
+{
+  "id": "home-services-plumber-electrician-001",
+  "industry": "home-services-plumber-electrician",
+  "name": "Home Services (Plumber/Electrician)",
+  "description": "Service list. Emergency contact. Booking. Price transparency. Certifications. Local trust signals.",
+  "design_principles": [
+    "Flat Design ",
+    " Trust & Authority"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Accessible & Ethical"
+  ],
+  "required_patterns": [
+    "Conversion-Optimized + Trust",
+    "Service Analytics"
+  ],
+  "color_mood": "Trust Blue + Safety Orange + Professional grey",
+  "use_cases": [
+    "appointment",
+    "booking",
+    "consultation",
+    "electrician",
+    "home",
+    "plumber",
+    "service",
+    "services"
+  ],
+  "psychology_triggers": [
+    "Cognitive Ease",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "Instant launch time (<1s)",
+    "High readability in varying light conditions",
+    "One-handed operation focus"
+  ],
+  "core_components": [
+    "Switch",
+    "Slider",
+    "Progress Bar",
+    "Button"
+  ]
+}

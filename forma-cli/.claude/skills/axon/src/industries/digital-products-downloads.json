@@ -1,0 +1,40 @@
+{
+  "id": "digital-products-downloads-001",
+  "industry": "digital-products-downloads",
+  "name": "Digital Products/Downloads",
+  "description": "Product showcase. Preview. Pricing. Instant delivery. License management. Customer reviews.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "Bento Box Grid"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Conversion",
+    "E-commerce Analytics"
+  ],
+  "color_mood": "Product category colors + Brand + Success green",
+  "use_cases": [
+    "digital",
+    "downloads",
+    "products"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

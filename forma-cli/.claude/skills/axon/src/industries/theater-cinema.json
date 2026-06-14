@@ -1,0 +1,40 @@
+{
+  "id": "theater-cinema-001",
+  "industry": "theater-cinema",
+  "name": "Theater/Cinema",
+  "description": "Showtimes. Seat selection. Trailers. Coming soon. Membership. Dramatic imagery.",
+  "design_principles": [
+    "Dark Mode (OLED) ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Vibrant & Block-based",
+    "Glassmorphism"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design + Conversion",
+    "Booking Analytics"
+  ],
+  "color_mood": "Dark + Spotlight accents + Gold",
+  "use_cases": [
+    "cinema",
+    "theater"
+  ],
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Endowed Progress Effect",
+    "Loss Aversion",
+    "Halo Effect"
+  ],
+  "industry_constraints": [
+    "Performance optimization for animations",
+    "Cross-platform consistency",
+    "DRM handling UI for media"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast",
+    "Slider"
+  ]
+}

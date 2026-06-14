@@ -1,0 +1,27 @@
+{
+  "name": "Media & Streaming",
+  "description": "Content-delivery platforms focused on immersive viewing and discovery.",
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Social Proof"
+  ],
+  "industry_constraints": [
+    "DRM handling UI",
+    "Cross-device state sync",
+    "Bandwidth adaptive UX"
+  ],
+  "forbidden_patterns": [
+    "Cluttered interfaces obscuring content",
+    "Auto-playing sound (without mute)"
+  ],
+  "required_patterns": [
+    "Dark mode optimized",
+    "Horizontal scroll rows",
+    "Continue watching sections"
+  ],
+  "core_components": [
+    "Slider",
+    "Card (Thumbnail)",
+    "Progress Bar"
+  ]
+}

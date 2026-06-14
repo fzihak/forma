@@ -1,0 +1,39 @@
+{
+  "id": "coworking-space-001",
+  "industry": "coworking-space",
+  "name": "Coworking Space",
+  "description": "Space tour. Membership plans. Booking system. Amenities. Community events. Virtual tour.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Glassmorphism"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Motion-Driven"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design + Feature-Rich",
+    "Occupancy Dashboard"
+  ],
+  "color_mood": "Energetic colors + Wood tones + Brand accent",
+  "use_cases": [
+    "coworking",
+    "space"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

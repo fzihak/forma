@@ -1,0 +1,48 @@
+{
+  "id": "family-calendar-chores-001",
+  "industry": "family-calendar-chores",
+  "name": "Family Calendar & Chores",
+  "description": "Member color coding. Chore assignment rotation. Recurring events. Shared shopping list. Allowance tracking.",
+  "design_principles": [
+    "Flat Design ",
+    " Claymorphism"
+  ],
+  "forbidden_patterns": [
+    "Accessible & Ethical",
+    "Vibrant & Block-based"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Social Proof",
+    "N/A - Family hub focused"
+  ],
+  "color_mood": "Warm playful + member color coding + chore completion green",
+  "use_cases": [
+    "family",
+    "calendar",
+    "chores",
+    "tasks",
+    "household",
+    "shared",
+    "kids",
+    "schedule",
+    "cozi",
+    "organize",
+    "member"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

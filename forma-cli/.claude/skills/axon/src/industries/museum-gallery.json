@@ -1,0 +1,39 @@
+{
+  "id": "museum-gallery-001",
+  "industry": "museum-gallery",
+  "name": "Museum/Gallery",
+  "description": "Exhibitions. Collections. Tickets. Events. Virtual tours. Educational content. Art-focused design.",
+  "design_principles": [
+    "Minimalism ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Swiss Modernism 2.0",
+    "3D & Hyperrealism"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven + Feature-Rich",
+    "Visitor Analytics"
+  ],
+  "color_mood": "Art-appropriate neutrals + Exhibition accents",
+  "use_cases": [
+    "gallery",
+    "museum"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

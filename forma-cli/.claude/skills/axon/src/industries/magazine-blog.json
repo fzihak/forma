@@ -1,0 +1,44 @@
+{
+  "id": "magazine-blog-001",
+  "industry": "magazine-blog",
+  "name": "Magazine/Blog",
+  "description": "Article showcase. Category navigation. Author profiles. Newsletter signup. Related content. Typography-focused.",
+  "design_principles": [
+    "Swiss Modernism 2.0 ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Aurora UI"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven + Hero-Centric",
+    "Content Analytics"
+  ],
+  "color_mood": "Editorial colors + Brand primary + Clean white",
+  "use_cases": [
+    "articles",
+    "blog",
+    "content",
+    "magazine",
+    "posts",
+    "writing"
+  ],
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Endowed Progress Effect",
+    "Loss Aversion",
+    "Halo Effect"
+  ],
+  "industry_constraints": [
+    "Performance optimization for animations",
+    "Cross-platform consistency",
+    "DRM handling UI for media"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast",
+    "Slider"
+  ]
+}

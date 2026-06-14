@@ -1,0 +1,50 @@
+{
+  "id": "sleep-tracker-001",
+  "industry": "sleep-tracker",
+  "name": "Sleep Tracker",
+  "description": "Sleep cycle detection. Smart alarm wakes at light sleep. Snore detection. Weekly trends. Apple Health integration.",
+  "design_principles": [
+    "Dark Mode (OLED) ",
+    " Neumorphism"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "Minimalism"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Social Proof",
+    "Healthcare Analytics"
+  ],
+  "color_mood": "Deep midnight blue + stars/moon accent + sleep quality gradient (poor red to great green)",
+  "use_cases": [
+    "sleep",
+    "tracker",
+    "alarm",
+    "cycle",
+    "quality",
+    "snore",
+    "analysis",
+    "rem",
+    "deep",
+    "smart",
+    "wake",
+    "insomnia"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support mandatory",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form",
+    "Progress Bar"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "architecture-interior-001",
+  "industry": "architecture-interior",
+  "name": "Architecture / Interior",
+  "description": "High-res images. Typography. Space.",
+  "design_principles": [
+    "Exaggerated Minimalism ",
+    " High Imagery"
+  ],
+  "forbidden_patterns": [
+    "Swiss Modernism 2.0",
+    "Parallax"
+  ],
+  "required_patterns": [
+    "Portfolio Grid + Visuals",
+    "Project Management + Gallery"
+  ],
+  "color_mood": "Monochrome + Gold Accent + High Imagery",
+  "use_cases": [
+    "architecture",
+    "design",
+    "interior"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "chat-messaging-app-001",
+  "industry": "chat-messaging-app",
+  "name": "Chat & Messaging App",
+  "description": "Bubble UI (left/right alignment). Typing indicators. Read receipts (\u2713\u2713). Image/file preview. Emoji reactions. Group avatars. Online status dots. Swipe-to-reply.",
+  "design_principles": [
+    "Minimalism ",
+    " Micro-interactions"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Demo",
+    "User Behavior Analytics"
+  ],
+  "color_mood": "Brand primary + bubble contrast (sender/receiver) + typing grey",
+  "use_cases": [
+    "chat",
+    "message",
+    "messenger",
+    "im",
+    "realtime",
+    "conversation",
+    "inbox",
+    "dm",
+    "whatsapp",
+    "telegram"
+  ],
+  "psychology_triggers": [
+    "Social Proof",
+    "Zeigarnik Effect",
+    "Reciprocity",
+    "Fitts's Law"
+  ],
+  "industry_constraints": [
+    "Extreme performance scaling",
+    "Content moderation UI",
+    "Offline caching",
+    "Real-time websocket handling"
+  ],
+  "core_components": [
+    "Avatar",
+    "Card (Feed)",
+    "Toast",
+    "Input Field"
+  ]
+}

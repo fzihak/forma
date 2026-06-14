@@ -1,0 +1,29 @@
+{
+  "name": "Travel & Tourism",
+  "description": "Inspirational and booking-oriented platforms requiring rich media and complex scheduling.",
+  "psychology_triggers": [
+    "Scarcity",
+    "Social Proof",
+    "Anchoring"
+  ],
+  "industry_constraints": [
+    "Timezone handling",
+    "Complex date-picker architectures",
+    "Multi-currency support"
+  ],
+  "forbidden_patterns": [
+    "Hidden booking fees",
+    "Confusing date formats",
+    "Bait-and-switch pricing"
+  ],
+  "required_patterns": [
+    "Inspiring hero imagery",
+    "Transparent price breakdowns",
+    "Urgency indicators ('2 rooms left')"
+  ],
+  "core_components": [
+    "Input (Date)",
+    "Card",
+    "Select"
+  ]
+}

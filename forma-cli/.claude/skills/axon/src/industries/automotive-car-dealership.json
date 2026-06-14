@@ -1,0 +1,40 @@
+{
+  "id": "automotive-car-dealership-001",
+  "industry": "automotive-car-dealership",
+  "name": "Automotive/Car Dealership",
+  "description": "Vehicle showcase. 360\u00b0 views. Comparison tools. Financing calculator. Test drive booking. High-quality imagery.",
+  "design_principles": [
+    "Motion-Driven ",
+    " 3D & Hyperrealism"
+  ],
+  "forbidden_patterns": [
+    "Dark Mode (OLED)",
+    "Glassmorphism"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design + Feature-Rich",
+    "Sales Intelligence Dashboard"
+  ],
+  "color_mood": "Brand colors + Metallic accents + Dark/Light",
+  "use_cases": [
+    "automotive",
+    "car",
+    "dealership"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

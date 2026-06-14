@@ -1,0 +1,49 @@
+{
+  "id": "wardrobe-outfit-planner-001",
+  "industry": "wardrobe-outfit-planner",
+  "name": "Wardrobe & Outfit Planner",
+  "description": "Photo catalog of clothes. AI outfit suggestions. Calendar integration. Capsule wardrobe. Season filtering.",
+  "design_principles": [
+    "Minimalism ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Aurora UI",
+    "Soft UI Evolution"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven + Feature-Rich",
+    "N/A - Wardrobe focused"
+  ],
+  "color_mood": "Clean fashion neutral + full clothes color palette + accent",
+  "use_cases": [
+    "wardrobe",
+    "outfit",
+    "fashion",
+    "clothes",
+    "closet",
+    "style",
+    "wear",
+    "plan",
+    "capsule",
+    "ootd",
+    "lookbook"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support mandatory",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form",
+    "Progress Bar"
+  ]
+}

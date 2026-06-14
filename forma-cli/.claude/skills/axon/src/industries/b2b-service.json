@@ -1,0 +1,46 @@
+{
+  "id": "b2b-service-001",
+  "industry": "b2b-service",
+  "name": "B2B Service",
+  "description": "Credibility essential. Clear ROI messaging.",
+  "design_principles": [
+    "Trust & Authority ",
+    " Minimal"
+  ],
+  "forbidden_patterns": [
+    "Feature-Rich",
+    "Conversion-Optimized"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase",
+    "Sales Intelligence Dashboard"
+  ],
+  "color_mood": "Professional blue + neutral grey",
+  "use_cases": [
+    "appointment",
+    "b",
+    "b2b",
+    "booking",
+    "business",
+    "consultation",
+    "corporate",
+    "enterprise",
+    "service"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

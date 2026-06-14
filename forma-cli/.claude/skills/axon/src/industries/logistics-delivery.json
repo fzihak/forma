@@ -1,0 +1,28 @@
+{
+  "name": "Logistics & Delivery",
+  "description": "Time-sensitive operational apps for tracking, dispatch, and routing.",
+  "psychology_triggers": [
+    "Cognitive Ease",
+    "Anchoring"
+  ],
+  "industry_constraints": [
+    "Offline mode support",
+    "High readability in direct sunlight",
+    "One-handed operation on mobile"
+  ],
+  "forbidden_patterns": [
+    "Low contrast gray text",
+    "Complex nested menus",
+    "Small touch targets"
+  ],
+  "required_patterns": [
+    "Real-time map integrations",
+    "Large thumb-zone CTAs",
+    "Clear status chronologies"
+  ],
+  "core_components": [
+    "Breadcrumb",
+    "Badge",
+    "Card"
+  ]
+}

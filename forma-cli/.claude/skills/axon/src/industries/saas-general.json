@@ -1,0 +1,28 @@
+{
+  "name": "B2B SaaS",
+  "description": "Productivity and operational tools focusing on task efficiency, data density, and team collaboration.",
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "forbidden_patterns": [
+    "Form over function",
+    "Excessive whitespace hiding critical data",
+    "Dead-end empty states"
+  ],
+  "required_patterns": [
+    "Actionable empty states",
+    "Command palettes (Ctrl+K)",
+    "Bulk action selections"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown"
+  ]
+}

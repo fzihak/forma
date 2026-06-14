@@ -1,0 +1,49 @@
+{
+  "id": "calorie-nutrition-counter-001",
+  "industry": "calorie-nutrition-counter",
+  "name": "Calorie & Nutrition Counter",
+  "description": "Barcode scanner food log. Large database. Macro goals. Restaurant lookup. Recipe builder. AI photo food logging.",
+  "design_principles": [
+    "Flat Design ",
+    " Vibrant & Block-based"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Claymorphism"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Social Proof",
+    "Healthcare Analytics"
+  ],
+  "color_mood": "Healthy green + macro colors (protein blue, carb orange, fat yellow) + progress circle",
+  "use_cases": [
+    "calorie",
+    "nutrition",
+    "food",
+    "diet",
+    "macro",
+    "protein",
+    "carb",
+    "fat",
+    "log",
+    "fitness",
+    "myfitnesspal"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support mandatory",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form",
+    "Progress Bar"
+  ]
+}

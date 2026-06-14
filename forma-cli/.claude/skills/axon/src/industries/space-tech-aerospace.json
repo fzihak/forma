@@ -1,0 +1,40 @@
+{
+  "id": "space-tech-aerospace-001",
+  "industry": "space-tech-aerospace",
+  "name": "Space Tech / Aerospace",
+  "description": "High-tech feel. Precision. Telemetry data.",
+  "design_principles": [
+    "Holographic / HUD ",
+    " Dark Mode"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "3D & Hyperrealism"
+  ],
+  "required_patterns": [
+    "Immersive Experience + Hero",
+    "Real-Time Monitoring + 3D"
+  ],
+  "color_mood": "Deep Space Black + Star White + Metallic",
+  "use_cases": [
+    "aerospace",
+    "space",
+    "tech"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

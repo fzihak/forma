@@ -1,0 +1,41 @@
+{
+  "id": "video-streaming-ott-001",
+  "industry": "video-streaming-ott",
+  "name": "Video Streaming/OTT",
+  "description": "Video player. Content discovery. Watchlist. Continue watching. Personalized recommendations. Thumbnail-heavy.",
+  "design_principles": [
+    "Dark Mode (OLED) ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "Vibrant & Block-based"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design + Feature-Rich",
+    "Media/Entertainment Dashboard"
+  ],
+  "color_mood": "Dark bg + Content poster colors + Brand accent",
+  "use_cases": [
+    "ott",
+    "streaming",
+    "video"
+  ],
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Endowed Progress Effect",
+    "Loss Aversion",
+    "Halo Effect"
+  ],
+  "industry_constraints": [
+    "Performance optimization for animations",
+    "Cross-platform consistency",
+    "DRM handling UI for media"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast",
+    "Slider"
+  ]
+}

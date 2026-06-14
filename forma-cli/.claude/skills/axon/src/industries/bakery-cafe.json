@@ -1,0 +1,39 @@
+{
+  "id": "bakery-cafe-001",
+  "industry": "bakery-cafe",
+  "name": "Bakery/Cafe",
+  "description": "Menu display. Online ordering. Location/hours. Catering. Seasonal specials. Appetizing photography.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Soft UI Evolution"
+  ],
+  "forbidden_patterns": [
+    "Claymorphism",
+    "Motion-Driven"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design + Conversion",
+    "N/A - Order focused"
+  ],
+  "color_mood": "Warm Brown + Cream + Appetizing accents",
+  "use_cases": [
+    "bakery",
+    "cafe"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

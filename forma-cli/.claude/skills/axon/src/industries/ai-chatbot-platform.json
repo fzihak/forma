@@ -1,0 +1,46 @@
+{
+  "id": "ai-chatbot-platform-001",
+  "industry": "ai-chatbot-platform",
+  "name": "AI/Chatbot Platform",
+  "description": "Conversational UI. Streaming text. Context awareness. Minimal chrome.",
+  "design_principles": [
+    "AI-Native UI ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Zero Interface",
+    "Glassmorphism"
+  ],
+  "required_patterns": [
+    "Interactive Product Demo",
+    "AI/ML Analytics Dashboard"
+  ],
+  "color_mood": "Neutral + AI Purple (#6366F1)",
+  "use_cases": [
+    "ai",
+    "artificial-intelligence",
+    "automation",
+    "chatbot",
+    "machine-learning",
+    "ml",
+    "platform"
+  ],
+  "psychology_triggers": [
+    "Social Proof",
+    "Zeigarnik Effect",
+    "Reciprocity",
+    "Fitts's Law"
+  ],
+  "industry_constraints": [
+    "Extreme performance scaling",
+    "Content moderation UI",
+    "Offline caching",
+    "Real-time websocket handling"
+  ],
+  "core_components": [
+    "Avatar",
+    "Card (Feed)",
+    "Toast",
+    "Input Field"
+  ]
+}

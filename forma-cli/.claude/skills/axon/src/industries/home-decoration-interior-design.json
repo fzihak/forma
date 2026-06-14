@@ -1,0 +1,48 @@
+{
+  "id": "home-decoration-interior-design-001",
+  "industry": "home-decoration-interior-design",
+  "name": "Home Decoration & Interior Design",
+  "description": "AR room visualization. Style quiz. Product catalog with purchase links. 3D room planner. Mood board. Before/after.",
+  "design_principles": [
+    "Minimalism ",
+    " 3D Product Preview"
+  ],
+  "forbidden_patterns": [
+    "Organic Biophilic",
+    "Aurora UI"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven + Feature-Rich",
+    "N/A - Project focused"
+  ],
+  "color_mood": "Neutral interior palette + material texture accent + AR blue",
+  "use_cases": [
+    "home",
+    "interior",
+    "decor",
+    "design",
+    "furniture",
+    "room",
+    "renovation",
+    "ar",
+    "plan",
+    "inspire",
+    "3d",
+    "houzz"
+  ],
+  "psychology_triggers": [
+    "Cognitive Ease",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "Instant launch time (<1s)",
+    "High readability in varying light conditions",
+    "One-handed operation focus"
+  ],
+  "core_components": [
+    "Switch",
+    "Slider",
+    "Progress Bar",
+    "Button"
+  ]
+}

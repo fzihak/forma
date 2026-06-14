@@ -1,0 +1,50 @@
+{
+  "id": "short-video-editor-001",
+  "industry": "short-video-editor",
+  "name": "Short Video Editor",
+  "description": "Multi-track timeline. Licensed music library. Text overlays. Auto-captions. Export 9:16 / 16:9 / 1:1.",
+  "design_principles": [
+    "Dark Mode (OLED) ",
+    " Motion-Driven"
+  ],
+  "forbidden_patterns": [
+    "Vibrant & Block-based",
+    "Glassmorphism"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Hero-Centric",
+    "N/A - Timeline editor focused"
+  ],
+  "color_mood": "Dark background + timeline track accent colors + effect preview vivid",
+  "use_cases": [
+    "video",
+    "edit",
+    "capcut",
+    "inshot",
+    "clip",
+    "reel",
+    "tiktok",
+    "trim",
+    "effects",
+    "transitions",
+    "music",
+    "timeline"
+  ],
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Endowed Progress Effect",
+    "Loss Aversion",
+    "Halo Effect"
+  ],
+  "industry_constraints": [
+    "Performance optimization for animations",
+    "Cross-platform consistency",
+    "DRM handling UI for media"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast",
+    "Slider"
+  ]
+}

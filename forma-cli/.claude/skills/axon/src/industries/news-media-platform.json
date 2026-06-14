@@ -1,0 +1,45 @@
+{
+  "id": "news-media-platform-001",
+  "industry": "news-media-platform",
+  "name": "News/Media Platform",
+  "description": "Article layout. Breaking news. Categories. Search. Subscription. Mobile reading. Fast loading.",
+  "design_principles": [
+    "Minimalism ",
+    " Flat Design"
+  ],
+  "forbidden_patterns": [
+    "Dark Mode (OLED)",
+    "Accessible & Ethical"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design + Feature-Rich",
+    "Media Analytics Dashboard"
+  ],
+  "color_mood": "Brand colors + High contrast + Category colors",
+  "use_cases": [
+    "content",
+    "entertainment",
+    "media",
+    "news",
+    "platform",
+    "streaming",
+    "video"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support mandatory",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form",
+    "Progress Bar"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "meditation-mindfulness-001",
+  "industry": "meditation-mindfulness",
+  "name": "Meditation & Mindfulness",
+  "description": "Breathing circle animation. Session duration picker. Ambient sound mixer. Streak/consistency tracking. Guided audio player. Sleep timer. Minimal chrome. Slow easing transitions only.",
+  "design_principles": [
+    "Neumorphism ",
+    " Soft UI Evolution"
+  ],
+  "forbidden_patterns": [
+    "Aurora UI",
+    "Glassmorphism"
+  ],
+  "required_patterns": [
+    "Storytelling-Driven + Social Proof",
+    "User Behavior Analytics"
+  ],
+  "color_mood": "Ultra-calm pastels (lavender/sage/sky) + breathing animation gradient",
+  "use_cases": [
+    "meditation",
+    "mindfulness",
+    "calm",
+    "breathe",
+    "wellness",
+    "relaxation",
+    "sleep",
+    "headspace"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support mandatory",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form",
+    "Progress Bar"
+  ]
+}

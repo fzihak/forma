@@ -1,0 +1,49 @@
+{
+  "id": "meme-sticker-maker-001",
+  "industry": "meme-sticker-maker",
+  "name": "Meme & Sticker Maker",
+  "description": "Template library. Caption text overlay. Font variety. Reaction sticker packs. Share to all platforms. Fast creation.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Flat Design"
+  ],
+  "forbidden_patterns": [
+    "Gen Z Chaos",
+    "Claymorphism"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Social Proof",
+    "N/A - Creator focused"
+  ],
+  "color_mood": "Bold primary + comedic yellow + viral red + high saturation accent",
+  "use_cases": [
+    "meme",
+    "sticker",
+    "maker",
+    "funny",
+    "caption",
+    "template",
+    "edit",
+    "share",
+    "viral",
+    "emoji",
+    "creator",
+    "reaction"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

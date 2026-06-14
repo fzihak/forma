@@ -1,0 +1,28 @@
+{
+  "name": "Education & EdTech",
+  "description": "Learning platforms focused on retention, motivation, and clear progress tracking.",
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Zeigarnik Effect",
+    "Reciprocity"
+  ],
+  "industry_constraints": [
+    "COPPA compliance (if kids)",
+    "Accessibility for varied learning abilities"
+  ],
+  "forbidden_patterns": [
+    "Punitive error states",
+    "Overwhelming walls of text",
+    "Lack of visual hierarchy"
+  ],
+  "required_patterns": [
+    "Celebratory micro-interactions",
+    "Bite-sized lesson modules",
+    "Progress tracking rings"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Accordion",
+    "Tabs"
+  ]
+}

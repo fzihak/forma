@@ -1,0 +1,39 @@
+{
+  "id": "freelancer-platform-001",
+  "industry": "freelancer-platform",
+  "name": "Freelancer Platform",
+  "description": "Profile creation. Portfolio. Skill matching. Messaging. Payment. Reviews. Project management.",
+  "design_principles": [
+    "Flat Design ",
+    " Minimalism"
+  ],
+  "forbidden_patterns": [
+    "Vibrant & Block-based",
+    "Micro-interactions"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Conversion",
+    "Marketplace Analytics"
+  ],
+  "color_mood": "Professional Blue + Success Green + Neutral",
+  "use_cases": [
+    "freelancer",
+    "platform"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

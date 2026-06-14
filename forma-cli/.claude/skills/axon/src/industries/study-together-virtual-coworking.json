@@ -1,0 +1,49 @@
+{
+  "id": "study-together-virtual-coworking-001",
+  "industry": "study-together-virtual-coworking",
+  "name": "Study Together / Virtual Coworking",
+  "description": "Live study rooms with video/avatar presence. Shared focus timer. Ambient music. Goals sharing. Streak accountability.",
+  "design_principles": [
+    "Minimalism ",
+    " Soft UI Evolution"
+  ],
+  "forbidden_patterns": [
+    "Flat Design",
+    "Dark Mode (OLED)"
+  ],
+  "required_patterns": [
+    "Social Proof-Focused + Feature-Rich",
+    "User Behavior Analytics"
+  ],
+  "color_mood": "Calm focus blue + session progress indicator + ambient warm neutrals",
+  "use_cases": [
+    "study",
+    "focus",
+    "cowork",
+    "pomodoro",
+    "virtual",
+    "together",
+    "session",
+    "accountability",
+    "live",
+    "stream",
+    "room"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Zeigarnik Effect",
+    "Reciprocity",
+    "Social Proof"
+  ],
+  "industry_constraints": [
+    "COPPA compliance (if kids)",
+    "Accessibility for varied learning abilities",
+    "Offline mode support for study materials"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Accordion",
+    "Tabs",
+    "Badge"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "wallpaper-theme-app-001",
+  "industry": "wallpaper-theme-app",
+  "name": "Wallpaper & Theme App",
+  "description": "Category browsing. Preview on device. Daily wallpaper auto-set. Widget matching. Creator uploads. Resolution auto-fit.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Aurora UI"
+  ],
+  "forbidden_patterns": [
+    "Glassmorphism",
+    "Motion-Driven"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Social Proof",
+    "N/A - Gallery focused"
+  ],
+  "color_mood": "Content-driven + trending aesthetic palettes + download accent",
+  "use_cases": [
+    "wallpaper",
+    "theme",
+    "background",
+    "customize",
+    "aesthetic",
+    "home-screen",
+    "lock-screen",
+    "widget",
+    "design",
+    "zedge"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

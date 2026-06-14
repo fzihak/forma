@@ -1,0 +1,46 @@
+{
+  "id": "grocery-shopping-list-001",
+  "industry": "grocery-shopping-list",
+  "name": "Grocery & Shopping List",
+  "description": "Category-grouped list. Tap-to-check interaction (with strikethrough). Quantity stepper. Share list with family. Store aisle sorting. Barcode scan to add. Frequently bought suggestions.",
+  "design_principles": [
+    "Flat Design ",
+    " Vibrant & Block-based"
+  ],
+  "forbidden_patterns": [
+    "Claymorphism",
+    "Micro-interactions"
+  ],
+  "required_patterns": [
+    "Minimal & Direct + Demo",
+    "N/A - List focused"
+  ],
+  "color_mood": "Fresh green + food-category colors + checkmark accent",
+  "use_cases": [
+    "grocery",
+    "shopping",
+    "list",
+    "supermarket",
+    "checklist",
+    "pantry",
+    "meal-plan",
+    "buy"
+  ],
+  "psychology_triggers": [
+    "Scarcity",
+    "Social Proof",
+    "Anchoring",
+    "Zeigarnik Effect"
+  ],
+  "industry_constraints": [
+    "Performance/Load time critical (<2s)",
+    "Mobile-first indexability",
+    "Seamless payment gateway integration"
+  ],
+  "core_components": [
+    "Button",
+    "Slider",
+    "Badge",
+    "Breadcrumb"
+  ]
+}

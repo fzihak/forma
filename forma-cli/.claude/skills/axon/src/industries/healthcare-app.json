@@ -1,0 +1,29 @@
+{
+  "name": "Healthcare & Telemed",
+  "description": "Applications dealing with patient health, requiring ultimate accessibility, empathy, and clarity.",
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "forbidden_patterns": [
+    "Alarming red colors for non-critical alerts",
+    "Jargon-heavy medical terms without tooltips",
+    "Tiny text"
+  ],
+  "required_patterns": [
+    "High-contrast typography",
+    "Step-by-step progressive forms",
+    "Calming color palettes (Blues, Teals)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form"
+  ]
+}

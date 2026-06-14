@@ -1,0 +1,47 @@
+{
+  "id": "coding-challenge-practice-001",
+  "industry": "coding-challenge-practice",
+  "name": "Coding Challenge & Practice",
+  "description": "Code editor with syntax highlight. Multiple languages. Hint system. Solution explanation. Company tags. Contest mode.",
+  "design_principles": [
+    "Dark Mode (OLED) ",
+    " Cyberpunk UI"
+  ],
+  "forbidden_patterns": [
+    "Minimalism",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Social Proof",
+    "Student Analytics"
+  ],
+  "color_mood": "Code editor dark + success green + difficulty gradient (easy green / medium amber / hard red)",
+  "use_cases": [
+    "coding",
+    "leetcode",
+    "challenge",
+    "algorithm",
+    "practice",
+    "programming",
+    "competitive",
+    "skill",
+    "interview",
+    "problem"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

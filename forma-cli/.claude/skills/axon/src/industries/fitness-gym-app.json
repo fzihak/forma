@@ -1,0 +1,44 @@
+{
+  "id": "fitness-gym-app-001",
+  "industry": "fitness-gym-app",
+  "name": "Fitness/Gym App",
+  "description": "Progress tracking. Workout plans. Community features. Achievements. Motivational design.",
+  "design_principles": [
+    "Vibrant & Block-based ",
+    " Dark Mode (OLED)"
+  ],
+  "forbidden_patterns": [
+    "Motion-Driven",
+    "Neumorphism"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase",
+    "User Behavior Analytics"
+  ],
+  "color_mood": "Energetic (Orange #FF6B35 Electric Blue) + Dark bg",
+  "use_cases": [
+    "app",
+    "exercise",
+    "fitness",
+    "gym",
+    "health",
+    "workout"
+  ],
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease",
+    "Reciprocity",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "HIPAA/GDPR compliance",
+    "High contrast mode support mandatory",
+    "Elderly-friendly touch targets (min 48pt)"
+  ],
+  "core_components": [
+    "Accordion",
+    "Card",
+    "Form",
+    "Progress Bar"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "knowledge-base-documentation-001",
+  "industry": "knowledge-base-documentation",
+  "name": "Knowledge Base/Documentation",
+  "description": "Search-first. Clear navigation. Code highlighting. Version switching. Feedback system.",
+  "design_principles": [
+    "Minimalism ",
+    " Accessible & Ethical"
+  ],
+  "forbidden_patterns": [
+    "Swiss Modernism 2.0",
+    "Flat Design"
+  ],
+  "required_patterns": [
+    "FAQ/Documentation",
+    "N/A - Documentation focused"
+  ],
+  "color_mood": "Clean hierarchy + minimal color",
+  "use_cases": [
+    "base",
+    "documentation",
+    "knowledge"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

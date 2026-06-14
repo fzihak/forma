@@ -1,0 +1,48 @@
+{
+  "id": "emergency-sos-safety-001",
+  "industry": "emergency-sos-safety",
+  "name": "Emergency SOS & Safety",
+  "description": "One-tap SOS. Emergency contacts auto-notify. Live location sharing. Fake call feature. Safe walk mode. Local emergency numbers.",
+  "design_principles": [
+    "Accessible & Ethical ",
+    " Flat Design"
+  ],
+  "forbidden_patterns": [
+    "Dark Mode (OLED)",
+    "Minimalism"
+  ],
+  "required_patterns": [
+    "Trust & Authority + Social Proof",
+    "N/A - Safety focused"
+  ],
+  "color_mood": "Alert red + safety blue + location green + high contrast critical",
+  "use_cases": [
+    "emergency",
+    "sos",
+    "safety",
+    "alert",
+    "location",
+    "help",
+    "danger",
+    "crisis",
+    "first-aid",
+    "guard",
+    "bsafe"
+  ],
+  "psychology_triggers": [
+    "Endowed Progress Effect",
+    "Cognitive Ease",
+    "Loss Aversion"
+  ],
+  "industry_constraints": [
+    "Keyboard shortcut support",
+    "High data density view support",
+    "Role-based access control UI"
+  ],
+  "core_components": [
+    "Sidebar",
+    "Data Table",
+    "Dropdown",
+    "Skeleton"
+  ]
+}

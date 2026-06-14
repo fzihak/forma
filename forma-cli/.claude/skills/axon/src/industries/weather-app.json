@@ -1,0 +1,44 @@
+{
+  "id": "weather-app-001",
+  "industry": "weather-app",
+  "name": "Weather App",
+  "description": "Location auto-detect. Hourly horizontal scroll + daily/weekly list. Animated weather icons. Air quality index. UV/wind/humidity chips. Radar map overlay. Widget-friendly layout.",
+  "design_principles": [
+    "Glassmorphism ",
+    " Aurora UI"
+  ],
+  "forbidden_patterns": [
+    "Motion-Driven",
+    "Minimalism"
+  ],
+  "required_patterns": [
+    "Hero-Centric Design",
+    "N/A - Utility focused"
+  ],
+  "color_mood": "Atmospheric gradients (sky blue \u2192 sunset \u2192 storm grey) + temp scale",
+  "use_cases": [
+    "weather",
+    "forecast",
+    "temperature",
+    "climate",
+    "rain",
+    "sun",
+    "location",
+    "humidity"
+  ],
+  "psychology_triggers": [
+    "Cognitive Ease",
+    "Endowed Progress Effect"
+  ],
+  "industry_constraints": [
+    "Instant launch time (<1s)",
+    "High readability in varying light conditions",
+    "One-handed operation focus"
+  ],
+  "core_components": [
+    "Switch",
+    "Slider",
+    "Progress Bar",
+    "Button"
+  ]
+}

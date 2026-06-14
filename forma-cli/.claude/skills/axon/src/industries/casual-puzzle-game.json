@@ -1,0 +1,49 @@
+{
+  "id": "casual-puzzle-game-001",
+  "industry": "casual-puzzle-game",
+  "name": "Casual Puzzle Game",
+  "description": "Satisfying match/clear animations. Progressive difficulty. Daily challenges. No-skip tutorials. Offline play.",
+  "design_principles": [
+    "Claymorphism ",
+    " Vibrant & Block-based"
+  ],
+  "forbidden_patterns": [
+    "Micro-interactions",
+    "Motion-Driven"
+  ],
+  "required_patterns": [
+    "Feature-Rich Showcase + Social Proof",
+    "N/A - Game focused"
+  ],
+  "color_mood": "Cheerful pastels + progression gradient + reward gold + bright accent",
+  "use_cases": [
+    "puzzle",
+    "casual",
+    "match",
+    "brain",
+    "game",
+    "relaxing",
+    "level",
+    "tiles",
+    "logic",
+    "block",
+    "three"
+  ],
+  "psychology_triggers": [
+    "Zeigarnik Effect",
+    "Endowed Progress Effect",
+    "Loss Aversion",
+    "Halo Effect"
+  ],
+  "industry_constraints": [
+    "Performance optimization for animations",
+    "Cross-platform consistency",
+    "DRM handling UI for media"
+  ],
+  "core_components": [
+    "Progress Bar",
+    "Avatar",
+    "Toast",
+    "Slider"
+  ]
+}

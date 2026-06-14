@@ -1,0 +1,28 @@
+{
+  "name": "Government & Public Sector",
+  "description": "Utilitarian services requiring absolute accessibility, clarity, and trust.",
+  "psychology_triggers": [
+    "Authority",
+    "Cognitive Ease"
+  ],
+  "industry_constraints": [
+    "WCAG AAA strict compliance",
+    "Multi-lingual support",
+    "Legacy browser support"
+  ],
+  "forbidden_patterns": [
+    "Trendy but unusable UI patterns",
+    "Hidden information",
+    "Complex jargon without explanation"
+  ],
+  "required_patterns": [
+    "High-contrast modes",
+    "Clear breadcrumbs",
+    "Printable formats"
+  ],
+  "core_components": [
+    "Breadcrumb",
+    "Form",
+    "Table"
+  ]
+}

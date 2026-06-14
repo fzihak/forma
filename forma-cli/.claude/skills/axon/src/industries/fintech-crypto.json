@@ -1,0 +1,30 @@
+{
+  "name": "Fintech & Crypto",
+  "description": "High-trust financial applications requiring extreme precision, security signaling, and cognitive ease for complex data.",
+  "psychology_triggers": [
+    "Authority",
+    "Social Proof",
+    "Loss Aversion",
+    "Cognitive Ease"
+  ],
+  "industry_constraints": [
+    "Strict regulatory compliance (KYC/AML)",
+    "Zero-tolerance for calculation latency",
+    "WCAG AA accessibility mandatory for banking"
+  ],
+  "forbidden_patterns": [
+    "Playful/bouncy animations",
+    "Unclear error messages",
+    "Hidden fees or destructive actions without confirmation"
+  ],
+  "required_patterns": [
+    "Biometric authentication UI",
+    "Real-time skeleton loaders",
+    "Clear transactional success states (Receipts)"
+  ],
+  "core_components": [
+    "Data Table",
+    "Number Input",
+    "Progress Bar (Onboarding)"
+  ]
+}
