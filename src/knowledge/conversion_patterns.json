@@ -1,0 +1,41 @@
+[
+  {
+    "id": "conv-neuro-001",
+    "name": "Cognitive Load Thresholds",
+    "category": "Neuro-Design",
+    "description": "Human working memory is limited. Exceeding thresholds causes immediate abandonment.",
+    "impact_level": "Critical",
+    "mathematical_thresholds": {
+      "max_words_per_view": 250,
+      "max_choices_per_decision": 4,
+      "max_visual_elements": 7
+    },
+    "rules": [
+      "If text > 250 words, implement progressive disclosure or TLDR summaries.",
+      "If choices > 4, group into categories or use accordion headers."
+    ]
+  },
+  {
+    "id": "conv-ab-001",
+    "name": "Multivariate Hypothesis Generator",
+    "category": "A/B Testing",
+    "description": "AI must suggest A/B test variables when generating landing pages.",
+    "impact_level": "High",
+    "ab_variables": [
+      {"element": "Hero CTA", "variant_a": "Value-focused ('Start Saving')", "variant_b": "Action-focused ('Get Started')"},
+      {"element": "Pricing Table", "variant_a": "Monthly Default", "variant_b": "Annual Default (with highlight)"},
+      {"element": "Social Proof", "variant_a": "Quantitative ('10k Users')", "variant_b": "Qualitative (Rich Testimonials)"}
+    ]
+  },
+  {
+    "id": "conv-neuro-002",
+    "name": "Gaze Cueing & Directional Lines",
+    "category": "Neuro-Design",
+    "description": "Users follow the eye-line of humans in photography and explicit directional arrows.",
+    "impact_level": "High",
+    "rules": [
+      "Avatars/faces must look TOWARDS the primary CTA.",
+      "Use subtle SVG arrows to guide the eye down long scrolling pages."
+    ]
+  }
+]
