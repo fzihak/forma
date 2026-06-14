@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Micro-Interactions (Spring)",
+    "timing": {
+      "type": "spring",
+      "stiffness": 400,
+      "damping": 30,
+      "mass": 1
+    },
+    "trigger": "Hover, Focus, Active states",
+    "properties": ["scale", "translate", "box-shadow"],
+    "description": "Mathematical spring physics for Framer Motion / React Spring. Snappy but tactile.",
+    "anti_pattern": "Linear CSS transitions for scale/movement (feels mechanical)."
+  },
+  {
+    "name": "View Transitions API (Page Routing)",
+    "timing": {
+      "type": "view-transition",
+      "duration": "300ms",
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+    },
+    "trigger": "Page Navigation, Route Changes",
+    "properties": ["::view-transition-old", "::view-transition-new"],
+    "description": "Seamless SPA-like transitions between pages. Requires strict DOM node preservation.",
+    "anti_pattern": "Hard reloading without persistent elements."
+  },
+  {
+    "name": "Scroll-Driven Animations",
+    "timing": {
+      "type": "scroll-timeline",
+      "axis": "block",
+      "range": "entry 25% cover 50%"
+    },
+    "trigger": "Scroll Progress",
+    "properties": ["opacity", "transform"],
+    "description": "Animation bound to scroll position rather than time. High performance via CSS.",
+    "anti_pattern": "Using window.addEventListener('scroll') with React state (causes heavy layout thrashing)."
+  },
+  {
+    "name": "FLIP Layout Shifts",
+    "timing": {
+      "type": "flip",
+      "duration": "250ms",
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+    },
+    "trigger": "Sorting lists, Expanding cards, Filtering grids",
+    "properties": ["transform (translate)"],
+    "description": "First, Last, Invert, Play. Only animate Transforms, never animate Width/Height/Top/Left to avoid layout recalculation.",
+    "anti_pattern": "Animating `height: auto` or `margin`."
+  }
+]
