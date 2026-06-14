@@ -77,7 +77,7 @@ python src/scripts/token_bridge.py scss design-system/MASTER.tokens.json
 
 **CLI (Go/NPM):**
 ```bash
-npm install -g forma-cli           # Install globally via NPM wrapper
+npm install -g @foysalzihak/forma-cli           # Install globally via NPM wrapper
 forma init --ai claude             # Install agents
 forma doctor                       # Run system diagnostics
 forma heal src/app/page.tsx        # Trigger the AST auto-healer

@@ -10,7 +10,7 @@
 [![Reasoning Layers](https://img.shields.io/badge/reasoning%20layers-12-0A0A0A?style=flat-square)]()
 [![Industries](https://img.shields.io/badge/industries-16-0A0A0A?style=flat-square)]()
 [![Platforms](https://img.shields.io/badge/platforms-7-0A0A0A?style=flat-square)]()
-[![NPM version](https://img.shields.io/npm/v/forma-cli?style=flat-square&color=0A0A0A)](https://www.npmjs.com/package/forma-cli)
+[![NPM version](https://img.shields.io/npm/v/@foysalzihak/forma-cli?style=flat-square&color=0A0A0A)](https://www.npmjs.com/package/@foysalzihak/forma-cli)
 
 </div>
 
@@ -122,7 +122,7 @@ Forma is distributed globally via NPM and GitHub Actions.
 
 ```bash
 # 1. Install the CLI wrapper globally
-npm install -g forma-cli
+npm install -g @foysalzihak/forma-cli
 
 # 2. Install the agents into your IDE
 forma init --ai claude       # Claude Code
@@ -200,7 +200,7 @@ Forma respects your codebase. If you want to remove the AI logic from your proje
 forma remove
 
 # 2. Uninstall the global binary
-npm uninstall -g forma-cli
+npm uninstall -g @foysalzihak/forma-cli
 ```
 
 ---

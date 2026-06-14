@@ -1,5 +1,5 @@
 {
-  "name": "forma-cli",
+  "name": "@foysalzihak/forma-cli",
   "version": "1.0.0",
   "description": "Design Intelligence Framework for AI coding assistants.",
   "main": "bin/forma.js",
