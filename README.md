@@ -110,13 +110,24 @@ The `forma-cli` binary is lightning fast and handles all environment integration
 
 | Agent Platform | Support | Installation Command |
 | :--- | :---: | :--- |
-| ![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white) | ✅ | `forma init --ai claude` |
-| ![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=openai&logoColor=white) | ✅ | `forma init --ai cursor` |
-| ![Windsurf](https://img.shields.io/badge/Windsurf-0EA5E9?style=for-the-badge) | ✅ | `forma init --ai windsurf` |
-| ![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-181717?style=for-the-badge&logo=github&logoColor=white) | ✅ | `forma init --ai copilot` |
+| ![Agent](https://img.shields.io/badge/Agent-0A0A0A?style=for-the-badge) | ✅ | `forma init --ai agent` |
+| ![Augment](https://img.shields.io/badge/Augment-FF4500?style=for-the-badge) | ✅ | `forma init --ai augment` |
+| ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white) | ✅ | `forma init --ai claude` |
+| ![Codebuddy](https://img.shields.io/badge/Codebuddy-10B981?style=for-the-badge) | ✅ | `forma init --ai codebuddy` |
+| ![Codex](https://img.shields.io/badge/Codex-000000?style=for-the-badge) | ✅ | `forma init --ai codex` |
 | ![Continue](https://img.shields.io/badge/Continue.dev-2088FF?style=for-the-badge) | ✅ | `forma init --ai continue` |
+| ![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-181717?style=for-the-badge&logo=github&logoColor=white) | ✅ | `forma init --ai copilot` |
+| ![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=openai&logoColor=white) | ✅ | `forma init --ai cursor` |
+| ![Droid](https://img.shields.io/badge/Droid-3DDC84?style=for-the-badge&logo=android&logoColor=white) | ✅ | `forma init --ai droid` |
+| ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white) | ✅ | `forma init --ai gemini` |
+| ![Kilocode](https://img.shields.io/badge/Kilocode-6366F1?style=for-the-badge) | ✅ | `forma init --ai kilocode` |
 | ![Kiro](https://img.shields.io/badge/Kiro-FF3366?style=for-the-badge) | ✅ | `forma init --ai kiro` |
+| ![OpenCode](https://img.shields.io/badge/OpenCode-0A0A0A?style=for-the-badge) | ✅ | `forma init --ai opencode` |
+| ![Qoder](https://img.shields.io/badge/Qoder-F59E0B?style=for-the-badge) | ✅ | `forma init --ai qoder` |
 | ![Roo Code](https://img.shields.io/badge/Roo_Code-6B21A8?style=for-the-badge) | ✅ | `forma init --ai roocode` |
+| ![Trae](https://img.shields.io/badge/Trae-3B82F6?style=for-the-badge) | ✅ | `forma init --ai trae` |
+| ![Warp](https://img.shields.io/badge/Warp-01A4FF?style=for-the-badge) | ✅ | `forma init --ai warp` |
+| ![Windsurf](https://img.shields.io/badge/Windsurf-0EA5E9?style=for-the-badge) | ✅ | `forma init --ai windsurf` |
 
 <br/>
 
@@ -132,11 +143,21 @@ Forma is universally adaptable. Just mention your stack in the prompt, or let it
 | <img src="https://skillicons.dev/icons?i=nuxtjs" width="28"/> | **Nuxt.js** | Web Fullstack Framework |
 | <img src="https://skillicons.dev/icons?i=svelte" width="28"/> | **Svelte** | Web Compiler |
 | <img src="https://skillicons.dev/icons?i=astro" width="28"/> | **Astro** | Static Site Generator |
+| <img src="https://skillicons.dev/icons?i=angular" width="28"/> | **Angular** | Web Framework |
+| <img src="https://skillicons.dev/icons?i=solidjs" width="28"/> | **SolidJS** | Web UI Library |
+| <img src="https://skillicons.dev/icons?i=remix" width="28"/> | **Remix** | Web Fullstack Framework |
 | <img src="https://skillicons.dev/icons?i=tailwind" width="28"/> | **Tailwind CSS** | Global Styling System |
+| <img src="https://skillicons.dev/icons?i=bootstrap" width="28"/> | **Bootstrap** | CSS Framework |
+| <img src="https://skillicons.dev/icons?i=materialui" width="28"/> | **Material UI** | Component Library |
 | <img src="https://skillicons.dev/icons?i=flutter" width="28"/> | **Flutter** | Cross-Platform Mobile |
+| <img src="https://skillicons.dev/icons?i=react" width="28"/> | **React Native** | Cross-Platform Mobile |
+| <img src="https://skillicons.dev/icons?i=swift" width="28"/> | **SwiftUI** | iOS Native |
+| <img src="https://skillicons.dev/icons?i=kotlin" width="28"/> | **Jetpack Compose** | Android Native |
 | <img src="https://skillicons.dev/icons?i=laravel" width="28"/> | **Laravel** | PHP Fullstack Framework |
-| 🍏 | **SwiftUI** | iOS Native |
-| 🤖 | **Jetpack Compose** | Android Native |
+| <img src="https://skillicons.dev/icons?i=django" width="28"/> | **Django** | Python Fullstack Framework |
+| <img src="https://skillicons.dev/icons?i=ruby" width="28"/> | **Ruby on Rails** | Ruby Fullstack Framework |
+| <img src="https://skillicons.dev/icons?i=express" width="28"/> | **Express.js** | Node.js Backend Framework |
+| <img src="https://skillicons.dev/icons?i=spring" width="28"/> | **Spring Boot** | Java Backend Framework |
 
 <br/>
 
