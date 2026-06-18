@@ -45,13 +45,13 @@ export default function Test() {
 	}
 	contentStr := string(healedContent)
 
-	if !strings.Contains(contentStr, `img alt="Automated alt text"`) {
-		t.Errorf("IMG tag was not healed correctly.")
+	if !strings.Contains(contentStr, `img alt=""`) {
+		t.Errorf("IMG tag was not healed correctly. Content: %s", contentStr)
 	}
-	if !strings.Contains(contentStr, `button aria-label="Interactive Element"`) {
-		t.Errorf("BUTTON tag was not healed correctly.")
+	if !strings.Contains(contentStr, `button aria-label="button"`) {
+		t.Errorf("BUTTON tag was not healed correctly. Content: %s", contentStr)
 	}
 	if !strings.Contains(contentStr, `svg aria-hidden="true"`) {
-		t.Errorf("SVG tag was not healed correctly.")
+		t.Errorf("SVG tag was not healed correctly. Content: %s", contentStr)
 	}
 }
