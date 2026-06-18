@@ -172,10 +172,14 @@ The `forma-cli` binary is lightning fast and handles all environment integration
 
 | Command | Description |
 | :--- | :--- |
-| `forma doctor` | Runs a system diagnostic on your Python and Go environments. |
+| `forma init` | Interactively configures AI agents and installs Python dependencies (beautifulsoup4, lxml). |
+| `forma orchestrate "<prompt>"` | Compiles UX psychology rules and W3C constraints based on user prompt. |
+| `forma generate <project> <industry> <mood>` | Runs the Mathematical Engine to generate fluid OKLCH Design Tokens. |
+| `forma export --format tailwind` | Compiles the generated W3C tokens into your frontend's `tailwind.config.js`. |
+| `forma audit <path>` | Scans UI files using the Critic Engine to grade WCAG, UX, and Visual Hierarchy. |
 | `forma heal <file>` | Triggers the AST Auto-Healer to physically inject missing WCAG code. |
-| `forma export --format tailwind` | Exports the W3C tokens into your Tailwind configuration. |
-| `forma update` | Instantly upgrades the CLI to the latest Vanguard release. |
+| `forma doctor` | Runs a system diagnostic on your Python and Go environments. |
+| `forma update` | Instantly upgrades the CLI to the latest Vanguard release from GitHub. |
 | `forma remove` | Safely purges Forma agents from your codebase. |
 
 <br/>
