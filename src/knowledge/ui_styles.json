@@ -3,7 +3,7 @@
     "id": "style-minimalism-swiss-style",
     "name": "Minimalism & Swiss Style",
     "category": "General",
-    "description": "\u2610 Grid-based layout 12-16 columns, \u2610 Typography hierarchy clear, \u2610 No unnecessary decorations, \u2610 WCAG AAA contrast verified, \u2610 Mobile responsive grid",
+    "description": "A collection of design features.",
     "use_cases": [
       "Clean",
       "simple",
@@ -22,13 +22,20 @@
     "do_not_use_for": "Creative portfolios, entertainment, playful brands, artistic experiments",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AAA",
-    "css_keywords": "display: grid, gap: 2rem, font-family: sans-serif, color: #000 or #FFF, max-width: 1200px, clean borders, no box-shadow unless necessary"
+    "css_keywords": "display: grid, gap: 2rem, font-family: sans-serif, color: #000 or #FFF, max-width: 1200px, clean borders, no box-shadow unless necessary",
+    "features": [
+      "Grid-based layout 12-16 columns",
+      "Typography hierarchy clear",
+      "No unnecessary decorations",
+      "WCAG AAA contrast verified",
+      "Mobile responsive grid"
+    ]
   },
   {
     "id": "style-neumorphism",
     "name": "Neumorphism",
     "category": "General",
-    "description": "\u2610 Rounded corners 12-16px consistent, \u2610 Multiple shadow layers (2-3), \u2610 Pastel color verified, \u2610 Monochromatic palette checked, \u2610 Press animation smooth 150ms",
+    "description": "A collection of design features.",
     "use_cases": [
       "Soft UI",
       "embossed",
@@ -46,13 +53,20 @@
     "do_not_use_for": "Complex apps, critical accessibility, data-heavy dashboards, high-contrast required",
     "performance": "\u26a1 Good",
     "accessibility": "\u26a0 Low contrast",
-    "css_keywords": "border-radius: 12-16px, box-shadow: -5px -5px 15px rgba(0,0,0,0.1), 5px 5px 15px rgba(255,255,255,0.8), background: linear-gradient(145deg, color1, color2), transform: scale on press"
+    "css_keywords": "border-radius: 12-16px, box-shadow: -5px -5px 15px rgba(0,0,0,0.1), 5px 5px 15px rgba(255,255,255,0.8), background: linear-gradient(145deg, color1, color2), transform: scale on press",
+    "features": [
+      "Rounded corners 12-16px consistent",
+      "Multiple shadow layers (2-3)",
+      "Pastel color verified",
+      "Monochromatic palette checked",
+      "Press animation smooth 150ms"
+    ]
   },
   {
     "id": "style-glassmorphism",
     "name": "Glassmorphism",
     "category": "General",
-    "description": "\u2610 Backdrop-filter blur 10-20px, \u2610 Translucent white 15-30% opacity, \u2610 Subtle border 1px light, \u2610 Vibrant background verified, \u2610 Text contrast 4.5:1 checked",
+    "description": "A collection of design features.",
     "use_cases": [
       "Frosted glass",
       "transparent",
@@ -69,13 +83,20 @@
     "do_not_use_for": "Low-contrast backgrounds, critical accessibility, performance-limited, dark text on dark",
     "performance": "\u26a0 Good",
     "accessibility": "\u26a0 Ensure 4.5:1",
-    "css_keywords": "backdrop-filter: blur(15px), background: rgba(255, 255, 255, 0.15), border: 1px solid rgba(255,255,255,0.2), -webkit-backdrop-filter: blur(15px), z-index layering for depth"
+    "css_keywords": "backdrop-filter: blur(15px), background: rgba(255, 255, 255, 0.15), border: 1px solid rgba(255,255,255,0.2), -webkit-backdrop-filter: blur(15px), z-index layering for depth",
+    "features": [
+      "Backdrop-filter blur 10-20px",
+      "Translucent white 15-30% opacity",
+      "Subtle border 1px light",
+      "Vibrant background verified",
+      "Text contrast 4.5:1 checked"
+    ]
   },
   {
     "id": "style-brutalism",
     "name": "Brutalism",
     "category": "General",
-    "description": "\u2610 No border-radius (0px), \u2610 No transitions (instant), \u2610 Bold typography (700+), \u2610 Pure primary colors used, \u2610 Visible grid/borders, \u2610 Asymmetric layout intentional",
+    "description": "A collection of design features.",
     "use_cases": [
       "Raw",
       "unpolished",
@@ -93,13 +114,21 @@
     "do_not_use_for": "Corporate environments, conservative industries, critical accessibility, customer-facing professional",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AAA",
-    "css_keywords": "border-radius: 0px, transition: none or 0s, font-family: system-ui or monospace, font-weight: 700+, border: visible 2-4px, colors: #FF0000, #0000FF, #FFFF00, #000000, #FFFFFF"
+    "css_keywords": "border-radius: 0px, transition: none or 0s, font-family: system-ui or monospace, font-weight: 700+, border: visible 2-4px, colors: #FF0000, #0000FF, #FFFF00, #000000, #FFFFFF",
+    "features": [
+      "No border-radius (0px)",
+      "No transitions (instant)",
+      "Bold typography (700+)",
+      "Pure primary colors used",
+      "Visible grid/borders",
+      "Asymmetric layout intentional"
+    ]
   },
   {
     "id": "style-3d-hyperrealism",
     "name": "3D & Hyperrealism",
     "category": "General",
-    "description": "\u2610 WebGL/Three.js integrated, \u2610 3D models loaded, \u2610 Parallax 3-5 layers, \u2610 Realistic lighting verified, \u2610 Complex shadows rendered, \u2610 Physics animation smooth 300-400ms",
+    "description": "A collection of design features.",
     "use_cases": [
       "Depth",
       "realistic textures",
@@ -116,13 +145,21 @@
     "do_not_use_for": "Low-end mobile, performance-limited, critical accessibility, data tables/forms",
     "performance": "\u274c Poor",
     "accessibility": "\u26a0 Not accessible",
-    "css_keywords": "transform: translate3d, perspective: 1000px, WebGL canvas, Three.js/Babylon.js library, box-shadow: complex multi-layer, background: complex gradients, filter: drop-shadow()"
+    "css_keywords": "transform: translate3d, perspective: 1000px, WebGL canvas, Three.js/Babylon.js library, box-shadow: complex multi-layer, background: complex gradients, filter: drop-shadow()",
+    "features": [
+      "WebGL/Three.js integrated",
+      "3D models loaded",
+      "Parallax 3-5 layers",
+      "Realistic lighting verified",
+      "Complex shadows rendered",
+      "Physics animation smooth 300-400ms"
+    ]
   },
   {
     "id": "style-vibrant-block-based",
     "name": "Vibrant & Block-based",
     "category": "General",
-    "description": "\u2610 Block layout with 48px+ gaps, \u2610 Large typography 32px+, \u2610 4-6 vibrant colors max, \u2610 Animated patterns active, \u2610 Scroll-snap enabled, \u2610 High contrast verified (7:1+)",
+    "description": "A collection of design features.",
     "use_cases": [
       "Bold",
       "energetic",
@@ -140,13 +177,21 @@
     "do_not_use_for": "Financial institutions, healthcare, formal business, government, conservative, elderly",
     "performance": "\u26a1 Good",
     "accessibility": "\u25d0 Ensure WCAG",
-    "css_keywords": "display: flex/grid with large gaps (48px+), font-size: 32px+, background: animated patterns (CSS), color: neon/vibrant colors, animation: continuous pattern movement"
+    "css_keywords": "display: flex/grid with large gaps (48px+), font-size: 32px+, background: animated patterns (CSS), color: neon/vibrant colors, animation: continuous pattern movement",
+    "features": [
+      "Block layout with 48px+ gaps",
+      "Large typography 32px+",
+      "4-6 vibrant colors max",
+      "Animated patterns active",
+      "Scroll-snap enabled",
+      "High contrast verified (7:1+)"
+    ]
   },
   {
     "id": "style-dark-mode-oled",
     "name": "Dark Mode (OLED)",
     "category": "General",
-    "description": "\u2610 Deep black #000000 or #121212, \u2610 Vibrant neon accents used, \u2610 Text contrast 7:1+, \u2610 Minimal glow effects, \u2610 OLED power optimization, \u2610 No white (#FFFFFF) background",
+    "description": "A collection of design features.",
     "use_cases": [
       "Dark theme",
       "low light",
@@ -164,13 +209,21 @@
     "do_not_use_for": "Print-first content, high-brightness outdoor, color-accuracy-critical",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AAA",
-    "css_keywords": "background: #000000 or #121212, color: #FFFFFF or #E0E0E0, text-shadow: 0 0 10px neon-color (sparingly), filter: brightness(0.8) if needed, color-scheme: dark"
+    "css_keywords": "background: #000000 or #121212, color: #FFFFFF or #E0E0E0, text-shadow: 0 0 10px neon-color (sparingly), filter: brightness(0.8) if needed, color-scheme: dark",
+    "features": [
+      "Deep black #000000 or #121212",
+      "Vibrant neon accents used",
+      "Text contrast 7:1+",
+      "Minimal glow effects",
+      "OLED power optimization",
+      "No white (#FFFFFF) background"
+    ]
   },
   {
     "id": "style-accessible-ethical",
     "name": "Accessible & Ethical",
     "category": "General",
-    "description": "\u2610 WCAG AAA verified, \u2610 7:1+ contrast checked, \u2610 Keyboard navigation tested, \u2610 Screen reader tested, \u2610 Focus visible 3-4px, \u2610 Semantic HTML used, \u2610 Touch targets 44x44px",
+    "description": "A collection of design features.",
     "use_cases": [
       "High contrast",
       "large text (16px+)",
@@ -186,13 +239,22 @@
     "do_not_use_for": "None - accessibility universal",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AAA",
-    "css_keywords": "color-contrast: 7:1+, font-size: 16px+, outline: 3-4px on :focus-visible, aria-label, role attributes, @media (prefers-reduced-motion), touch-target: 44x44px, cursor: pointer"
+    "css_keywords": "color-contrast: 7:1+, font-size: 16px+, outline: 3-4px on :focus-visible, aria-label, role attributes, @media (prefers-reduced-motion), touch-target: 44x44px, cursor: pointer",
+    "features": [
+      "WCAG AAA verified",
+      "7:1+ contrast checked",
+      "Keyboard navigation tested",
+      "Screen reader tested",
+      "Focus visible 3-4px",
+      "Semantic HTML used",
+      "Touch targets 44x44px"
+    ]
   },
   {
     "id": "style-claymorphism",
     "name": "Claymorphism",
     "category": "General",
-    "description": "\u2610 Border-radius 16-24px, \u2610 Thick borders 3-4px, \u2610 Double shadows (inner+outer), \u2610 Pastel colors used, \u2610 Soft bounce animations, \u2610 Playful interactions",
+    "description": "A collection of design features.",
     "use_cases": [
       "Soft 3D",
       "chunky",
@@ -209,13 +271,21 @@
     "do_not_use_for": "Formal corporate, professional services, data-critical, serious/medical, legal apps, finance",
     "performance": "\u26a1 Good",
     "accessibility": "\u26a0 Ensure 4.5:1",
-    "css_keywords": "border-radius: 16-24px, border: 3-4px solid, box-shadow: inset -2px -2px 8px, 4px 4px 8px, background: pastel-gradient, animation: soft bounce (cubic-bezier 0.34, 1.56)"
+    "css_keywords": "border-radius: 16-24px, border: 3-4px solid, box-shadow: inset -2px -2px 8px, 4px 4px 8px, background: pastel-gradient, animation: soft bounce (cubic-bezier 0.34, 1.56)",
+    "features": [
+      "Border-radius 16-24px",
+      "Thick borders 3-4px",
+      "Double shadows (inner+outer)",
+      "Pastel colors used",
+      "Soft bounce animations",
+      "Playful interactions"
+    ]
   },
   {
     "id": "style-aurora-ui",
     "name": "Aurora UI",
     "category": "General",
-    "description": "\u2610 Mesh/flowing gradients applied, \u2610 8-12s animation loop, \u2610 Complementary colors used, \u2610 Smooth color transitions, \u2610 Iridescent effect subtle, \u2610 Text contrast verified",
+    "description": "A collection of design features.",
     "use_cases": [
       "Vibrant gradients",
       "smooth blend",
@@ -231,13 +301,21 @@
     "do_not_use_for": "Data-heavy dashboards, critical accessibility, content-heavy where distraction issues",
     "performance": "\u26a0 Good",
     "accessibility": "\u26a0 Text contrast",
-    "css_keywords": "background: conic-gradient or radial-gradient with multiple stops, animation: @keyframes gradient (8-12s), background-size: 200% 200%, filter: saturate(1.2), blend-mode: screen or multiply"
+    "css_keywords": "background: conic-gradient or radial-gradient with multiple stops, animation: @keyframes gradient (8-12s), background-size: 200% 200%, filter: saturate(1.2), blend-mode: screen or multiply",
+    "features": [
+      "Mesh/flowing gradients applied",
+      "8-12s animation loop",
+      "Complementary colors used",
+      "Smooth color transitions",
+      "Iridescent effect subtle",
+      "Text contrast verified"
+    ]
   },
   {
     "id": "style-retro-futurism",
     "name": "Retro-Futurism",
     "category": "General",
-    "description": "\u2610 Neon colors used, \u2610 CRT scanlines effect, \u2610 Glitch animations active, \u2610 Monospace font, \u2610 Deep black background, \u2610 Glow effects applied, \u2610 80s patterns present",
+    "description": "A collection of design features.",
     "use_cases": [
       "Vintage sci-fi",
       "80s aesthetic",
@@ -254,13 +332,22 @@
     "do_not_use_for": "Conservative industries, critical accessibility, professional/corporate, elderly, legal/finance",
     "performance": "\u26a0 Moderate",
     "accessibility": "\u26a0 High contrast/strain",
-    "css_keywords": "color: neon colors (#0080FF, #FF006E, #00FFFF), text-shadow: 0 0 10px neon, background: #000 or #1A1A2E, font-family: monospace, animation: glitch (skew+offset), filter: hue-rotate"
+    "css_keywords": "color: neon colors (#0080FF, #FF006E, #00FFFF), text-shadow: 0 0 10px neon, background: #000 or #1A1A2E, font-family: monospace, animation: glitch (skew+offset), filter: hue-rotate",
+    "features": [
+      "Neon colors used",
+      "CRT scanlines effect",
+      "Glitch animations active",
+      "Monospace font",
+      "Deep black background",
+      "Glow effects applied",
+      "80s patterns present"
+    ]
   },
   {
     "id": "style-flat-design",
     "name": "Flat Design",
     "category": "General",
-    "description": "\u2610 No shadows/gradients, \u2610 4-6 solid colors max, \u2610 Clean lines consistent, \u2610 Simple shapes used, \u2610 Icon-heavy layout, \u2610 High saturation colors, \u2610 Fast loading verified",
+    "description": "A collection of design features.",
     "use_cases": [
       "2D",
       "minimalist",
@@ -278,13 +365,22 @@
     "do_not_use_for": "Complex 3D, premium/luxury, artistic portfolios, immersive experiences, high-detail",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AAA",
-    "css_keywords": "box-shadow: none, background: solid color, border-radius: 0-4px, color: solid (no gradients), fill: solid, stroke: 1-2px, font: bold sans-serif, icons: simplified SVG"
+    "css_keywords": "box-shadow: none, background: solid color, border-radius: 0-4px, color: solid (no gradients), fill: solid, stroke: 1-2px, font: bold sans-serif, icons: simplified SVG",
+    "features": [
+      "No shadows/gradients",
+      "4-6 solid colors max",
+      "Clean lines consistent",
+      "Simple shapes used",
+      "Icon-heavy layout",
+      "High saturation colors",
+      "Fast loading verified"
+    ]
   },
   {
     "id": "style-skeuomorphism",
     "name": "Skeuomorphism",
     "category": "General",
-    "description": "\u2610 Realistic textures applied, \u2610 Complex gradients 8-12 stops, \u2610 Multi-layer shadows, \u2610 Texture overlays present, \u2610 Tactile animations smooth, \u2610 Depth effect pronounced",
+    "description": "A collection of design features.",
     "use_cases": [
       "Realistic",
       "texture",
@@ -303,13 +399,21 @@
     "do_not_use_for": "Modern enterprise, critical accessibility, low-performance, web (use Flat/Modern)",
     "performance": "\u274c Poor",
     "accessibility": "\u26a0 Textures reduce readability",
-    "css_keywords": "background: complex gradient (8-12 stops), box-shadow: realistic multi-layer, background-image: texture overlay (noise, grain), filter: drop-shadow, transform: scale on press (300-500ms)"
+    "css_keywords": "background: complex gradient (8-12 stops), box-shadow: realistic multi-layer, background-image: texture overlay (noise, grain), filter: drop-shadow, transform: scale on press (300-500ms)",
+    "features": [
+      "Realistic textures applied",
+      "Complex gradients 8-12 stops",
+      "Multi-layer shadows",
+      "Texture overlays present",
+      "Tactile animations smooth",
+      "Depth effect pronounced"
+    ]
   },
   {
     "id": "style-liquid-glass",
     "name": "Liquid Glass",
     "category": "General",
-    "description": "\u2610 Morphing animations 400-600ms, \u2610 Chromatic aberration applied, \u2610 Dynamic blur active, \u2610 Iridescent gradients, \u2610 Smooth color transitions, \u2610 Premium feel achieved",
+    "description": "A collection of design features.",
     "use_cases": [
       "Flowing glass",
       "morphing",
@@ -326,13 +430,21 @@
     "do_not_use_for": "Performance-limited, critical accessibility, complex data, budget projects",
     "performance": "\u26a0 Moderate-Poor",
     "accessibility": "\u26a0 Text contrast",
-    "css_keywords": "animation: morphing SVG paths (400-600ms), backdrop-filter: blur + saturate, filter: hue-rotate + brightness, blend-mode: screen, background: iridescent gradient"
+    "css_keywords": "animation: morphing SVG paths (400-600ms), backdrop-filter: blur + saturate, filter: hue-rotate + brightness, blend-mode: screen, background: iridescent gradient",
+    "features": [
+      "Morphing animations 400-600ms",
+      "Chromatic aberration applied",
+      "Dynamic blur active",
+      "Iridescent gradients",
+      "Smooth color transitions",
+      "Premium feel achieved"
+    ]
   },
   {
     "id": "style-motion-driven",
     "name": "Motion-Driven",
     "category": "General",
-    "description": "\u2610 Scroll animations active, \u2610 Parallax 3-5 layers, \u2610 Entrance animations smooth, \u2610 Page transitions fluid, \u2610 GPU accelerated, \u2610 Prefers-reduced-motion respected",
+    "description": "A collection of design features.",
     "use_cases": [
       "Animation-heavy",
       "microinteractions",
@@ -348,13 +460,21 @@
     "do_not_use_for": "Data dashboards, critical accessibility, low-power devices, content-heavy, motion-sensitive",
     "performance": "\u26a0 Good",
     "accessibility": "\u26a0 Prefers-reduced-motion",
-    "css_keywords": "animation: @keyframes scroll-reveal, transform: translateY/X, Intersection Observer API, will-change: transform, scroll-behavior: smooth, animation-duration: 300-400ms"
+    "css_keywords": "animation: @keyframes scroll-reveal, transform: translateY/X, Intersection Observer API, will-change: transform, scroll-behavior: smooth, animation-duration: 300-400ms",
+    "features": [
+      "Scroll animations active",
+      "Parallax 3-5 layers",
+      "Entrance animations smooth",
+      "Page transitions fluid",
+      "GPU accelerated",
+      "Prefers-reduced-motion respected"
+    ]
   },
   {
     "id": "style-micro-interactions",
     "name": "Micro-interactions",
     "category": "General",
-    "description": "\u2610 Micro-animations 50-100ms, \u2610 Gesture-responsive, \u2610 Tactile feedback visual/haptic, \u2610 Loading spinners smooth, \u2610 Success/error states clear, \u2610 Hover effects subtle",
+    "description": "A collection of design features.",
     "use_cases": [
       "Small animations",
       "gesture-based",
@@ -369,13 +489,21 @@
     "do_not_use_for": "Desktop-only, critical performance, accessibility-first (alternatives needed)",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 Good",
-    "css_keywords": "animation: short 50-100ms, transition: hover states, @media (hover: hover) for desktop, :active for press, haptic-feedback CSS/API, loading animation smooth loop"
+    "css_keywords": "animation: short 50-100ms, transition: hover states, @media (hover: hover) for desktop, :active for press, haptic-feedback CSS/API, loading animation smooth loop",
+    "features": [
+      "Micro-animations 50-100ms",
+      "Gesture-responsive",
+      "Tactile feedback visual/haptic",
+      "Loading spinners smooth",
+      "Success/error states clear",
+      "Hover effects subtle"
+    ]
   },
   {
     "id": "style-inclusive-design",
     "name": "Inclusive Design",
     "category": "General",
-    "description": "\u2610 WCAG AAA verified, \u2610 7:1+ contrast all text, \u2610 Keyboard accessible (Tab/Enter), \u2610 Screen reader tested, \u2610 Focus visible 3-4px, \u2610 No color-only indicators, \u2610 Haptic fallback",
+    "description": "A collection of design features.",
     "use_cases": [
       "Accessible",
       "color-blind friendly",
@@ -392,13 +520,22 @@
     "do_not_use_for": "None - accessibility universal",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AAA",
-    "css_keywords": "aria-* attributes complete, role attributes semantic, focus-visible: 3-4px ring, color-contrast: 7:1+, @media (prefers-reduced-motion), alt text on all images, form labels properly associated"
+    "css_keywords": "aria-* attributes complete, role attributes semantic, focus-visible: 3-4px ring, color-contrast: 7:1+, @media (prefers-reduced-motion), alt text on all images, form labels properly associated",
+    "features": [
+      "WCAG AAA verified",
+      "7:1+ contrast all text",
+      "Keyboard accessible (Tab/Enter)",
+      "Screen reader tested",
+      "Focus visible 3-4px",
+      "No color-only indicators",
+      "Haptic fallback"
+    ]
   },
   {
     "id": "style-zero-interface",
     "name": "Zero Interface",
     "category": "General",
-    "description": "\u2610 Voice commands responsive, \u2610 Gesture detection active, \u2610 AI predictions hidden/revealed, \u2610 Progressive disclosure working, \u2610 Minimal visible UI, \u2610 Smart suggestions contextual",
+    "description": "A collection of design features.",
     "use_cases": [
       "Minimal visible UI",
       "voice-first",
@@ -415,13 +552,21 @@
     "do_not_use_for": "Complex workflows, data-entry heavy, traditional systems, legacy support, explicit control",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 Excellent",
-    "css_keywords": "voice-commands: Web Speech API, gesture-detection: touch events, AI-predictions: hidden by default (reveal on hover), progressive-disclosure: show on demand, minimal UI visible"
+    "css_keywords": "voice-commands: Web Speech API, gesture-detection: touch events, AI-predictions: hidden by default (reveal on hover), progressive-disclosure: show on demand, minimal UI visible",
+    "features": [
+      "Voice commands responsive",
+      "Gesture detection active",
+      "AI predictions hidden/revealed",
+      "Progressive disclosure working",
+      "Minimal visible UI",
+      "Smart suggestions contextual"
+    ]
   },
   {
     "id": "style-soft-ui-evolution",
     "name": "Soft UI Evolution",
     "category": "General",
-    "description": "\u2610 Improved contrast AA/AAA, \u2610 Soft shadows modern, \u2610 Border-radius 8-12px, \u2610 Animations 200-300ms, \u2610 Focus states visible, \u2610 Color hierarchy clear",
+    "description": "A collection of design features.",
     "use_cases": [
       "Evolved soft UI",
       "better contrast",
@@ -437,13 +582,21 @@
     "do_not_use_for": "Extreme minimalism, critical performance, systems without modern OS",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AA+",
-    "css_keywords": "box-shadow: softer multi-layer (0 2px 4px), background: improved contrast pastels, border-radius: 8-12px, animation: 200-300ms smooth, outline: 2-3px on focus, contrast: 4.5:1+"
+    "css_keywords": "box-shadow: softer multi-layer (0 2px 4px), background: improved contrast pastels, border-radius: 8-12px, animation: 200-300ms smooth, outline: 2-3px on focus, contrast: 4.5:1+",
+    "features": [
+      "Improved contrast AA/AAA",
+      "Soft shadows modern",
+      "Border-radius 8-12px",
+      "Animations 200-300ms",
+      "Focus states visible",
+      "Color hierarchy clear"
+    ]
   },
   {
     "id": "style-hero-centric-design",
     "name": "Hero-Centric Design",
     "category": "Landing Page",
-    "description": "\u2610 Hero section full viewport height, \u2610 Headline visible above fold, \u2610 CTA button high contrast, \u2610 Background image optimized (WebP), \u2610 Text readable on background, \u2610 Mobile responsive layout",
+    "description": "A collection of design features.",
     "use_cases": [
       "Large hero section",
       "compelling headline",
@@ -459,13 +612,21 @@
     "do_not_use_for": "Complex navigation, multi-page experiences, data-heavy applications",
     "performance": "\u26a1 Good",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "min-height: 100vh, display: flex, align-items: center, background: linear-gradient or image, text-shadow for readability, max-width: 800px for text, button with hover scale (1.05)"
+    "css_keywords": "min-height: 100vh, display: flex, align-items: center, background: linear-gradient or image, text-shadow for readability, max-width: 800px for text, button with hover scale (1.05)",
+    "features": [
+      "Hero section full viewport height",
+      "Headline visible above fold",
+      "CTA button high contrast",
+      "Background image optimized (WebP)",
+      "Text readable on background",
+      "Mobile responsive layout"
+    ]
   },
   {
     "id": "style-conversion-optimized",
     "name": "Conversion-Optimized",
     "category": "Landing Page",
-    "description": "\u2610 Single primary CTA visible, \u2610 Form fields minimal (3-5), \u2610 Trust badges present, \u2610 Social proof above fold, \u2610 Mobile form optimized, \u2610 Loading states implemented, \u2610 A/B test ready",
+    "description": "A collection of design features.",
     "use_cases": [
       "Form-focused",
       "minimalist design",
@@ -482,13 +643,22 @@
     "do_not_use_for": "Complex feature explanations, multi-product showcases, technical documentation",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "form with focus states, input:focus ring, button: primary color high contrast, position: sticky for CTA, max-width: 600px for form, loading spinner, success/error states"
+    "css_keywords": "form with focus states, input:focus ring, button: primary color high contrast, position: sticky for CTA, max-width: 600px for form, loading spinner, success/error states",
+    "features": [
+      "Single primary CTA visible",
+      "Form fields minimal (3-5)",
+      "Trust badges present",
+      "Social proof above fold",
+      "Mobile form optimized",
+      "Loading states implemented",
+      "A/B test ready"
+    ]
   },
   {
     "id": "style-feature-rich-showcase",
     "name": "Feature-Rich Showcase",
     "category": "Landing Page",
-    "description": "\u2610 Feature grid responsive, \u2610 Icons consistent style, \u2610 Card hover effects smooth, \u2610 Alternating sections contrast, \u2610 Benefits clearly stated, \u2610 Mobile stacks properly",
+    "description": "A collection of design features.",
     "use_cases": [
       "Multiple feature sections",
       "grid layout",
@@ -503,13 +673,21 @@
     "do_not_use_for": "Simple product pages, early-stage startups with few features, entertainment landing pages",
     "performance": "\u26a1 Good",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "display: grid, grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)), gap: 2rem, card hover effects (translateY -4px), icon containers, alternating background colors"
+    "css_keywords": "display: grid, grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)), gap: 2rem, card hover effects (translateY -4px), icon containers, alternating background colors",
+    "features": [
+      "Feature grid responsive",
+      "Icons consistent style",
+      "Card hover effects smooth",
+      "Alternating sections contrast",
+      "Benefits clearly stated",
+      "Mobile stacks properly"
+    ]
   },
   {
     "id": "style-minimal-direct",
     "name": "Minimal & Direct",
     "category": "Landing Page",
-    "description": "\u2610 Single column centered, \u2610 White space generous, \u2610 One primary CTA only, \u2610 No decorative images, \u2610 Page weight < 500KB, \u2610 Load time < 2s",
+    "description": "A collection of design features.",
     "use_cases": [
       "Minimal text",
       "white space heavy",
@@ -525,13 +703,21 @@
     "do_not_use_for": "Feature-heavy products, complex explanations, multi-product showcases",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AAA",
-    "css_keywords": "max-width: 680px, margin: 0 auto, padding: 4rem 2rem, font-size: 18-20px, line-height: 1.6, minimal animations, no box-shadow, clean borders only"
+    "css_keywords": "max-width: 680px, margin: 0 auto, padding: 4rem 2rem, font-size: 18-20px, line-height: 1.6, minimal animations, no box-shadow, clean borders only",
+    "features": [
+      "Single column centered",
+      "White space generous",
+      "One primary CTA only",
+      "No decorative images",
+      "Page weight < 500KB",
+      "Load time < 2s"
+    ]
   },
   {
     "id": "style-social-proof-focused",
     "name": "Social Proof-Focused",
     "category": "Landing Page",
-    "description": "\u2610 Testimonials with real photos, \u2610 Logo grid 6-12 logos, \u2610 Star ratings accessible, \u2610 Metrics animated on scroll, \u2610 Case studies linked, \u2610 Mobile carousel works",
+    "description": "A collection of design features.",
     "use_cases": [
       "Testimonials prominent",
       "client logos displayed",
@@ -547,13 +733,21 @@
     "do_not_use_for": "Startup MVPs, products without users, niche/experimental products",
     "performance": "\u26a1 Good",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "testimonial cards with avatar, logo grid (grayscale filter), star rating SVGs, counter animations (count-up), blockquote styling, carousel for testimonials, metric cards"
+    "css_keywords": "testimonial cards with avatar, logo grid (grayscale filter), star rating SVGs, counter animations (count-up), blockquote styling, carousel for testimonials, metric cards",
+    "features": [
+      "Testimonials with real photos",
+      "Logo grid 6-12 logos",
+      "Star ratings accessible",
+      "Metrics animated on scroll",
+      "Case studies linked",
+      "Mobile carousel works"
+    ]
   },
   {
     "id": "style-interactive-product-demo",
     "name": "Interactive Product Demo",
     "category": "Landing Page",
-    "description": "\u2610 Demo video loads fast, \u2610 Fallback for no-JS, \u2610 Step indicators clear, \u2610 Hover states obvious, \u2610 Mobile touch friendly, \u2610 Demo CTA prominent",
+    "description": "A collection of design features.",
     "use_cases": [
       "Embedded product mockup/video",
       "interactive elements",
@@ -568,13 +762,21 @@
     "do_not_use_for": "Simple services, consulting, non-digital products, complexity-averse audiences",
     "performance": "\u26a0 Good (video/interactive)",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "video element with controls, position: relative for overlays, hover reveal (opacity transition), step indicators, modal for full demo, screenshot lightbox, play button overlay"
+    "css_keywords": "video element with controls, position: relative for overlays, hover reveal (opacity transition), step indicators, modal for full demo, screenshot lightbox, play button overlay",
+    "features": [
+      "Demo video loads fast",
+      "Fallback for no-JS",
+      "Step indicators clear",
+      "Hover states obvious",
+      "Mobile touch friendly",
+      "Demo CTA prominent"
+    ]
   },
   {
     "id": "style-trust-authority",
     "name": "Trust & Authority",
     "category": "Landing Page",
-    "description": "\u2610 Security badges visible, \u2610 Certifications verified, \u2610 Metrics with sources, \u2610 Professional imagery, \u2610 Guarantee clearly stated, \u2610 Contact info accessible",
+    "description": "A collection of design features.",
     "use_cases": [
       "Certificates/badges displayed",
       "expert credentials",
@@ -589,13 +791,21 @@
     "do_not_use_for": "Casual products, entertainment, viral/social-first products",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AAA",
-    "css_keywords": "badge grid layout, shield icons, lock icons for security, certificate styling, metric cards with icons, professional color scheme (blue/grey), subtle shadows for depth"
+    "css_keywords": "badge grid layout, shield icons, lock icons for security, certificate styling, metric cards with icons, professional color scheme (blue/grey), subtle shadows for depth",
+    "features": [
+      "Security badges visible",
+      "Certifications verified",
+      "Metrics with sources",
+      "Professional imagery",
+      "Guarantee clearly stated",
+      "Contact info accessible"
+    ]
   },
   {
     "id": "style-storytelling-driven",
     "name": "Storytelling-Driven",
     "category": "Landing Page",
-    "description": "\u2610 Story flows naturally, \u2610 Scroll reveals smooth, \u2610 Sections timed well, \u2610 Emotional hooks present, \u2610 Mobile story readable, \u2610 Skip option available",
+    "description": "A collection of design features.",
     "use_cases": [
       "Narrative flow",
       "visual story progression",
@@ -610,13 +820,21 @@
     "do_not_use_for": "Technical/complex products (unless narrative-driven), traditional enterprise software",
     "performance": "\u26a0 Moderate (animations)",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "scroll-snap sections, Intersection Observer for reveals, parallax backgrounds, section transitions, timeline CSS, narrative typography (varied sizes), image-text alternating"
+    "css_keywords": "scroll-snap sections, Intersection Observer for reveals, parallax backgrounds, section transitions, timeline CSS, narrative typography (varied sizes), image-text alternating",
+    "features": [
+      "Story flows naturally",
+      "Scroll reveals smooth",
+      "Sections timed well",
+      "Emotional hooks present",
+      "Mobile story readable",
+      "Skip option available"
+    ]
   },
   {
     "id": "style-data-dense-dashboard",
     "name": "Data-Dense Dashboard",
     "category": "BI/Analytics",
-    "description": "\u2610 Grid layout 12 columns, \u2610 KPI cards responsive, \u2610 Tables sortable, \u2610 Filters functional, \u2610 Loading states for data, \u2610 Export functionality",
+    "description": "A collection of design features.",
     "use_cases": [
       "Multiple charts/widgets",
       "data tables",
@@ -632,13 +850,21 @@
     "do_not_use_for": "Marketing dashboards, consumer-facing analytics, simple reporting",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "display: grid, grid-template-columns: repeat(12, 1fr), gap: 8px, padding: 12px, font-size: 12-14px, overflow: auto for tables, compact card design, sticky headers"
+    "css_keywords": "display: grid, grid-template-columns: repeat(12, 1fr), gap: 8px, padding: 12px, font-size: 12-14px, overflow: auto for tables, compact card design, sticky headers",
+    "features": [
+      "Grid layout 12 columns",
+      "KPI cards responsive",
+      "Tables sortable",
+      "Filters functional",
+      "Loading states for data",
+      "Export functionality"
+    ]
   },
   {
     "id": "style-heat-map-heatmap-style",
     "name": "Heat Map & Heatmap Style",
     "category": "BI/Analytics",
-    "description": "\u2610 Color scale clear, \u2610 Legend visible, \u2610 Tooltips informative, \u2610 Colorblind alternatives, \u2610 Zoom/pan for geo, \u2610 Performance for large data",
+    "description": "A collection of design features.",
     "use_cases": [
       "Color-coded grid/matrix",
       "data intensity visualization",
@@ -653,13 +879,21 @@
     "do_not_use_for": "Linear data representation, categorical comparisons (use bar charts), small datasets",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u26a0 Colorblind considerations",
-    "css_keywords": "display: grid, background: linear-gradient for legend, cell hover states, tooltip positioning, color scale (blue\u2192white\u2192red), SVG for geographic, canvas for large datasets"
+    "css_keywords": "display: grid, background: linear-gradient for legend, cell hover states, tooltip positioning, color scale (blue\u2192white\u2192red), SVG for geographic, canvas for large datasets",
+    "features": [
+      "Color scale clear",
+      "Legend visible",
+      "Tooltips informative",
+      "Colorblind alternatives",
+      "Zoom/pan for geo",
+      "Performance for large data"
+    ]
   },
   {
     "id": "style-executive-dashboard",
     "name": "Executive Dashboard",
     "category": "BI/Analytics",
-    "description": "\u2610 KPIs 4-6 maximum, \u2610 Trends visible, \u2610 Status colors clear, \u2610 One-page view, \u2610 Mobile simplified, \u2610 Print-friendly layout",
+    "description": "A collection of design features.",
     "use_cases": [
       "High-level KPIs",
       "large key metrics",
@@ -675,13 +909,21 @@
     "do_not_use_for": "Detailed analyst dashboards, technical deep-dives, operational monitoring",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "display: flex for KPI row, large font-size (24-48px) for metrics, sparkline SVG inline, status indicators (border-left color), card shadows for hierarchy, responsive breakpoints"
+    "css_keywords": "display: flex for KPI row, large font-size (24-48px) for metrics, sparkline SVG inline, status indicators (border-left color), card shadows for hierarchy, responsive breakpoints",
+    "features": [
+      "KPIs 4-6 maximum",
+      "Trends visible",
+      "Status colors clear",
+      "One-page view",
+      "Mobile simplified",
+      "Print-friendly layout"
+    ]
   },
   {
     "id": "style-real-time-monitoring",
     "name": "Real-Time Monitoring",
     "category": "BI/Analytics",
-    "description": "\u2610 Live updates working, \u2610 Alert sounds optional, \u2610 Connection status shown, \u2610 Auto-refresh indicated, \u2610 Critical alerts prominent, \u2610 Offline fallback",
+    "description": "A collection of design features.",
     "use_cases": [
       "Live data updates",
       "status indicators",
@@ -696,13 +938,21 @@
     "do_not_use_for": "Historical analysis, long-term trend reports, archived data dashboards",
     "performance": "\u26a1 Good (real-time load)",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "animation: pulse for live, WebSocket for streaming, position: fixed for alerts, status-dot with animation, chart real-time updates, notification toast, connection indicator"
+    "css_keywords": "animation: pulse for live, WebSocket for streaming, position: fixed for alerts, status-dot with animation, chart real-time updates, notification toast, connection indicator",
+    "features": [
+      "Live updates working",
+      "Alert sounds optional",
+      "Connection status shown",
+      "Auto-refresh indicated",
+      "Critical alerts prominent",
+      "Offline fallback"
+    ]
   },
   {
     "id": "style-drill-down-analytics",
     "name": "Drill-Down Analytics",
     "category": "BI/Analytics",
-    "description": "\u2610 Breadcrumbs clear, \u2610 Back navigation easy, \u2610 Expand animation smooth, \u2610 Context preserved, \u2610 Mobile drill works, \u2610 Deep links supported",
+    "description": "A collection of design features.",
     "use_cases": [
       "Hierarchical data exploration",
       "expandable sections",
@@ -716,13 +966,21 @@
     "do_not_use_for": "Simple linear data, single-metric dashboards, streaming real-time dashboards",
     "performance": "\u26a1 Good",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "breadcrumb nav with separators, details/summary for expand, transition for drill animation, position: sticky breadcrumb, nested grid layouts, smooth scroll to detail"
+    "css_keywords": "breadcrumb nav with separators, details/summary for expand, transition for drill animation, position: sticky breadcrumb, nested grid layouts, smooth scroll to detail",
+    "features": [
+      "Breadcrumbs clear",
+      "Back navigation easy",
+      "Expand animation smooth",
+      "Context preserved",
+      "Mobile drill works",
+      "Deep links supported"
+    ]
   },
   {
     "id": "style-comparative-analysis-dashboard",
     "name": "Comparative Analysis Dashboard",
     "category": "BI/Analytics",
-    "description": "\u2610 Period selector works, \u2610 Deltas calculated, \u2610 Colors meaningful, \u2610 Benchmarks shown, \u2610 Mobile stacks properly, \u2610 Export comparison",
+    "description": "A collection of design features.",
     "use_cases": [
       "Side-by-side comparisons",
       "period-over-period metrics",
@@ -736,13 +994,21 @@
     "do_not_use_for": "Single metric dashboards, future projections (use forecasting), real-time only (no historical)",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "display: flex for side-by-side, gap for comparison spacing, color coding (green up, red down), arrow indicators, diff highlighting, comparison table zebra striping"
+    "css_keywords": "display: flex for side-by-side, gap for comparison spacing, color coding (green up, red down), arrow indicators, diff highlighting, comparison table zebra striping",
+    "features": [
+      "Period selector works",
+      "Deltas calculated",
+      "Colors meaningful",
+      "Benchmarks shown",
+      "Mobile stacks properly",
+      "Export comparison"
+    ]
   },
   {
     "id": "style-predictive-analytics",
     "name": "Predictive Analytics",
     "category": "BI/Analytics",
-    "description": "\u2610 Forecast line distinct, \u2610 Confidence bands visible, \u2610 Anomalies highlighted, \u2610 Scenarios switchable, \u2610 Predictions dated, \u2610 Accuracy shown",
+    "description": "A collection of design features.",
     "use_cases": [
       "Forecast lines",
       "confidence intervals",
@@ -757,13 +1023,21 @@
     "do_not_use_for": "Historical-only dashboards, simple reporting, real-time operational dashboards",
     "performance": "\u26a0 Good (computation)",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "stroke-dasharray for forecast lines, fill-opacity for confidence bands, anomaly markers (circles), tooltip for predictions, toggle switches for scenarios, gradient for probability"
+    "css_keywords": "stroke-dasharray for forecast lines, fill-opacity for confidence bands, anomaly markers (circles), tooltip for predictions, toggle switches for scenarios, gradient for probability",
+    "features": [
+      "Forecast line distinct",
+      "Confidence bands visible",
+      "Anomalies highlighted",
+      "Scenarios switchable",
+      "Predictions dated",
+      "Accuracy shown"
+    ]
   },
   {
     "id": "style-user-behavior-analytics",
     "name": "User Behavior Analytics",
     "category": "BI/Analytics",
-    "description": "\u2610 Funnel stages clear, \u2610 Flow diagram readable, \u2610 Conversions calculated, \u2610 Cohorts comparable, \u2610 Retention trends visible, \u2610 Privacy compliant",
+    "description": "A collection of design features.",
     "use_cases": [
       "Funnel visualization",
       "user flow diagrams",
@@ -778,13 +1052,21 @@
     "do_not_use_for": "Real-time operational metrics, technical system monitoring, financial transactions",
     "performance": "\u26a1 Good",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "SVG funnel with gradients, Sankey diagram library, percentage labels, cohort grid cells, retention chart (line/area), click heatmap overlay, session timeline"
+    "css_keywords": "SVG funnel with gradients, Sankey diagram library, percentage labels, cohort grid cells, retention chart (line/area), click heatmap overlay, session timeline",
+    "features": [
+      "Funnel stages clear",
+      "Flow diagram readable",
+      "Conversions calculated",
+      "Cohorts comparable",
+      "Retention trends visible",
+      "Privacy compliant"
+    ]
   },
   {
     "id": "style-financial-dashboard",
     "name": "Financial Dashboard",
     "category": "BI/Analytics",
-    "description": "\u2610 Currency formatted, \u2610 Decimals consistent, \u2610 P&L clear, \u2610 Budget variance shown, \u2610 Audit trail complete, \u2610 Export to Excel",
+    "description": "A collection of design features.",
     "use_cases": [
       "Revenue metrics",
       "profit/loss visualization",
@@ -800,13 +1082,21 @@
     "do_not_use_for": "Simple business dashboards, entertainment/social metrics, non-financial data",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AAA",
-    "css_keywords": "number formatting (Intl.NumberFormat), waterfall chart (positive/negative bars), variance coloring, table with totals row, sparkline for trends, sticky column headers"
+    "css_keywords": "number formatting (Intl.NumberFormat), waterfall chart (positive/negative bars), variance coloring, table with totals row, sparkline for trends, sticky column headers",
+    "features": [
+      "Currency formatted",
+      "Decimals consistent",
+      "P&L clear",
+      "Budget variance shown",
+      "Audit trail complete",
+      "Export to Excel"
+    ]
   },
   {
     "id": "style-sales-intelligence-dashboard",
     "name": "Sales Intelligence Dashboard",
     "category": "BI/Analytics",
-    "description": "\u2610 Pipeline stages shown, \u2610 Deals draggable, \u2610 Quotas visualized, \u2610 Rankings updated, \u2610 Territory clickable, \u2610 CRM integration",
+    "description": "A collection of design features.",
     "use_cases": [
       "Deal pipeline",
       "sales metrics",
@@ -822,13 +1112,21 @@
     "do_not_use_for": "Marketing analytics, customer support metrics, HR dashboards",
     "performance": "\u26a1 Good",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "kanban columns (flex), gauge chart (SVG arc), leaderboard ranking styles, map integration (Mapbox/Google), timeline vertical, deal card with status border"
+    "css_keywords": "kanban columns (flex), gauge chart (SVG arc), leaderboard ranking styles, map integration (Mapbox/Google), timeline vertical, deal card with status border",
+    "features": [
+      "Pipeline stages shown",
+      "Deals draggable",
+      "Quotas visualized",
+      "Rankings updated",
+      "Territory clickable",
+      "CRM integration"
+    ]
   },
   {
     "id": "style-neubrutalism",
     "name": "Neubrutalism",
     "category": "General",
-    "description": "\u2610 Hard borders (2-4px), \u2610 Hard offset shadows, \u2610 High saturation colors, \u2610 Bold typography, \u2610 No blurs/gradients, \u2610 Distinctive 'ugly-cute' look",
+    "description": "A collection of design features.",
     "use_cases": [
       "Bold borders",
       "black outlines",
@@ -846,13 +1144,21 @@
     "do_not_use_for": "Luxury brands, finance, healthcare, conservative industries (too playful)",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AAA",
-    "css_keywords": "border: 3px solid black, box-shadow: 5px 5px 0px black, colors: #FFDB58 #FF6B6B #4ECDC4, font-weight: 700, no gradients"
+    "css_keywords": "border: 3px solid black, box-shadow: 5px 5px 0px black, colors: #FFDB58 #FF6B6B #4ECDC4, font-weight: 700, no gradients",
+    "features": [
+      "Hard borders (2-4px)",
+      "Hard offset shadows",
+      "High saturation colors",
+      "Bold typography",
+      "No blurs/gradients",
+      "Distinctive 'ugly-cute' look"
+    ]
   },
   {
     "id": "style-bento-box-grid",
     "name": "Bento Box Grid",
     "category": "General",
-    "description": "\u2610 Grid responsive (4\u21922\u21921 cols), \u2610 Card spans varied, \u2610 Rounded corners consistent, \u2610 Shadows subtle, \u2610 Content fits cards, \u2610 Hover scale (1.02)",
+    "description": "A collection of design features.",
     "use_cases": [
       "Modular cards",
       "asymmetric grid",
@@ -869,13 +1175,21 @@
     "do_not_use_for": "Dense data tables, text-heavy content, real-time monitoring",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "display: grid, grid-template-columns: repeat(4, 1fr), grid-auto-rows: 200px, gap: 16px, border-radius: 24px, background: #FFFFFF, box-shadow: 0 4px 6px rgba(0,0,0,0.05)"
+    "css_keywords": "display: grid, grid-template-columns: repeat(4, 1fr), grid-auto-rows: 200px, gap: 16px, border-radius: 24px, background: #FFFFFF, box-shadow: 0 4px 6px rgba(0,0,0,0.05)",
+    "features": [
+      "Grid responsive (4\u21922\u21921 cols)",
+      "Card spans varied",
+      "Rounded corners consistent",
+      "Shadows subtle",
+      "Content fits cards",
+      "Hover scale (1.02)"
+    ]
   },
   {
     "id": "style-y2k-aesthetic",
     "name": "Y2K Aesthetic",
     "category": "General",
-    "description": "\u2610 Neon colors balanced, \u2610 Chrome effects visible, \u2610 Glossy buttons styled, \u2610 Bubble shapes decorative, \u2610 Sparkle animations, \u2610 Retro fonts loaded",
+    "description": "A collection of design features.",
     "use_cases": [
       "Neon pink",
       "chrome",
@@ -893,13 +1207,21 @@
     "do_not_use_for": "B2B enterprise, healthcare, finance, conservative industries, elderly users",
     "performance": "\u26a0 Good",
     "accessibility": "\u26a0 Check contrast",
-    "css_keywords": "background: linear-gradient(135deg, #FF69B4, #00FFFF), filter: drop-shadow for glow, border-radius: 50% for bubbles, metallic gradients (silver/chrome), text-shadow: neon glow, ::before for sparkles"
+    "css_keywords": "background: linear-gradient(135deg, #FF69B4, #00FFFF), filter: drop-shadow for glow, border-radius: 50% for bubbles, metallic gradients (silver/chrome), text-shadow: neon glow, ::before for sparkles",
+    "features": [
+      "Neon colors balanced",
+      "Chrome effects visible",
+      "Glossy buttons styled",
+      "Bubble shapes decorative",
+      "Sparkle animations",
+      "Retro fonts loaded"
+    ]
   },
   {
     "id": "style-cyberpunk-ui",
     "name": "Cyberpunk UI",
     "category": "General",
-    "description": "\u2610 Dark background only, \u2610 Neon accents visible, \u2610 Glitch effect subtle, \u2610 Scanlines optional, \u2610 Monospace font, \u2610 Terminal aesthetic",
+    "description": "A collection of design features.",
     "use_cases": [
       "Neon",
       "dark mode",
@@ -918,13 +1240,21 @@
     "do_not_use_for": "Corporate enterprise, healthcare, family apps, conservative brands, elderly users",
     "performance": "\u26a0 Moderate",
     "accessibility": "\u26a0 Limited (dark+neon)",
-    "css_keywords": "background: #0D0D0D, color: #00FF00 or #FF00FF, font-family: monospace, text-shadow: 0 0 10px neon, animation: glitch (transform skew), ::before scanlines (repeating-linear-gradient)"
+    "css_keywords": "background: #0D0D0D, color: #00FF00 or #FF00FF, font-family: monospace, text-shadow: 0 0 10px neon, animation: glitch (transform skew), ::before scanlines (repeating-linear-gradient)",
+    "features": [
+      "Dark background only",
+      "Neon accents visible",
+      "Glitch effect subtle",
+      "Scanlines optional",
+      "Monospace font",
+      "Terminal aesthetic"
+    ]
   },
   {
     "id": "style-organic-biophilic",
     "name": "Organic Biophilic",
     "category": "General",
-    "description": "\u2610 Earth tones dominant, \u2610 Organic curves present, \u2610 Natural textures subtle, \u2610 Green accents, \u2610 Rounded everywhere, \u2610 Calming feel",
+    "description": "A collection of design features.",
     "use_cases": [
       "Nature",
       "organic shapes",
@@ -942,13 +1272,21 @@
     "do_not_use_for": "Tech-focused products, gaming, industrial, urban brands",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "border-radius: 16-24px (varied), background: earth tones, SVG organic shapes (blob), box-shadow: natural soft, color: #228B22 #8B4513 #87CEEB, texture overlays (subtle)"
+    "css_keywords": "border-radius: 16-24px (varied), background: earth tones, SVG organic shapes (blob), box-shadow: natural soft, color: #228B22 #8B4513 #87CEEB, texture overlays (subtle)",
+    "features": [
+      "Earth tones dominant",
+      "Organic curves present",
+      "Natural textures subtle",
+      "Green accents",
+      "Rounded everywhere",
+      "Calming feel"
+    ]
   },
   {
     "id": "style-ai-native-ui",
     "name": "AI-Native UI",
     "category": "General",
-    "description": "\u2610 Chat layout responsive, \u2610 Typing indicator smooth, \u2610 Input always visible, \u2610 Context cards styled, \u2610 AI responses distinct, \u2610 User messages aligned right",
+    "description": "A collection of design features.",
     "use_cases": [
       "Chatbot",
       "conversational",
@@ -966,13 +1304,21 @@
     "do_not_use_for": "Traditional forms, data-heavy dashboards, print-first content",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "chat bubble layout (flex-direction: column), typing animation (3 dots pulse), streaming text (overflow: hidden + animation), input: sticky bottom, context cards (border-left accent), minimal borders"
+    "css_keywords": "chat bubble layout (flex-direction: column), typing animation (3 dots pulse), streaming text (overflow: hidden + animation), input: sticky bottom, context cards (border-left accent), minimal borders",
+    "features": [
+      "Chat layout responsive",
+      "Typing indicator smooth",
+      "Input always visible",
+      "Context cards styled",
+      "AI responses distinct",
+      "User messages aligned right"
+    ]
   },
   {
     "id": "style-memphis-design",
     "name": "Memphis Design",
     "category": "General",
-    "description": "\u2610 Geometric shapes visible, \u2610 Colors bold/clashing, \u2610 Patterns present, \u2610 Layout asymmetric, \u2610 Playful decorations, \u2610 80s vibe achieved",
+    "description": "A collection of design features.",
     "use_cases": [
       "80s",
       "geometric",
@@ -992,13 +1338,21 @@
     "do_not_use_for": "Corporate finance, healthcare, legal, elderly users, conservative brands",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u26a0 Check contrast",
-    "css_keywords": "clip-path: polygon() for shapes, background: repeating patterns, transform: rotate() for tilted elements, mix-blend-mode for overlays, border: dashed/dotted patterns, bold sans-serif"
+    "css_keywords": "clip-path: polygon() for shapes, background: repeating patterns, transform: rotate() for tilted elements, mix-blend-mode for overlays, border: dashed/dotted patterns, bold sans-serif",
+    "features": [
+      "Geometric shapes visible",
+      "Colors bold/clashing",
+      "Patterns present",
+      "Layout asymmetric",
+      "Playful decorations",
+      "80s vibe achieved"
+    ]
   },
   {
     "id": "style-vaporwave",
     "name": "Vaporwave",
     "category": "General",
-    "description": "\u2610 Sunset gradient present, \u2610 Neon glow applied, \u2610 Retro grid visible, \u2610 Glitch effects subtle, \u2610 Dreamy atmosphere, \u2610 80s-90s aesthetic",
+    "description": "A collection of design features.",
     "use_cases": [
       "Synthwave",
       "retro-futuristic",
@@ -1016,13 +1370,21 @@
     "do_not_use_for": "Business apps, e-commerce, education, healthcare, enterprise software",
     "performance": "\u26a0 Moderate",
     "accessibility": "\u26a0 Poor (motion)",
-    "css_keywords": "background: linear-gradient(180deg, #FF71CE, #01CDFE, #B967FF), filter: hue-rotate(), text-shadow: neon glow, retro grid (perspective + linear-gradient), VHS scanlines"
+    "css_keywords": "background: linear-gradient(180deg, #FF71CE, #01CDFE, #B967FF), filter: hue-rotate(), text-shadow: neon glow, retro grid (perspective + linear-gradient), VHS scanlines",
+    "features": [
+      "Sunset gradient present",
+      "Neon glow applied",
+      "Retro grid visible",
+      "Glitch effects subtle",
+      "Dreamy atmosphere",
+      "80s-90s aesthetic"
+    ]
   },
   {
     "id": "style-dimensional-layering",
     "name": "Dimensional Layering",
     "category": "General",
-    "description": "\u2610 Layers clearly defined, \u2610 Shadows show depth, \u2610 Overlaps intentional, \u2610 Hierarchy clear, \u2610 Performance optimized, \u2610 Mobile depth maintained",
+    "description": "A collection of design features.",
     "use_cases": [
       "Depth",
       "overlapping",
@@ -1041,13 +1403,21 @@
     "do_not_use_for": "Print-style layouts, simple blogs, low-end devices, flat design requirements",
     "performance": "\u26a0 Good",
     "accessibility": "\u26a0 Moderate (SR issues)",
-    "css_keywords": "z-index: 1-4 levels, box-shadow: elevation scale (sm/md/lg/xl), transform: translateZ(), backdrop-filter: blur(), position: relative for stacking, parallax on scroll"
+    "css_keywords": "z-index: 1-4 levels, box-shadow: elevation scale (sm/md/lg/xl), transform: translateZ(), backdrop-filter: blur(), position: relative for stacking, parallax on scroll",
+    "features": [
+      "Layers clearly defined",
+      "Shadows show depth",
+      "Overlaps intentional",
+      "Hierarchy clear",
+      "Performance optimized",
+      "Mobile depth maintained"
+    ]
   },
   {
     "id": "style-exaggerated-minimalism",
     "name": "Exaggerated Minimalism",
     "category": "General",
-    "description": "\u2610 Typography oversized, \u2610 White space extreme, \u2610 Black/white dominant, \u2610 Single accent only, \u2610 Elements minimal, \u2610 Statement clear",
+    "description": "A collection of design features.",
     "use_cases": [
       "Bold minimalism",
       "oversized typography",
@@ -1062,13 +1432,21 @@
     "do_not_use_for": "E-commerce catalogs, dashboards, forms, data-heavy, elderly users, complex apps",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "font-size: clamp(3rem, 10vw, 12rem), font-weight: 900, letter-spacing: -0.05em, color: #000 or #FFF, padding: 8rem+, single accent, no decorations"
+    "css_keywords": "font-size: clamp(3rem, 10vw, 12rem), font-weight: 900, letter-spacing: -0.05em, color: #000 or #FFF, padding: 8rem+, single accent, no decorations",
+    "features": [
+      "Typography oversized",
+      "White space extreme",
+      "Black/white dominant",
+      "Single accent only",
+      "Elements minimal",
+      "Statement clear"
+    ]
   },
   {
     "id": "style-kinetic-typography",
     "name": "Kinetic Typography",
     "category": "General",
-    "description": "\u2610 Text animations smooth, \u2610 Prefers-reduced-motion respected, \u2610 Fallback for no-JS, \u2610 Mobile performance ok, \u2610 Typing effect timed, \u2610 Scroll triggers work",
+    "description": "A collection of design features.",
     "use_cases": [
       "Motion text",
       "animated type",
@@ -1084,13 +1462,21 @@
     "do_not_use_for": "Long-form content, accessibility-critical, data interfaces, forms, elderly users",
     "performance": "\u26a0 Moderate",
     "accessibility": "\u274c Poor (motion)",
-    "css_keywords": "@keyframes for text animation, background-clip: text, GSAP SplitText, typing effect (steps()), transform on letters, scroll-triggered (Intersection Observer), variable fonts for morphing"
+    "css_keywords": "@keyframes for text animation, background-clip: text, GSAP SplitText, typing effect (steps()), transform on letters, scroll-triggered (Intersection Observer), variable fonts for morphing",
+    "features": [
+      "Text animations smooth",
+      "Prefers-reduced-motion respected",
+      "Fallback for no-JS",
+      "Mobile performance ok",
+      "Typing effect timed",
+      "Scroll triggers work"
+    ]
   },
   {
     "id": "style-parallax-storytelling",
     "name": "Parallax Storytelling",
     "category": "General",
-    "description": "\u2610 Layers parallax smoothly, \u2610 Story flows naturally, \u2610 Mobile alternative provided, \u2610 Performance optimized, \u2610 Skip option available, \u2610 Reduced motion fallback",
+    "description": "A collection of design features.",
     "use_cases": [
       "Scroll-driven",
       "narrative",
@@ -1106,13 +1492,21 @@
     "do_not_use_for": "E-commerce, dashboards, mobile-first, SEO-critical, accessibility-required",
     "performance": "\u274c Poor",
     "accessibility": "\u274c Poor (motion)",
-    "css_keywords": "position: fixed/sticky, transform: translateY(calc()), perspective: 1px, z-index layering, scroll-snap-type, Intersection Observer for triggers, will-change: transform"
+    "css_keywords": "position: fixed/sticky, transform: translateY(calc()), perspective: 1px, z-index layering, scroll-snap-type, Intersection Observer for triggers, will-change: transform",
+    "features": [
+      "Layers parallax smoothly",
+      "Story flows naturally",
+      "Mobile alternative provided",
+      "Performance optimized",
+      "Skip option available",
+      "Reduced motion fallback"
+    ]
   },
   {
     "id": "style-swiss-modernism-2-0",
     "name": "Swiss Modernism 2.0",
     "category": "General",
-    "description": "\u2610 12-column grid strict, \u2610 Spacing mathematical, \u2610 Typography hierarchy clear, \u2610 Single accent only, \u2610 No decorations, \u2610 High contrast verified",
+    "description": "A collection of design features.",
     "use_cases": [
       "Grid system",
       "Helvetica",
@@ -1129,13 +1523,21 @@
     "do_not_use_for": "Playful brands, children's sites, entertainment, gaming, emotional storytelling",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AAA",
-    "css_keywords": "display: grid, grid-template-columns: repeat(12, 1fr), gap: 1rem (8px base unit), font-family: Inter/Helvetica, font-weight: 400-700, color: #000/#FFF, single accent"
+    "css_keywords": "display: grid, grid-template-columns: repeat(12, 1fr), gap: 1rem (8px base unit), font-family: Inter/Helvetica, font-weight: 400-700, color: #000/#FFF, single accent",
+    "features": [
+      "12-column grid strict",
+      "Spacing mathematical",
+      "Typography hierarchy clear",
+      "Single accent only",
+      "No decorations",
+      "High contrast verified"
+    ]
   },
   {
     "id": "style-hud-sci-fi-fui",
     "name": "HUD / Sci-Fi FUI",
     "category": "General",
-    "description": "\u2610 Fine lines 1px, \u2610 Neon glow text/borders, \u2610 Monospaced font, \u2610 Dark/Transparent BG, \u2610 Decorative tech markers, \u2610 Holographic feel",
+    "description": "A collection of design features.",
     "use_cases": [
       "Futuristic",
       "technical",
@@ -1153,13 +1555,21 @@
     "do_not_use_for": "Standard corporate, reading heavy content, accessible public services",
     "performance": "\u26a0 Moderate (renders)",
     "accessibility": "\u26a0 Poor (thin lines)",
-    "css_keywords": "border: 1px solid rgba(0,255,255,0.5), color: #00FFFF, background: transparent or rgba(0,0,0,0.8), font-family: monospace, text-shadow: 0 0 5px cyan"
+    "css_keywords": "border: 1px solid rgba(0,255,255,0.5), color: #00FFFF, background: transparent or rgba(0,0,0,0.8), font-family: monospace, text-shadow: 0 0 5px cyan",
+    "features": [
+      "Fine lines 1px",
+      "Neon glow text/borders",
+      "Monospaced font",
+      "Dark/Transparent BG",
+      "Decorative tech markers",
+      "Holographic feel"
+    ]
   },
   {
     "id": "style-pixel-art",
     "name": "Pixel Art",
     "category": "General",
-    "description": "\u2610 Pixelated fonts loaded, \u2610 Images sharp (no blur), \u2610 CSS box-shadow for pixel borders, \u2610 Retro palette, \u2610 Blocky layout",
+    "description": "A collection of design features.",
     "use_cases": [
       "Retro",
       "8-bit",
@@ -1176,13 +1586,20 @@
     "do_not_use_for": "Professional corporate, modern SaaS, high-res photography sites",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 Good (if contrast ok)",
-    "css_keywords": "font-family: 'Press Start 2P', image-rendering: pixelated, box-shadow: 4px 0 0 #000 (pixel border), no anti-aliasing"
+    "css_keywords": "font-family: 'Press Start 2P', image-rendering: pixelated, box-shadow: 4px 0 0 #000 (pixel border), no anti-aliasing",
+    "features": [
+      "Pixelated fonts loaded",
+      "Images sharp (no blur)",
+      "CSS box-shadow for pixel borders",
+      "Retro palette",
+      "Blocky layout"
+    ]
   },
   {
     "id": "style-bento-grids",
     "name": "Bento Grids",
     "category": "General",
-    "description": "\u2610 Grid layout (CSS Grid), \u2610 Rounded corners 16-24px, \u2610 Varied card spans, \u2610 Content fits card size, \u2610 Responsive re-flow, \u2610 Apple-like aesthetic",
+    "description": "A collection of design features.",
     "use_cases": [
       "Apple-style",
       "modular",
@@ -1200,13 +1617,21 @@
     "do_not_use_for": "Long-form reading, data tables, complex forms",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "display: grid, grid-template-columns: repeat(auto-fit, minmax(...)), gap: 1rem, border-radius: 20px, background: #FFF, box-shadow: subtle"
+    "css_keywords": "display: grid, grid-template-columns: repeat(auto-fit, minmax(...)), gap: 1rem, border-radius: 20px, background: #FFF, box-shadow: subtle",
+    "features": [
+      "Grid layout (CSS Grid)",
+      "Rounded corners 16-24px",
+      "Varied card spans",
+      "Content fits card size",
+      "Responsive re-flow",
+      "Apple-like aesthetic"
+    ]
   },
   {
     "id": "style-spatial-ui-visionos",
     "name": "Spatial UI (VisionOS)",
     "category": "General",
-    "description": "\u2610 Glass effect visible, \u2610 Depth layers clear, \u2610 Hover states defined, \u2610 Colors vibrant on active, \u2610 Floating feel achieved, \u2610 Contrast maintained",
+    "description": "A collection of design features.",
     "use_cases": [
       "Glass",
       "depth",
@@ -1224,13 +1649,21 @@
     "do_not_use_for": "Text-heavy documents, high-contrast requirements, non-3D capable devices",
     "performance": "\u26a0 Moderate (blur cost)",
     "accessibility": "\u26a0 Contrast risks",
-    "css_keywords": "backdrop-filter: blur(40px) saturate(180%), background: rgba(255,255,255,0.2), border-radius: 24px, box-shadow: 0 8px 32px rgba(0,0,0,0.1), transform: scale on focus, depth via shadows"
+    "css_keywords": "backdrop-filter: blur(40px) saturate(180%), background: rgba(255,255,255,0.2), border-radius: 24px, box-shadow: 0 8px 32px rgba(0,0,0,0.1), transform: scale on focus, depth via shadows",
+    "features": [
+      "Glass effect visible",
+      "Depth layers clear",
+      "Hover states defined",
+      "Colors vibrant on active",
+      "Floating feel achieved",
+      "Contrast maintained"
+    ]
   },
   {
     "id": "style-e-ink-paper",
     "name": "E-Ink / Paper",
     "category": "General",
-    "description": "\u2610 Paper background color, \u2610 High contrast text, \u2610 No animations, \u2610 Reading optimized, \u2610 Distraction-free, \u2610 Print-friendly",
+    "description": "A collection of design features.",
     "use_cases": [
       "Paper-like",
       "matte",
@@ -1247,13 +1680,21 @@
     "do_not_use_for": "Gaming, video platforms, high-energy marketing, dark mode dependent apps",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AAA",
-    "css_keywords": "background: #FDFBF7 (paper white), color: #1A1A1A, transition: none, font-family: serif for reading, no gradients, border: 1px solid #E0E0E0, texture overlay (noise)"
+    "css_keywords": "background: #FDFBF7 (paper white), color: #1A1A1A, transition: none, font-family: serif for reading, no gradients, border: 1px solid #E0E0E0, texture overlay (noise)",
+    "features": [
+      "Paper background color",
+      "High contrast text",
+      "No animations",
+      "Reading optimized",
+      "Distraction-free",
+      "Print-friendly"
+    ]
   },
   {
     "id": "style-gen-z-chaos-maximalism",
     "name": "Gen Z Chaos / Maximalism",
     "category": "General",
-    "description": "\u2610 Colors clash intentionally, \u2610 Stickers/overlays present, \u2610 Layout chaotic but usable, \u2610 GIFs optimized, \u2610 Mobile scrollable, \u2610 Performance acceptable",
+    "description": "A collection of design features.",
     "use_cases": [
       "Chaos",
       "clutter",
@@ -1271,13 +1712,21 @@
     "do_not_use_for": "Corporate, government, healthcare, banking, serious tools",
     "performance": "\u26a0 Poor (heavy assets)",
     "accessibility": "\u274c Poor",
-    "css_keywords": "mix-blend-mode: multiply/screen, transform: rotate(random), animation: jitter, marquee text, position: absolute for scattered elements, filter: saturate(150%), z-index chaos"
+    "css_keywords": "mix-blend-mode: multiply/screen, transform: rotate(random), animation: jitter, marquee text, position: absolute for scattered elements, filter: saturate(150%), z-index chaos",
+    "features": [
+      "Colors clash intentionally",
+      "Stickers/overlays present",
+      "Layout chaotic but usable",
+      "GIFs optimized",
+      "Mobile scrollable",
+      "Performance acceptable"
+    ]
   },
   {
     "id": "style-biomimetic-organic-2-0",
     "name": "Biomimetic / Organic 2.0",
     "category": "General",
-    "description": "\u2610 Organic shapes present, \u2610 Animations feel alive, \u2610 Generative elements, \u2610 Performance monitored, \u2610 Mobile fallback, \u2610 Accessibility alt content",
+    "description": "A collection of design features.",
     "use_cases": [
       "Nature-inspired",
       "cellular",
@@ -1293,13 +1742,21 @@
     "do_not_use_for": "Standard SaaS, data grids, strict corporate, accounting",
     "performance": "\u26a0 Moderate",
     "accessibility": "\u2713 Good",
-    "css_keywords": "SVG morphing (SMIL or GSAP), canvas for generative, animation: breathing (scale pulse), filter: blur for organic, clip-path for cellular, WebGL for advanced, physics libraries"
+    "css_keywords": "SVG morphing (SMIL or GSAP), canvas for generative, animation: breathing (scale pulse), filter: blur for organic, clip-path for cellular, WebGL for advanced, physics libraries",
+    "features": [
+      "Organic shapes present",
+      "Animations feel alive",
+      "Generative elements",
+      "Performance monitored",
+      "Mobile fallback",
+      "Accessibility alt content"
+    ]
   },
   {
     "id": "style-anti-polish-raw-aesthetic",
     "name": "Anti-Polish / Raw Aesthetic",
     "category": "General",
-    "description": "\u2610 Textures loaded, \u2610 Hand-drawn elements present, \u2610 Imperfections intentional, \u2610 Authentic feel achieved, \u2610 Performance ok with textures, \u2610 Accessibility maintained",
+    "description": "A collection of design features.",
     "use_cases": [
       "Hand-drawn",
       "collage",
@@ -1318,13 +1775,21 @@
     "do_not_use_for": "Corporate enterprise, fintech, healthcare, government, polished SaaS",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "background: url(paper-texture.png), filter: grayscale() contrast(), border: hand-drawn SVG, transform: rotate(small random), no smooth transitions, sketch-style fonts, opacity variations"
+    "css_keywords": "background: url(paper-texture.png), filter: grayscale() contrast(), border: hand-drawn SVG, transform: rotate(small random), no smooth transitions, sketch-style fonts, opacity variations",
+    "features": [
+      "Textures loaded",
+      "Hand-drawn elements present",
+      "Imperfections intentional",
+      "Authentic feel achieved",
+      "Performance ok with textures",
+      "Accessibility maintained"
+    ]
   },
   {
     "id": "style-tactile-digital-deformable-ui",
     "name": "Tactile Digital / Deformable UI",
     "category": "General",
-    "description": "\u2610 Press effect visible, \u2610 Bounce-back smooth, \u2610 Material feels tactile, \u2610 Spring physics tuned, \u2610 Mobile touch responsive, \u2610 Reduced motion option",
+    "description": "A collection of design features.",
     "use_cases": [
       "Jelly buttons",
       "chrome",
@@ -1342,13 +1807,21 @@
     "do_not_use_for": "Enterprise software, data dashboards, accessibility-critical, professional tools",
     "performance": "\u26a0 Good",
     "accessibility": "\u26a0 Motion sensitive",
-    "css_keywords": "transform: scale(0.95) on active, animation: bounce (cubic-bezier(0.34, 1.56, 0.64, 1)), box-shadow: inset for press, filter: brightness on press, spring physics (react-spring/framer-motion)"
+    "css_keywords": "transform: scale(0.95) on active, animation: bounce (cubic-bezier(0.34, 1.56, 0.64, 1)), box-shadow: inset for press, filter: brightness on press, spring physics (react-spring/framer-motion)",
+    "features": [
+      "Press effect visible",
+      "Bounce-back smooth",
+      "Material feels tactile",
+      "Spring physics tuned",
+      "Mobile touch responsive",
+      "Reduced motion option"
+    ]
   },
   {
     "id": "style-nature-distilled",
     "name": "Nature Distilled",
     "category": "General",
-    "description": "\u2610 Earth tones dominant, \u2610 Warm feel achieved, \u2610 Textures subtle, \u2610 Handmade quality, \u2610 Sustainable messaging, \u2610 Calming aesthetic",
+    "description": "A collection of design features.",
     "use_cases": [
       "Muted earthy",
       "skin tones",
@@ -1366,13 +1839,21 @@
     "do_not_use_for": "Tech startups, gaming, nightlife, corporate finance, high-energy brands",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "background: warm earth tones, color: #C67B5C #D4C4A8 #6B7B3C, border-radius: organic (varied), box-shadow: soft natural, texture overlays (grain), font: humanist sans-serif"
+    "css_keywords": "background: warm earth tones, color: #C67B5C #D4C4A8 #6B7B3C, border-radius: organic (varied), box-shadow: soft natural, texture overlays (grain), font: humanist sans-serif",
+    "features": [
+      "Earth tones dominant",
+      "Warm feel achieved",
+      "Textures subtle",
+      "Handmade quality",
+      "Sustainable messaging",
+      "Calming aesthetic"
+    ]
   },
   {
     "id": "style-interactive-cursor-design",
     "name": "Interactive Cursor Design",
     "category": "General",
-    "description": "\u2610 Custom cursor works, \u2610 Hover morph smooth, \u2610 Magnetic pull subtle, \u2610 Trail performance ok, \u2610 Click feedback visible, \u2610 Touch fallback provided",
+    "description": "A collection of design features.",
     "use_cases": [
       "Custom cursor",
       "cursor as tool",
@@ -1388,13 +1869,21 @@
     "do_not_use_for": "Mobile-first (no cursor), accessibility-critical, data-heavy dashboards, forms",
     "performance": "\u26a1 Good",
     "accessibility": "\u26a0 Not for touch/SR",
-    "css_keywords": "cursor: none (custom), position: fixed for cursor element, mix-blend-mode: difference, transform on hover targets, magnetic effect (JS position lerp), trail with opacity fade, scale on click"
+    "css_keywords": "cursor: none (custom), position: fixed for cursor element, mix-blend-mode: difference, transform on hover targets, magnetic effect (JS position lerp), trail with opacity fade, scale on click",
+    "features": [
+      "Custom cursor works",
+      "Hover morph smooth",
+      "Magnetic pull subtle",
+      "Trail performance ok",
+      "Click feedback visible",
+      "Touch fallback provided"
+    ]
   },
   {
     "id": "style-voice-first-multimodal",
     "name": "Voice-First Multimodal",
     "category": "General",
-    "description": "\u2610 Voice recognition works, \u2610 Visual feedback clear, \u2610 Listening state obvious, \u2610 Speaking animation smooth, \u2610 Fallback UI provided, \u2610 Accessibility excellent",
+    "description": "A collection of design features.",
     "use_cases": [
       "Voice UI",
       "multimodal",
@@ -1411,13 +1900,21 @@
     "do_not_use_for": "Visual-heavy content, data entry, complex forms, noisy environments",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 Excellent",
-    "css_keywords": "Web Speech API integration, canvas for waveform, animation: pulse for listening, status indicators (color change), audio visualization (Web Audio API), minimal chrome, large touch targets"
+    "css_keywords": "Web Speech API integration, canvas for waveform, animation: pulse for listening, status indicators (color change), audio visualization (Web Audio API), minimal chrome, large touch targets",
+    "features": [
+      "Voice recognition works",
+      "Visual feedback clear",
+      "Listening state obvious",
+      "Speaking animation smooth",
+      "Fallback UI provided",
+      "Accessibility excellent"
+    ]
   },
   {
     "id": "style-3d-product-preview",
     "name": "3D Product Preview",
     "category": "General",
-    "description": "\u2610 3D model loads fast, \u2610 Rotation smooth, \u2610 Zoom works (pinch/scroll), \u2610 AR button functional, \u2610 Colors switchable, \u2610 Mobile touch works",
+    "description": "A collection of design features.",
     "use_cases": [
       "360 product view",
       "rotatable",
@@ -1433,13 +1930,21 @@
     "do_not_use_for": "Content-heavy sites, blogs, dashboards, low-bandwidth, accessibility-critical",
     "performance": "\u274c Poor (3D rendering)",
     "accessibility": "\u26a0 Alt content needed",
-    "css_keywords": "Three.js or model-viewer, OrbitControls, touch events for rotation, WebXR for AR, canvas with WebGL, loading placeholder, LOD for performance, environment lighting"
+    "css_keywords": "Three.js or model-viewer, OrbitControls, touch events for rotation, WebXR for AR, canvas with WebGL, loading placeholder, LOD for performance, environment lighting",
+    "features": [
+      "3D model loads fast",
+      "Rotation smooth",
+      "Zoom works (pinch/scroll)",
+      "AR button functional",
+      "Colors switchable",
+      "Mobile touch works"
+    ]
   },
   {
     "id": "style-gradient-mesh-aurora-evolved",
     "name": "Gradient Mesh / Aurora Evolved",
     "category": "General",
-    "description": "\u2610 Mesh gradient visible, \u2610 Colors flow smoothly, \u2610 Aurora effect achieved, \u2610 Performance acceptable, \u2610 Text remains readable, \u2610 Mobile renders ok",
+    "description": "A collection of design features.",
     "use_cases": [
       "Complex gradients",
       "mesh gradients",
@@ -1456,13 +1961,21 @@
     "do_not_use_for": "Data interfaces, text-heavy content, accessibility-critical, conservative brands",
     "performance": "\u26a0 Good",
     "accessibility": "\u26a0 Text contrast",
-    "css_keywords": "background: conic-gradient or mesh (SVG), animation: gradient flow (background-position), filter: hue-rotate for shimmer, mix-blend-mode: screen, canvas for complex mesh, multiple gradient layers"
+    "css_keywords": "background: conic-gradient or mesh (SVG), animation: gradient flow (background-position), filter: hue-rotate for shimmer, mix-blend-mode: screen, canvas for complex mesh, multiple gradient layers",
+    "features": [
+      "Mesh gradient visible",
+      "Colors flow smoothly",
+      "Aurora effect achieved",
+      "Performance acceptable",
+      "Text remains readable",
+      "Mobile renders ok"
+    ]
   },
   {
     "id": "style-editorial-grid-magazine",
     "name": "Editorial Grid / Magazine",
     "category": "General",
-    "description": "\u2610 Grid asymmetric, \u2610 Typography editorial, \u2610 Pull quotes styled, \u2610 Drop caps present, \u2610 Images large/impactful, \u2610 Mobile reflows well",
+    "description": "A collection of design features.",
     "use_cases": [
       "Magazine layout",
       "asymmetric grid",
@@ -1478,13 +1991,21 @@
     "do_not_use_for": "Dashboards, apps, e-commerce catalogs, real-time data, short-form content",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AAA",
-    "css_keywords": "display: grid with named areas, column-count for text, ::first-letter for drop caps, blockquote styling, figure/figcaption, gap variations, font: serif for body, variable widths"
+    "css_keywords": "display: grid with named areas, column-count for text, ::first-letter for drop caps, blockquote styling, figure/figcaption, gap variations, font: serif for body, variable widths",
+    "features": [
+      "Grid asymmetric",
+      "Typography editorial",
+      "Pull quotes styled",
+      "Drop caps present",
+      "Images large/impactful",
+      "Mobile reflows well"
+    ]
   },
   {
     "id": "style-chromatic-aberration-rgb-split",
     "name": "Chromatic Aberration / RGB Split",
     "category": "General",
-    "description": "\u2610 RGB split visible, \u2610 Glitch effect controlled, \u2610 Scan lines subtle, \u2610 Performance ok, \u2610 Readability maintained, \u2610 Reduced motion option",
+    "description": "A collection of design features.",
     "use_cases": [
       "RGB split",
       "color fringing",
@@ -1501,13 +2022,21 @@
     "do_not_use_for": "Corporate, healthcare, finance, accessibility-critical, elderly users",
     "performance": "\u26a0 Good",
     "accessibility": "\u26a0 Can cause strain",
-    "css_keywords": "filter: drop-shadow with offset colors, text-shadow: RGB offset (-2px 0 red, 2px 0 cyan), animation: glitch (random offset), ::before for scanlines, mix-blend-mode: screen for overlays"
+    "css_keywords": "filter: drop-shadow with offset colors, text-shadow: RGB offset (-2px 0 red, 2px 0 cyan), animation: glitch (random offset), ::before for scanlines, mix-blend-mode: screen for overlays",
+    "features": [
+      "RGB split visible",
+      "Glitch effect controlled",
+      "Scan lines subtle",
+      "Performance ok",
+      "Readability maintained",
+      "Reduced motion option"
+    ]
   },
   {
     "id": "style-vintage-analog-retro-film",
     "name": "Vintage Analog / Retro Film",
     "category": "General",
-    "description": "\u2610 Film grain visible, \u2610 Colors faded/warm, \u2610 Light leaks present, \u2610 Nostalgic feel achieved, \u2610 Performance with filters, \u2610 Images look vintage",
+    "description": "A collection of design features.",
     "use_cases": [
       "Film grain",
       "VHS",
@@ -1524,13 +2053,21 @@
     "do_not_use_for": "Modern tech, SaaS, healthcare, children's apps, corporate enterprise",
     "performance": "\u26a1 Good",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "filter: sepia() contrast() saturate(0.8), background: noise texture overlay, animation: VHS tracking (transform skew), light leak gradient overlay, border for polaroid frame, grain via SVG filter"
+    "css_keywords": "filter: sepia() contrast() saturate(0.8), background: noise texture overlay, animation: VHS tracking (transform skew), light leak gradient overlay, border for polaroid frame, grain via SVG filter",
+    "features": [
+      "Film grain visible",
+      "Colors faded/warm",
+      "Light leaks present",
+      "Nostalgic feel achieved",
+      "Performance with filters",
+      "Images look vintage"
+    ]
   },
   {
     "id": "style-bauhaus-\u5305\u8c6a\u65af",
     "name": "Bauhaus (\u5305\u8c6a\u65af)",
     "category": "Mobile",
-    "description": "\u2610 Geometric shapes only (circle/square), \u2610 Primary color blocking applied, \u2610 Hard offset shadows 4px, \u2610 border-2 border-black on all elements, \u2610 Mechanical press active state, \u2610 Outfit Black 900 uppercase headlines, \u2610 Safe area (pt-safe pb-safe) respected, \u2610 Thumb-friendly h-12/h-14 touch targets, \u2610 No hover states (mobile-only), \u2610 Vertical rhythm single-column stack",
+    "description": "A collection of design features.",
     "use_cases": [
       "bauhaus",
       "geometric",
@@ -1550,13 +2087,25 @@
     "do_not_use_for": "Enterprise dashboards, accessibility-critical contexts (requires extra a11y work), data-heavy screens, conservative industries",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u26a0 WCAG AA (high contrast primaries; verify yellow text separately)",
-    "css_keywords": "border-radius: 0px (cards/inputs) or 9999px (buttons/FAB), box-shadow: 4px 4px 0px 0px #121212, active:translate-x-[2px] active:translate-y-[2px] active:shadow-none, border: 2px solid #121212, font-family: Outfit, font-weight: 900 uppercase tracking-tighter (headlines)"
+    "css_keywords": "border-radius: 0px (cards/inputs) or 9999px (buttons/FAB), box-shadow: 4px 4px 0px 0px #121212, active:translate-x-[2px] active:translate-y-[2px] active:shadow-none, border: 2px solid #121212, font-family: Outfit, font-weight: 900 uppercase tracking-tighter (headlines)",
+    "features": [
+      "Geometric shapes only (circle/square)",
+      "Primary color blocking applied",
+      "Hard offset shadows 4px",
+      "border-2 border-black on all elements",
+      "Mechanical press active state",
+      "Outfit Black 900 uppercase headlines",
+      "Safe area (pt-safe pb-safe) respected",
+      "Thumb-friendly h-12/h-14 touch targets",
+      "No hover states (mobile-only)",
+      "Vertical rhythm single-column stack"
+    ]
   },
   {
     "id": "style-minimalist-monochrome",
     "name": "Minimalist Monochrome",
     "category": "Mobile",
-    "description": "\u2610 0px border-radius on ALL elements, \u2610 No shadows anywhere, \u2610 Instant inversion on every tap (transition-none), \u2610 4px black line separates hero from content, \u2610 Safe area respected (pt-safe pb-safe), \u2610 h-14 touch targets, \u2610 Sticky section headers with border-b, \u2610 Typography hero: word spans full screen width, \u2610 Paper noise texture on backgrounds, \u2610 Menu word-label instead of icon",
+    "description": "A collection of design features.",
     "use_cases": [
       "monochrome",
       "black white",
@@ -1577,13 +2126,25 @@
     "do_not_use_for": "Entertainment, colorful brands, friendly consumer apps, anything requiring visual warmth or gradient",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AAA (pure black/white)",
-    "css_keywords": "border-radius: 0px (ALL elements including modals), box-shadow: none, active:bg-black active:text-white transition-none, border-b-4 border-black (section dividers), divide-y divide-black (lists), font-family: Playfair Display (headers) + Source Serif 4 (body) + JetBrains Mono (labels), background-image: noise SVG opacity-[0.03]"
+    "css_keywords": "border-radius: 0px (ALL elements including modals), box-shadow: none, active:bg-black active:text-white transition-none, border-b-4 border-black (section dividers), divide-y divide-black (lists), font-family: Playfair Display (headers) + Source Serif 4 (body) + JetBrains Mono (labels), background-image: noise SVG opacity-[0.03]",
+    "features": [
+      "0px border-radius on ALL elements",
+      "No shadows anywhere",
+      "Instant inversion on every tap (transition-none)",
+      "4px black line separates hero from content",
+      "Safe area respected (pt-safe pb-safe)",
+      "h-14 touch targets",
+      "Sticky section headers with border-b",
+      "Typography hero: word spans full screen width",
+      "Paper noise texture on backgrounds",
+      "Menu word-label instead of icon"
+    ]
   },
   {
     "id": "style-modern-dark-cinema-mobile",
     "name": "Modern Dark (Cinema Mobile)",
     "category": "Mobile",
-    "description": "\u2610 No pure #000000 backgrounds, \u2610 LinearGradient base screen, \u2610 Animated ambient blobs (Reanimated, native driver), \u2610 BlurView on tab bar and headers, \u2610 borderRadius 16 on all cards, \u2610 Haptic feedback on every Pressable, \u2610 Bezier(0.16,1,0.3,1) easing used, \u2610 Accent glow behind primary button, \u2610 No solid grey borders (rgba only), \u2610 Bottom sheets replace all modals",
+    "description": "A collection of design features.",
     "use_cases": [
       "dark mode",
       "cinematic",
@@ -1607,13 +2168,25 @@
     "do_not_use_for": "Consumer apps needing warmth, children's apps, health/medical contexts where dark feels harsh, high-accessibility contexts needing maximum contrast",
     "performance": "\u26a0 Good (blur effects require native driver)",
     "accessibility": "\u26a0 WCAG AA (requires careful accent contrast check)",
-    "css_keywords": "borderRadius: 16 (cards/buttons), background: LinearGradient #0a0a0f\u2192#020203, border: StyleSheet.hairlineWidth rgba(255,255,255,0.08), BlurView intensity={20} tint='dark', useAnimatedStyle + withRepeat (blob oscillation), Easing.bezier(0.16,1,0.3,1), withSpring damping:20 stiffness:90, Haptics.impactAsync(ImpactFeedbackStyle.Light), scale: 0.97 press"
+    "css_keywords": "borderRadius: 16 (cards/buttons), background: LinearGradient #0a0a0f\u2192#020203, border: StyleSheet.hairlineWidth rgba(255,255,255,0.08), BlurView intensity={20} tint='dark', useAnimatedStyle + withRepeat (blob oscillation), Easing.bezier(0.16,1,0.3,1), withSpring damping:20 stiffness:90, Haptics.impactAsync(ImpactFeedbackStyle.Light), scale: 0.97 press",
+    "features": [
+      "No pure #000000 backgrounds",
+      "LinearGradient base screen",
+      "Animated ambient blobs (Reanimated, native driver)",
+      "BlurView on tab bar and headers",
+      "borderRadius 16 on all cards",
+      "Haptic feedback on every Pressable",
+      "Bezier(0.16,1,0.3,1) easing used",
+      "Accent glow behind primary button",
+      "No solid grey borders (rgba only)",
+      "Bottom sheets replace all modals"
+    ]
   },
   {
     "id": "style-saas-mobile-high-tech-boutique",
     "name": "SaaS Mobile (High-Tech Boutique)",
     "category": "Mobile",
-    "description": "\u2610 SafeAreaView wraps all screens, \u2610 All touch targets \u2265 44\u00d744px, \u2610 Spring config used for all transitions, \u2610 Gradient buttons (not flat), \u2610 Haptic on every Pressable, \u2610 Section badges with PulseDot, \u2610 Staggered entrance animation on screen mount, \u2610 JetBrains Mono for data labels, \u2610 Calistoga for hero headlines, \u2610 Elevation/shadow on cards",
+    "description": "A collection of design features.",
     "use_cases": [
       "saas",
       "electric blue",
@@ -1637,13 +2210,25 @@
     "do_not_use_for": "Pure consumer entertainment, children's apps, highly decorative lifestyle apps, contexts where Electric Blue feels too corporate",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "borderRadius: 16 (buttons/cards), LinearGradient colors={['#0052FF','#4D7CFF']}, shadowOpacity: 0.1, shadowRadius: 10, elevation: 4, Haptics.impactAsync(ImpactFeedbackStyle.Light) on press, withSpring({mass:1, damping:15, stiffness:120}), withTiming Y:20\u21920 opacity:0\u21921 staggered entrance, LayoutAnimation.configureNext for list updates, BlurView on nav bars"
+    "css_keywords": "borderRadius: 16 (buttons/cards), LinearGradient colors={['#0052FF','#4D7CFF']}, shadowOpacity: 0.1, shadowRadius: 10, elevation: 4, Haptics.impactAsync(ImpactFeedbackStyle.Light) on press, withSpring({mass:1, damping:15, stiffness:120}), withTiming Y:20\u21920 opacity:0\u21921 staggered entrance, LayoutAnimation.configureNext for list updates, BlurView on nav bars",
+    "features": [
+      "SafeAreaView wraps all screens",
+      "All touch targets \u2265 44\u00d744px",
+      "Spring config used for all transitions",
+      "Gradient buttons (not flat)",
+      "Haptic on every Pressable",
+      "Section badges with PulseDot",
+      "Staggered entrance animation on screen mount",
+      "JetBrains Mono for data labels",
+      "Calistoga for hero headlines",
+      "Elevation/shadow on cards"
+    ]
   },
   {
     "id": "style-terminal-cli-mobile",
     "name": "Terminal CLI (Mobile)",
     "category": "Mobile",
-    "description": "\u2610 0px border-radius everywhere, \u2610 ASCII-style borders on cards, \u2610 Boot sequence on launch, \u2610 Blinking cursor component, \u2610 Typewriter hook for new content, \u2610 Scanline overlay (0.05 opacity), \u2610 Haptic on every button press, \u2610 Footer status bar component, \u2610 hitSlop on all bracketed buttons (44\u00d744dp), \u2610 Reduced motion respected",
+    "description": "A collection of design features.",
     "use_cases": [
       "terminal",
       "cli",
@@ -1666,13 +2251,25 @@
     "do_not_use_for": "Consumer products, health apps, anything requiring approachability or warmth, children's apps, standard enterprise contexts",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 High contrast (green on black \u226b4.5:1 ratio)",
-    "css_keywords": "borderRadius: 0 (ALL elements), borderWidth: 1, borderColor: '#33FF00', backgroundColor: '#050505', color: '#33FF00', fontFamily: 'SpaceMono-Regular' or JetBrains Mono, fontSize: 12 or 14 or 16 only, lineHeight: 1.2x fontSize, Haptics.impactAsync(Light) on every press, useAnimatedValue blink 500ms, hitSlop: 12px all sides for bracketed buttons"
+    "css_keywords": "borderRadius: 0 (ALL elements), borderWidth: 1, borderColor: '#33FF00', backgroundColor: '#050505', color: '#33FF00', fontFamily: 'SpaceMono-Regular' or JetBrains Mono, fontSize: 12 or 14 or 16 only, lineHeight: 1.2x fontSize, Haptics.impactAsync(Light) on every press, useAnimatedValue blink 500ms, hitSlop: 12px all sides for bracketed buttons",
+    "features": [
+      "0px border-radius everywhere",
+      "ASCII-style borders on cards",
+      "Boot sequence on launch",
+      "Blinking cursor component",
+      "Typewriter hook for new content",
+      "Scanline overlay (0.05 opacity)",
+      "Haptic on every button press",
+      "Footer status bar component",
+      "hitSlop on all bracketed buttons (44\u00d744dp)",
+      "Reduced motion respected"
+    ]
   },
   {
     "id": "style-kinetic-brutalism-mobile",
     "name": "Kinetic Brutalism (Mobile)",
     "category": "Mobile",
-    "description": "\u2610 Infinite marquee rows (Reanimated, no fade edges), \u2610 Hero parallax scroll (scale+opacity Interpolate), \u2610 All display text uppercase, \u2610 0px border-radius, \u2610 2px borders, \u2610 Acid yellow card flood on press, \u2610 Haptic Medium on every interaction, \u2610 Font scale helper (windowWidth/375*size), \u2610 Safe area for massive headers, \u2610 Reduced motion stops marquees",
+    "description": "A collection of design features.",
     "use_cases": [
       "kinetic",
       "brutalism",
@@ -1695,13 +2292,25 @@
     "do_not_use_for": "Calm informational apps, healthcare, finance contexts needing trust, children's, any context where aggressive typography feels inappropriate",
     "performance": "\u26a1 Excellent (native driver required)",
     "accessibility": "\u26a0 WCAG AA (verify zinc body text on dark bg)",
-    "css_keywords": "borderRadius: 0, borderWidth: 2, borderColor: '#3F3F46', backgroundColor: '#09090B', color: '#FAFAFA', fontWeight: '800 or 900', letterSpacing: -1 (large) or 2 (labels), lineHeight: 0.9\u20131.1 * fontSize, Reanimated withRepeat marquee timing 5000ms Easing.linear, Interpolate scroll\u2192scale + opacity, Haptics.impactAsync(Medium), scale press: 0.95, 100ms color transitions"
+    "css_keywords": "borderRadius: 0, borderWidth: 2, borderColor: '#3F3F46', backgroundColor: '#09090B', color: '#FAFAFA', fontWeight: '800 or 900', letterSpacing: -1 (large) or 2 (labels), lineHeight: 0.9\u20131.1 * fontSize, Reanimated withRepeat marquee timing 5000ms Easing.linear, Interpolate scroll\u2192scale + opacity, Haptics.impactAsync(Medium), scale press: 0.95, 100ms color transitions",
+    "features": [
+      "Infinite marquee rows (Reanimated, no fade edges)",
+      "Hero parallax scroll (scale+opacity Interpolate)",
+      "All display text uppercase",
+      "0px border-radius",
+      "2px borders",
+      "Acid yellow card flood on press",
+      "Haptic Medium on every interaction",
+      "Font scale helper (windowWidth/375*size)",
+      "Safe area for massive headers",
+      "Reduced motion stops marquees"
+    ]
   },
   {
     "id": "style-flat-design-mobile-touch-first",
     "name": "Flat Design Mobile (Touch-First)",
     "category": "Mobile",
-    "description": "\u2610 Zero elevation AND shadowOpacity on all elements, \u2610 Color-blocking sections (not borders), \u2610 All touch targets \u2265 48\u00d748, \u2610 No gradients on flat elements, \u2610 Icons inside solid colored containers, \u2610 Pressable scale feedback, \u2610 Geometric shapes as bg decoration, \u2610 Bold flat bottom tabs (no floating), \u2610 Primary headlines much larger than body, \u2610 4pt spacing system throughout",
+    "description": "A collection of design features.",
     "use_cases": [
       "flat",
       "2D",
@@ -1723,13 +2332,25 @@
     "do_not_use_for": "Ultra-premium contexts needing depth/shadow, dark-mode-first products, contexts where flat design reads as unfinished or sterile",
     "performance": "\u26a1 Excellent (no GPU effects)",
     "accessibility": "\u2713 WCAG AA (large bold type helps)",
-    "css_keywords": "shadowOpacity: 0, elevation: 0, borderRadius: 6/12/999, height: 48 minimum touch targets, spacing: 4/8/16/24/32/48 system, backgroundColor (section blocking), Pressable scale: pressed ? 0.97 : 1, fontWeight: '800' heads / '600' sub / '400' body, letterSpacing: -0.5 heads / 1 labels, textTransform: 'uppercase' labels, strokeWidth={2.5} icons, borderWidth: 3/4 for featured CTAs"
+    "css_keywords": "shadowOpacity: 0, elevation: 0, borderRadius: 6/12/999, height: 48 minimum touch targets, spacing: 4/8/16/24/32/48 system, backgroundColor (section blocking), Pressable scale: pressed ? 0.97 : 1, fontWeight: '800' heads / '600' sub / '400' body, letterSpacing: -0.5 heads / 1 labels, textTransform: 'uppercase' labels, strokeWidth={2.5} icons, borderWidth: 3/4 for featured CTAs",
+    "features": [
+      "Zero elevation AND shadowOpacity on all elements",
+      "Color-blocking sections (not borders)",
+      "All touch targets \u2265 48\u00d748",
+      "No gradients on flat elements",
+      "Icons inside solid colored containers",
+      "Pressable scale feedback",
+      "Geometric shapes as bg decoration",
+      "Bold flat bottom tabs (no floating)",
+      "Primary headlines much larger than body",
+      "4pt spacing system throughout"
+    ]
   },
   {
     "id": "style-material-you-md3-mobile",
     "name": "Material You (MD3 Mobile)",
     "category": "Mobile",
-    "description": "\u2610 MD3 color tokens applied (background/surface/container), \u2610 All CTAs are pill-shaped, \u2610 State-layer overlays instead of opacity 0.5 hacks, \u2610 Emphasized easing used for all animations, \u2610 Floating label inputs implemented, \u2610 FAB uses tertiary color with correct elevation, \u2610 Safe areas respected for organic shapes, \u2610 No pure white background, \u2610 No harsh box-shadows (ambient only)",
+    "description": "A collection of design features.",
     "use_cases": [
       "material design 3",
       "md3",
@@ -1749,13 +2370,24 @@
     "do_not_use_for": "Ultra-minimal brutalist brands, terminal/hacker aesthetics, monochrome editorial apps",
     "performance": "\u26a0 Good (requires gradients and overlays)",
     "accessibility": "\u2713 WCAG AA (with MD3 token checks)",
-    "css_keywords": "borderRadius: 999 (buttons/chips), containerRadius: 16\u201328, backgroundColor: '#FFFBFE', colorPrimary: '#6750A4', colorSecondaryContainer: '#E8DEF8', colorSurfaceContainer: '#F3EDF7', outlineColor: '#79747E', Pressable state-layer overlay (opacity 0.1\u20130.15), Easing.bezier(0.2,0,0,1), HapticFeedback.impactMedium on FAB, floating label using Reanimated translateY/scale"
+    "css_keywords": "borderRadius: 999 (buttons/chips), containerRadius: 16\u201328, backgroundColor: '#FFFBFE', colorPrimary: '#6750A4', colorSecondaryContainer: '#E8DEF8', colorSurfaceContainer: '#F3EDF7', outlineColor: '#79747E', Pressable state-layer overlay (opacity 0.1\u20130.15), Easing.bezier(0.2,0,0,1), HapticFeedback.impactMedium on FAB, floating label using Reanimated translateY/scale",
+    "features": [
+      "MD3 color tokens applied (background/surface/container)",
+      "All CTAs are pill-shaped",
+      "State-layer overlays instead of opacity 0.5 hacks",
+      "Emphasized easing used for all animations",
+      "Floating label inputs implemented",
+      "FAB uses tertiary color with correct elevation",
+      "Safe areas respected for organic shapes",
+      "No pure white background",
+      "No harsh box-shadows (ambient only)"
+    ]
   },
   {
     "id": "style-neo-brutalism-mobile",
     "name": "Neo Brutalism (Mobile)",
     "category": "Mobile",
-    "description": " \u2610 Hard offset shadow implemented via extra View",
+    "description": "Hard offset shadow implemented via extra View",
     "use_cases": [
       "neo brutalism",
       "pop art",
@@ -1775,13 +2407,14 @@
     "do_not_use_for": "Serious enterprise apps, conservative industries, sober fintech, accessibility-first contexts (must tune contrast)",
     "performance": "\u26a0 Moderate (shadows + transforms)",
     "accessibility": "\u26a0 Requires careful contrast tuning",
-    "css_keywords": "borderWidth: 4 (primary), 2 (secondary), borderRadius: 0 or 999 (badges only), backgroundColor: '#FFFDF5', shadow implemented as offset View, transform: [{translateX:4},{translateY:4}] on PressIn, fontFamily: 'SpaceGrotesk-Bold', fontWeight: '700/900', transform: [{ rotate: '-1deg' }] on cards, padding: 20,\u2610 4px borders on major elements"
+    "css_keywords": "borderWidth: 4 (primary), 2 (secondary), borderRadius: 0 or 999 (badges only), backgroundColor: '#FFFDF5', shadow implemented as offset View, transform: [{translateX:4},{translateY:4}] on PressIn, fontFamily: 'SpaceGrotesk-Bold', fontWeight: '700/900', transform: [{ rotate: '-1deg' }] on cards, padding: 20,\u2610 4px borders on major elements",
+    "features": []
   },
   {
     "id": "style-bold-typography-mobile-poster",
     "name": "Bold Typography (Mobile Poster)",
     "category": "Mobile",
-    "description": "\u2610 H1 at least 4\u20135\u00d7 body size, \u2610 All containers 0 radius, \u2610 Underline CTA pattern used, \u2610 Large vertical gaps between sections, \u2610 No shadows or soft corners, \u2610 Accent used only for interaction, \u2610 Text bleeds to/over screen edges, \u2610 Animation timings 200ms, \u2610 Accessible contrast \u2265 18:1, \u2610 Body text never below 16px",
+    "description": "A collection of design features.",
     "use_cases": [
       "bold typography",
       "editorial",
@@ -1800,13 +2433,25 @@
     "do_not_use_for": "Utility dashboards, kids apps, playful consumer products, contexts needing many icons or heavy imagery",
     "performance": "\u26a1 Excellent",
     "accessibility": "\u2713 Contrast 18:1 achievable",
-    "css_keywords": "backgroundColor: '#0A0A0A', color: '#FAFAFA', accent: '#FF3D00', borderColor: '#262626', borderRadius: 0, paddingHorizontal: 24, headline style: fontSize:56\u201372, fontWeight:'700/800', letterSpacing:-1.5, lineHeight:1.1*fontSize, body: fontSize:16\u201318, lineHeight:1.6*fontSize, underline CTA: 2\u20133px height View under text, transition: 200ms cubic-bezier(0.25,0,0,1)"
+    "css_keywords": "backgroundColor: '#0A0A0A', color: '#FAFAFA', accent: '#FF3D00', borderColor: '#262626', borderRadius: 0, paddingHorizontal: 24, headline style: fontSize:56\u201372, fontWeight:'700/800', letterSpacing:-1.5, lineHeight:1.1*fontSize, body: fontSize:16\u201318, lineHeight:1.6*fontSize, underline CTA: 2\u20133px height View under text, transition: 200ms cubic-bezier(0.25,0,0,1)",
+    "features": [
+      "H1 at least 4\u20135\u00d7 body size",
+      "All containers 0 radius",
+      "Underline CTA pattern used",
+      "Large vertical gaps between sections",
+      "No shadows or soft corners",
+      "Accent used only for interaction",
+      "Text bleeds to/over screen edges",
+      "Animation timings 200ms",
+      "Accessible contrast \u2265 18:1",
+      "Body text never below 16px"
+    ]
   },
   {
     "id": "style-academia-scholarly-mobile",
     "name": "Academia (Scholarly Mobile)",
     "category": "Mobile",
-    "description": "\u2610 Mahogany/oak/parchment palette applied, \u2610 Brass used on all tappable items, \u2610 Arch-top imagery used in hero/cards, \u2610 Drop caps & Roman numerals used, \u2610 Vignette overlay present, \u2610 No sans-serif body fonts, \u2610 No neon/bright modern colors, \u2610 Animations use non-spring timing, \u2610 Inputs use worn-leather style, \u2610 Wax seal badges implemented",
+    "description": "A collection of design features.",
     "use_cases": [
       "academia",
       "library",
@@ -1828,13 +2473,25 @@
     "do_not_use_for": "Hyper-modern tech dashboards, neon/glassmorphism, playful Gen Z branding",
     "performance": "\u26a0 Moderate (vignette + shadows)",
     "accessibility": "\u2713 Legible (serif optimized)",
-    "css_keywords": "backgroundColor: '#1C1714', altSurface: '#251E19', textColor: '#E8DFD4', mutedBg: '#3D332B', borderColor: '#4A3F35', brass: '#C9A962', crimson: '#8B2635', borderRadius: 4 (default), archTopRadius: 100 for hero, shadowOpacity:0.4 shadowRadius:6 elevation:8 for cards, textShadow on headings, vignette overlay via LinearGradient"
+    "css_keywords": "backgroundColor: '#1C1714', altSurface: '#251E19', textColor: '#E8DFD4', mutedBg: '#3D332B', borderColor: '#4A3F35', brass: '#C9A962', crimson: '#8B2635', borderRadius: 4 (default), archTopRadius: 100 for hero, shadowOpacity:0.4 shadowRadius:6 elevation:8 for cards, textShadow on headings, vignette overlay via LinearGradient",
+    "features": [
+      "Mahogany/oak/parchment palette applied",
+      "Brass used on all tappable items",
+      "Arch-top imagery used in hero/cards",
+      "Drop caps & Roman numerals used",
+      "Vignette overlay present",
+      "No sans-serif body fonts",
+      "No neon/bright modern colors",
+      "Animations use non-spring timing",
+      "Inputs use worn-leather style",
+      "Wax seal badges implemented"
+    ]
   },
   {
     "id": "style-cyberpunk-mobile-hud",
     "name": "Cyberpunk Mobile HUD",
     "category": "Mobile",
-    "description": "\u2610 Chamfered corners used instead of radius, \u2610 Scanline & CRT flicker implemented, \u2610 Orbitron + JetBrains Mono typography, \u2610 Neon glow shadows on primary buttons, \u2610 Glitch animation on active states, \u2610 Prompt-style inputs with custom cursor, \u2610 HUD corner brackets implemented, \u2610 Safe-area system status bar styled, \u2610 Reduced motion disables glitch/flicker, \u2610 Icons configured with Lucide accent color",
+    "description": "A collection of design features.",
     "use_cases": [
       "cyberpunk",
       "neon",
@@ -1855,13 +2512,25 @@
     "do_not_use_for": "Serious enterprise, health/finance requiring calm trust, minimal editorial apps",
     "performance": "\u26a0 Moderate\u2013Heavy (Skia/blur/animations)",
     "accessibility": "\u26a0 Requires careful reduced-motion handling",
-    "css_keywords": "backgroundColor: '#0A0A0F', cardBg: '#12121A', accent: '#00FF88', accent2: '#FF00FF', accent3: '#00D4FF', borderColor: '#2A2A3A', destructive: '#FF3366', borderRadius: 0, chamfer via SVG path, shadowColor accent with animated radius, scanline overlay View pointerEvents='none', withRepeat glitch translateX [-2,2,0], Easing.steps(2)"
+    "css_keywords": "backgroundColor: '#0A0A0F', cardBg: '#12121A', accent: '#00FF88', accent2: '#FF00FF', accent3: '#00D4FF', borderColor: '#2A2A3A', destructive: '#FF3366', borderRadius: 0, chamfer via SVG path, shadowColor accent with animated radius, scanline overlay View pointerEvents='none', withRepeat glitch translateX [-2,2,0], Easing.steps(2)",
+    "features": [
+      "Chamfered corners used instead of radius",
+      "Scanline & CRT flicker implemented",
+      "Orbitron + JetBrains Mono typography",
+      "Neon glow shadows on primary buttons",
+      "Glitch animation on active states",
+      "Prompt-style inputs with custom cursor",
+      "HUD corner brackets implemented",
+      "Safe-area system status bar styled",
+      "Reduced motion disables glitch/flicker",
+      "Icons configured with Lucide accent color"
+    ]
   },
   {
     "id": "style-bitcoin-defi-mobile",
     "name": "Bitcoin DeFi (Mobile)",
     "category": "Mobile",
-    "description": "\u2610 Void/dark-matter palette applied, \u2610 Bitcoin orange/gold gradient buttons, \u2610 BlurView nav implemented, \u2610 Monospace for numeric data, \u2610 Hairline borders on blocks, \u2610 Gradient text on balances, \u2610 Pulsing network status indicators, \u2610 Ledger vertical timeline, \u2610 Haptics on money actions, \u2610 SafeArea + FlashList for heavy lists",
+    "description": "A collection of design features.",
     "use_cases": [
       "web3",
       "bitcoin",
@@ -1883,13 +2552,25 @@
     "do_not_use_for": "Playful casual apps, low-tech brands, ultra-minimal editorial apps",
     "performance": "\u26a0 Moderate (gradients+blur)",
     "accessibility": "\u2713 WCAG AA with care",
-    "css_keywords": "backgroundColor: '#030304', cardBg: '#0F1115', textColor: '#FFFFFF', mutedText: '#94A3B8', borderColor: 'rgba(30,41,59,0.2)', accentBitcoin: '#F7931A', accentBurnt: '#EA580C', accentGold: '#FFD600', borderRadius: 24 for cards, radiusPill: 999 for buttons, BlurView intensity 20, LinearGradient on CTAs, shadowColor '#F7931A' shadowRadius up to 10, JetBrains Mono for numeric text"
+    "css_keywords": "backgroundColor: '#030304', cardBg: '#0F1115', textColor: '#FFFFFF', mutedText: '#94A3B8', borderColor: 'rgba(30,41,59,0.2)', accentBitcoin: '#F7931A', accentBurnt: '#EA580C', accentGold: '#FFD600', borderRadius: 24 for cards, radiusPill: 999 for buttons, BlurView intensity 20, LinearGradient on CTAs, shadowColor '#F7931A' shadowRadius up to 10, JetBrains Mono for numeric text",
+    "features": [
+      "Void/dark-matter palette applied",
+      "Bitcoin orange/gold gradient buttons",
+      "BlurView nav implemented",
+      "Monospace for numeric data",
+      "Hairline borders on blocks",
+      "Gradient text on balances",
+      "Pulsing network status indicators",
+      "Ledger vertical timeline",
+      "Haptics on money actions",
+      "SafeArea + FlashList for heavy lists"
+    ]
   },
   {
     "id": "style-claymorphism-mobile",
     "name": "Claymorphism (Mobile)",
     "category": "Mobile",
-    "description": "\u2610 Background uses #F4F1FA (no pure white), \u2610 Multi-layer clay shadow stack applied, \u2610 Cards use blurred glass-clay hybrid, \u2610 Buttons squish to scale 0.92 on press, \u2610 Spring physics on all interactions, \u2610 Nunito Black for headings, \u2610 Background blobs drifting, \u2610 Haptics on every press, \u2610 Nested border radius (card 32, inner 24), \u2610 Bento layout with hero span",
+    "description": "A collection of design features.",
     "use_cases": [
       "claymorphism",
       "clay",
@@ -1912,13 +2593,25 @@
     "do_not_use_for": "Serious enterprise, high-density data, editorial reading apps, fintech trust signals",
     "performance": "\u26a0 Moderate\u2013Heavy (shadows+blur)",
     "accessibility": "\u2713 WCAG AA (careful)",
-    "css_keywords": "backgroundColor: '#F4F1FA', cardBg: 'rgba(255,255,255,0.7)', textPrimary: '#332F3A', textMuted: '#635F69', accentPrimary: '#7C3AED', accentSecondary: '#DB2777', success: '#10B981', warning: '#F59E0B', radiusOuter: 50, radiusCard: 32, radiusButton: 20, shadowStack: 'nested View', gradientButton: ['#A78BFA', '#7C3AED'], springDamping: 10"
+    "css_keywords": "backgroundColor: '#F4F1FA', cardBg: 'rgba(255,255,255,0.7)', textPrimary: '#332F3A', textMuted: '#635F69', accentPrimary: '#7C3AED', accentSecondary: '#DB2777', success: '#10B981', warning: '#F59E0B', radiusOuter: 50, radiusCard: 32, radiusButton: 20, shadowStack: 'nested View', gradientButton: ['#A78BFA', '#7C3AED'], springDamping: 10",
+    "features": [
+      "Background uses #F4F1FA (no pure white)",
+      "Multi-layer clay shadow stack applied",
+      "Cards use blurred glass-clay hybrid",
+      "Buttons squish to scale 0.92 on press",
+      "Spring physics on all interactions",
+      "Nunito Black for headings",
+      "Background blobs drifting",
+      "Haptics on every press",
+      "Nested border radius (card 32, inner 24)",
+      "Bento layout with hero span"
+    ]
   },
   {
     "id": "style-enterprise-saas-mobile",
     "name": "Enterprise SaaS (Mobile)",
     "category": "Mobile",
-    "description": "\u2610 Background #F8FAFC applied, \u2610 Indigo\u2192Violet gradient on primary CTA, \u2610 Colored card shadows (not gray), \u2610 Plus Jakarta Sans typography, \u2610 Floating label inputs with Indigo focus, \u2610 Scale 0.97 press with haptic Medium, \u2610 Bottom Tab Navigation implemented, \u2610 Safe Area strict compliance, \u2610 Skeletal loading placeholders, \u2610 Reduced Motion fallback",
+    "description": "A collection of design features.",
     "use_cases": [
       "enterprise",
       "saas",
@@ -1940,13 +2633,25 @@
     "do_not_use_for": "Pure consumer entertainment, Gen-Z youth apps, gaming UI, ultra-minimal editorial",
     "performance": "\u2713 Performant",
     "accessibility": "\u2713 WCAG AA",
-    "css_keywords": "backgroundColor: '#F8FAFC', surfaceBg: '#FFFFFF', textPrimary: '#0F172A', textMuted: '#64748B', primary: '#4F46E5', secondary: '#7C3AED', success: '#10B981', border: '#E2E8F0', radiusCard: 16, radiusButton: 999, radiusInput: 8, shadowCard: 'rgba(79,70,229,0.08)', gradientPrimary: ['#4F46E5', '#7C3AED'], screenPadding: 20"
+    "css_keywords": "backgroundColor: '#F8FAFC', surfaceBg: '#FFFFFF', textPrimary: '#0F172A', textMuted: '#64748B', primary: '#4F46E5', secondary: '#7C3AED', success: '#10B981', border: '#E2E8F0', radiusCard: 16, radiusButton: 999, radiusInput: 8, shadowCard: 'rgba(79,70,229,0.08)', gradientPrimary: ['#4F46E5', '#7C3AED'], screenPadding: 20",
+    "features": [
+      "Background #F8FAFC applied",
+      "Indigo\u2192Violet gradient on primary CTA",
+      "Colored card shadows (not gray)",
+      "Plus Jakarta Sans typography",
+      "Floating label inputs with Indigo focus",
+      "Scale 0.97 press with haptic Medium",
+      "Bottom Tab Navigation implemented",
+      "Safe Area strict compliance",
+      "Skeletal loading placeholders",
+      "Reduced Motion fallback"
+    ]
   },
   {
     "id": "style-sketch-hand-drawn-mobile",
     "name": "Sketch Hand-Drawn (Mobile)",
     "category": "Mobile",
-    "description": "\u2610 Warm paper background texture applied, \u2610 Kalam Bold headings, \u2610 Wobbly corner radii on all cards, \u2610 Hard offset shadow View (not blur), \u2610 Cards slightly rotated, \u2610 Button press shifts to cover shadow, \u2610 SVG tape/tack decorations, \u2610 PatrickHand for inputs, \u2610 Jiggle error animation, \u2610 Minimum 48x48 touch targets",
+    "description": "A collection of design features.",
     "use_cases": [
       "sketch",
       "hand-drawn",
@@ -1968,13 +2673,25 @@
     "do_not_use_for": "Enterprise dashboards, high-density data tables, fintech precision tools, medical or legal apps",
     "performance": "\u2713 Lightweight",
     "accessibility": "\u26a0 Moderate (small/muted text risk)",
-    "css_keywords": "backgroundColor: '#FDFBF7', cardBg: '#FFFFFF', textPrimary: '#2D2D2D', accentRed: '#FF4D4D', accentBlue: '#2D5DA1', accentYellow: '#FFF9C4', border: '#2D2D2D', shadowView: 'offset 4px 4px #2D2D2D', wobblyRadius: [15,25,20,10], fontHeading: 'Kalam-Bold', fontBody: 'PatrickHand-Regular'"
+    "css_keywords": "backgroundColor: '#FDFBF7', cardBg: '#FFFFFF', textPrimary: '#2D2D2D', accentRed: '#FF4D4D', accentBlue: '#2D5DA1', accentYellow: '#FFF9C4', border: '#2D2D2D', shadowView: 'offset 4px 4px #2D2D2D', wobblyRadius: [15,25,20,10], fontHeading: 'Kalam-Bold', fontBody: 'PatrickHand-Regular'",
+    "features": [
+      "Warm paper background texture applied",
+      "Kalam Bold headings",
+      "Wobbly corner radii on all cards",
+      "Hard offset shadow View (not blur)",
+      "Cards slightly rotated",
+      "Button press shifts to cover shadow",
+      "SVG tape/tack decorations",
+      "PatrickHand for inputs",
+      "Jiggle error animation",
+      "Minimum 48x48 touch targets"
+    ]
   },
   {
     "id": "style-neumorphism-mobile",
     "name": "Neumorphism (Mobile)",
     "category": "Mobile",
-    "description": "\u2610 Single #E0E5EC base applied across all screens, \u2610 Dual shadow (light+dark) implemented via nested View, \u2610 Extruded resting state on cards/buttons, \u2610 Inset concave state on inputs, \u2610 Scale 0.97 press + shadow opacity interpolation, \u2610 Haptics Light on all presses, \u2610 No black shadows or white backgrounds, \u2610 Nested depth pattern (extruded\u2192inset), \u2610 Accent #6C63FF on active/focus only, \u2610 8pt grid spacing",
+    "description": "A collection of design features.",
     "use_cases": [
       "neumorphism",
       "soft ui",
@@ -1995,6 +2712,18 @@
     "do_not_use_for": "High-density data, bright multi-color apps, apps needing strong visual hierarchy via color, dark-mode-only products",
     "performance": "\u2713 Lightweight",
     "accessibility": "\u26a0 Moderate (low-contrast risk)",
-    "css_keywords": "backgroundColor: '#E0E5EC', textPrimary: '#3D4852', textMuted: '#6B7280', accent: '#6C63FF', shadowLight: 'rgba(255,255,255,0.6)', shadowDark: 'rgba(163,177,198,0.7)', insetBg: '#D1D9E6', radiusCard: 32, radiusButton: 16, radiusPill: 999, shadowOffset: 6, shadowRadius: 10"
+    "css_keywords": "backgroundColor: '#E0E5EC', textPrimary: '#3D4852', textMuted: '#6B7280', accent: '#6C63FF', shadowLight: 'rgba(255,255,255,0.6)', shadowDark: 'rgba(163,177,198,0.7)', insetBg: '#D1D9E6', radiusCard: 32, radiusButton: 16, radiusPill: 999, shadowOffset: 6, shadowRadius: 10",
+    "features": [
+      "Single #E0E5EC base applied across all screens",
+      "Dual shadow (light+dark) implemented via nested View",
+      "Extruded resting state on cards/buttons",
+      "Inset concave state on inputs",
+      "Scale 0.97 press + shadow opacity interpolation",
+      "Haptics Light on all presses",
+      "No black shadows or white backgrounds",
+      "Nested depth pattern (extruded\u2192inset)",
+      "Accent #6C63FF on active/focus only",
+      "8pt grid spacing"
+    ]
   }
 ]
