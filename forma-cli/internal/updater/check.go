@@ -9,7 +9,7 @@ import (
 )
 
 // CurrentVersion is the hardcoded version of the CLI
-const CurrentVersion = "v1.0.0"
+const CurrentVersion = "v1.1.0"
 
 type githubRelease struct {
 	TagName string `json:"tag_name"`
