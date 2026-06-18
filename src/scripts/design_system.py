@@ -28,21 +28,38 @@ def build_advanced_color_system(colors_data, industry_data):
     if colors_data:
         # Expected advanced structure handling
         for key, value in colors_data.items():
-            if isinstance(value, str) and value.startswith("#"):
+            if isinstance(value, str) and (value.startswith("#") or value.startswith("oklch")):
                 slug = key.lower().replace(" ", "-")
                 system[slug] = {"$value": value, "$type": "color"}
             elif isinstance(value, dict) and "$value" in value:
                 system[key] = value
 
     if not system:
-        # Ultimate fallback with semantic layers
+        # Pure Mathematical OKLCH Semantic Palette
+        base_hue = 250.0 # Default tech blue
+        industry_name = industry_data.get("name", "").lower()
+        if "finance" in industry_name or "banking" in industry_name:
+            base_hue = 220.0 # Trust blue
+        elif "medical" in industry_name or "health" in industry_name:
+            base_hue = 160.0 # Medical green
+        elif "gaming" in industry_name or "web3" in industry_name:
+            base_hue = 320.0 # Cyber pink
+
         system = {
-            "primary": {"$value": "#1A73E8", "$type": "color"},
-            "primary-foreground": {"$value": "#FFFFFF", "$type": "color"},
-            "surface": {"$value": "#F8FAFC", "$type": "color"},
-            "surface-foreground": {"$value": "#0F172A", "$type": "color"},
-            "destructive": {"$value": "#EF4444", "$type": "color"},
-            "muted": {"$value": "#F1F5F9", "$type": "color"}
+            "primary": {"$value": f"oklch(0.55 0.20 {base_hue})", "$type": "color"},
+            "primary-hover": {"$value": f"oklch(0.45 0.20 {base_hue})", "$type": "color"},
+            "primary-foreground": {"$value": "oklch(0.98 0.01 250)", "$type": "color"},
+            
+            "surface": {"$value": "oklch(0.99 0.01 250)", "$type": "color"},
+            "surface-foreground": {"$value": "oklch(0.20 0.05 250)", "$type": "color"},
+            
+            "destructive": {"$value": "oklch(0.60 0.25 25)", "$type": "color"},
+            "destructive-foreground": {"$value": "oklch(0.98 0.01 25)", "$type": "color"},
+            
+            "muted": {"$value": "oklch(0.95 0.02 250)", "$type": "color"},
+            "muted-foreground": {"$value": "oklch(0.40 0.04 250)", "$type": "color"},
+            
+            "border": {"$value": "oklch(0.90 0.02 250)", "$type": "color"},
         }
     return system
 
@@ -154,7 +171,8 @@ def generate_design_system(project_name, industry, mood):
         }
     }
     
-    out_dir = os.path.join(os.path.dirname(__file__), "..", "..", "design-system")
+    # Always generate the design system in the user's current working directory!
+    out_dir = os.path.join(os.getcwd(), "design-system")
     os.makedirs(out_dir, exist_ok=True)
     
     with open(os.path.join(out_dir, "MASTER.tokens.json"), "w", encoding="utf-8") as f:

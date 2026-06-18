@@ -1,4 +1,4 @@
-# Advanced Design System for FormaTest
+# Advanced Design System for MyProject
 
 **Industry Context:** B2B SaaS
 
