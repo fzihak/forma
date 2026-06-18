@@ -15,24 +15,30 @@ type githubRelease struct {
 	TagName string `json:"tag_name"`
 }
 
-// CheckForUpdates asynchronously checks GitHub for a newer version
-func CheckForUpdates() {
-	client := http.Client{Timeout: 2 * time.Second}
+// GetLatestVersion fetches the latest release tag from GitHub
+func GetLatestVersion() (string, error) {
+	client := http.Client{Timeout: 3 * time.Second}
 	resp, err := client.Get("https://api.github.com/repos/fzihak/forma/releases/latest")
 	if err != nil {
-		return // Silently fail, don't interrupt the user
+		return "", err
 	}
 	defer resp.Body.Close()
 
 	var release githubRelease
 	if err := json.NewDecoder(resp.Body).Decode(&release); err != nil {
-		return
+		return "", err
 	}
+	return release.TagName, nil
+}
 
-	if release.TagName != "" && release.TagName != CurrentVersion {
+// CheckForUpdates asynchronously checks GitHub for a newer version
+func CheckForUpdates() {
+	latest, err := GetLatestVersion()
+	
+	if err == nil && latest != "" && latest != CurrentVersion {
 		fmt.Println("\n" + strings.Repeat("=", 60))
-		fmt.Printf("🚀 UPDATE AVAILABLE: Forma %s is out! (You are on %s)\n", release.TagName, CurrentVersion)
-		fmt.Println("👉 Run 'npm update -g forma-cli' to upgrade to the latest Vanguard features.")
+		fmt.Printf("🚀 UPDATE AVAILABLE: Forma %s is out! (You are on %s)\n", latest, CurrentVersion)
+		fmt.Println("👉 Run 'forma update' to upgrade to the latest Vanguard features.")
 		fmt.Println(strings.Repeat("=", 60) + "\n")
 	}
 }
