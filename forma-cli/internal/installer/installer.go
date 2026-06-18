@@ -4,6 +4,7 @@ import (
     "fmt"
     "io/fs"
     "os"
+    "os/exec"
     "path/filepath"
     "strings"
 
@@ -78,6 +79,29 @@ func installSingle(platformName string, cfg Config) error {
     if err != nil {
         return err
     }
+
+	// Auto-install python dependencies
+	fmt.Println("Installing Python dependencies...")
+	exePath, _ := os.Executable()
+	baseDir := filepath.Dir(filepath.Dir(exePath))
+	reqPath := filepath.Join(baseDir, "src", "scripts", "requirements.txt")
+	
+	if _, err := os.Stat(reqPath); os.IsNotExist(err) {
+		reqPath = filepath.Join(filepath.Dir(exePath), "src", "scripts", "requirements.txt")
+	}
+
+	cmd := exec.Command("python", "-m", "pip", "install", "-r", reqPath)
+	cmd.Stdout = os.Stdout
+	cmd.Stderr = os.Stderr
+	if err := cmd.Run(); err != nil {
+		// Fallback to python3
+		cmd3 := exec.Command("python3", "-m", "pip", "install", "-r", reqPath)
+		cmd3.Stdout = os.Stdout
+		cmd3.Stderr = os.Stderr
+		if err3 := cmd3.Run(); err3 != nil {
+			fmt.Printf("  ⚠️ Could not auto-install dependencies. Please run manually: pip install -r %s\n", reqPath)
+		}
+	}
 
     fmt.Printf("  ✓ Installed to %s\n", targetDir)
     return nil
