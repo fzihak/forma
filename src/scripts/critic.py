@@ -1,24 +1,19 @@
 import sys
 import os
-import re
-import json
 import json
 import logging
+from bs4 import BeautifulSoup
+import re
 
 class SecuritySandbox:
     @staticmethod
     def validate_path(target_path, base_workspace=None):
-        """
-        Advanced Path Traversal Protection.
-        Ensures target_path resolves strictly within the authorized workspace.
-        """
         if base_workspace is None:
             base_workspace = os.getcwd()
             
         abs_target = os.path.abspath(target_path)
         abs_base = os.path.abspath(base_workspace)
         
-        # Check if the resolved target path starts with the base workspace path
         if not abs_target.startswith(abs_base):
             raise PermissionError(f"[SECURITY VIOLATION] Attempted path traversal detected. Access to '{target_path}' is forbidden.")
         return abs_target
@@ -37,35 +32,58 @@ def analyze_file(filepath):
     score = 100
     deductions = []
 
+    # Use BeautifulSoup to parse the AST. For JSX/TSX, 'html.parser' handles nested elements well enough.
+    soup = BeautifulSoup(content, 'html.parser')
+
     # 1. Visual Hierarchy (25pts)
-    if not re.search(r'<h1.*?>', content) and not re.search(r'className=.*text-[4-9]xl', content):
+    h1_tags = soup.find_all(['h1'])
+    large_text_regex = re.compile(r'text-[4-9]xl|text-\d+px')
+    has_large_text = False
+    for tag in soup.find_all(True):
+        classes = tag.get('class')
+        if classes:
+            class_str = ' '.join(classes) if isinstance(classes, list) else classes
+            if large_text_regex.search(class_str):
+                has_large_text = True
+                break
+    
+    if not h1_tags and not has_large_text:
         score -= 10
         deductions.append("Visual Hierarchy (-10): Missing primary h1 or equivalent large typography.")
-    
+
     # 2. Consistency (25pts)
-    # Check for hardcoded colors instead of tokens
+    inline_styles = soup.find_all(style=True)
+    if inline_styles:
+        score -= 5
+        deductions.append(f"Consistency (-5): Found {len(inline_styles)} instances of inline styles.")
+
     hardcoded_colors = re.findall(r'#(?:[0-9a-fA-F]{3}){1,2}\b', content)
     if len(hardcoded_colors) > 3:
         score -= 15
         deductions.append(f"Consistency (-15): Found {len(hardcoded_colors)} hardcoded hex colors instead of design tokens.")
 
-    # Check for inline styles
-    inline_styles = re.findall(r'style=\{?["\']', content)
-    if inline_styles:
-        score -= 5
-        deductions.append(f"Consistency (-5): Found {len(inline_styles)} instances of inline styles.")
-
     # 3. Accessibility (25pts)
-    if '<img' in content and 'alt=' not in content:
+    images = soup.find_all('img')
+    missing_alts = [img for img in images if not img.has_attr('alt')]
+    if missing_alts:
         score -= 15
-        deductions.append("Accessibility (-15): Found <img> tags missing alt attributes.")
-    
-    if '<button' in content and 'aria-label=' not in content and re.search(r'<button.*?><svg', content):
+        deductions.append(f"Accessibility (-15): Found {len(missing_alts)} <img> tags missing alt attributes.")
+
+    buttons = soup.find_all('button')
+    missing_aria_buttons = []
+    for btn in buttons:
+        has_text = len(btn.get_text(strip=True)) > 0
+        has_svg = btn.find('svg') is not None
+        if not has_text and has_svg and not btn.has_attr('aria-label') and not btn.has_attr('aria-labelledby'):
+            missing_aria_buttons.append(btn)
+            
+    if missing_aria_buttons:
         score -= 10
-        deductions.append("Accessibility (-10): Found icon buttons missing aria-labels.")
+        deductions.append(f"Accessibility (-10): Found {len(missing_aria_buttons)} icon buttons missing aria-labels.")
 
     # 4. Conversion (25pts)
-    if '<button' not in content and '<a ' not in content:
+    links = soup.find_all('a')
+    if not buttons and not links:
         score -= 15
         deductions.append("Conversion (-15): No clear Calls to Action (buttons or links) found.")
 
@@ -93,7 +111,6 @@ def main():
         sys.exit(1)
 
     try:
-        # Enforce advanced security sandboxing
         secured_target = SecuritySandbox.validate_path(target)
     except PermissionError as e:
         print(f"🛑 {e}")
