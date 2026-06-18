@@ -12,7 +12,6 @@ type DesignToken struct {
     Type  string `json:"$type"`
 }
 
-// Support unmarshalling the nested advanced structure from Phase 3
 type DesignSystem struct {
     Color      map[string]DesignToken `json:"color"`
     Typography map[string]DesignToken `json:"typography"`
@@ -43,11 +42,34 @@ func ExportTailwind(tokensPath string) error {
     }
 
     if len(tokens.Typography) > 0 {
-        sb.WriteString("      fontFamily: {\n")
+        var fonts strings.Builder
+        var sizes strings.Builder
+        
+        fonts.WriteString("      fontFamily: {\n")
+        sizes.WriteString("      fontSize: {\n")
+        
+        hasFonts := false
+        hasSizes := false
+
         for name, token := range tokens.Typography {
-            sb.WriteString(fmt.Sprintf("        '%s': ['%s', 'sans-serif'],\n", name, token.Value))
+            if token.Type == "fontFamily" {
+                fonts.WriteString(fmt.Sprintf("        '%s': ['%s', 'sans-serif'],\n", name, token.Value))
+                hasFonts = true
+            } else if token.Type == "dimension" {
+                cleanName := strings.TrimPrefix(name, "text-")
+                sizes.WriteString(fmt.Sprintf("        '%s': '%s',\n", cleanName, token.Value))
+                hasSizes = true
+            }
         }
-        sb.WriteString("      },\n")
+        fonts.WriteString("      },\n")
+        sizes.WriteString("      },\n")
+
+        if hasFonts {
+            sb.WriteString(fonts.String())
+        }
+        if hasSizes {
+            sb.WriteString(sizes.String())
+        }
     }
 
     if len(tokens.Spacing) > 0 {
